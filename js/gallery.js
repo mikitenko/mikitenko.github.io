@@ -252,8 +252,8 @@ window.onload = function(){
       start: 0,
       end: 1,
       step: 0.1,
-      duration: 300,
-      delay: 20
+      duration: 150,
+      delay: 10
     });
   };
 
