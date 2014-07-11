@@ -247,6 +247,7 @@ window.onload = function(){
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
     if (this.bigPicture.src = nextItem.childNodes[0].href){
+      console.log(true);
       animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: this.bigPicture,
         prop: 'opacity',
@@ -257,7 +258,6 @@ window.onload = function(){
         delay: 10
       });
     }
-    
   };
 
 
