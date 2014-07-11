@@ -259,7 +259,6 @@ window.onload = function(){
 
 
   var gallery1 = new GalleryConstructor(document.querySelector('.gallery1')); //создаем галерею
-  var gallery2 = new GalleryConstructor(document.querySelector('.gallery2')); //создаем галерею
 };
 
 
