@@ -246,15 +246,18 @@ window.onload = function(){
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
-    animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
-      elem: this.bigPicture,
-      prop: 'opacity',
-      start: 0,
-      end: 1,
-      step: 0.1,
-      duration: 150,
-      delay: 10
-    });
+    if (this.bigPicture.src = nextItem.childNodes[0].href){
+      animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
+        elem: this.bigPicture,
+        prop: 'opacity',
+        start: 0,
+        end: 1,
+        step: 0.1,
+        duration: 150,
+        delay: 10
+      });
+    }
+    
   };
 
 
