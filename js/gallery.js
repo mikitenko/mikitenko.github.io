@@ -229,8 +229,8 @@ window.onload = function(){
         start: 0,
         end: 1,
         step: 0.1,
-        duration: 100,
-        delay: 20
+        duration: 150,
+        delay: 10
       });
     }
     preventDef(event);
