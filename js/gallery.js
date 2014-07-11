@@ -229,7 +229,7 @@ window.onload = function(){
         start: 0,
         end: 1,
         step: 0.1,
-        duration: 300,
+        duration: 100,
         delay: 20
       });
     }
