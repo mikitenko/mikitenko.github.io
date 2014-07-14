@@ -247,7 +247,10 @@ window.onload = function(){
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
-    this.bigPicture.onload = function () {
+    if(this.bigPicture.onload){
+      console.log('koko');
+    }
+    /*this.bigPicture.onload = function () {
        animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: self.bigPicture,
         prop: 'opacity',
@@ -257,7 +260,7 @@ window.onload = function(){
         duration: 300,
         delay: 10
       });	
-    };
+    };*/
    
   };
 
