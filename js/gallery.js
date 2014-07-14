@@ -122,6 +122,14 @@ window.onload = function(){
   }
 
 
+  function preload(imageLinks){
+    var images = [];
+    for (var i = 0; i < imageLinks.length; ++i) {
+      images[i] = new Image();
+      images[i].src = imageLinks[i].href;
+    }
+    console.log(images);
+  }
 
   function GalleryConstructor(domNode) { //создаем конструктор галереи
     this.widthPreview = 160; //ширина превьюшки
@@ -133,7 +141,10 @@ window.onload = function(){
     this.prevArrow = this.galleryWrapper.querySelector('.left_arrow');
     this.nextArrow = this.galleryWrapper.querySelector('.right_arrow');
     this.bigPicture = this.galleryWrapper.querySelector('.big_picture img');
+    this.smallImageLinks = this.previews.querySelectorAll('a');
     var self = this;
+
+    preload(self.smallImageLinks);
 
     this.sliderInt = setInterval(function() { // интервал прокрутки
       self.autoChangeImage();
@@ -232,7 +243,6 @@ window.onload = function(){
         duration: 300,
         delay: 10
       });
-
     }
     preventDef(event);
   };
@@ -246,7 +256,6 @@ window.onload = function(){
     }
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
-    this.bigPicture.style['opacity'] = '0';
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
     animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
       elem: this.bigPicture,
@@ -257,7 +266,6 @@ window.onload = function(){
       duration: 1000,
       delay: 10
     });
-
   };
 
 
