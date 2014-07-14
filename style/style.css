@@ -102,6 +102,7 @@ table:last-child { margin-bottom: 0 }
 }
 .big_picture {
   padding: 10px 10px 0 10px;
+  background: url(../image/ajax-loader.gif) no-repeat 50%;
 }
 .big_picture img {
   width: 100%;
