@@ -251,7 +251,7 @@ window.onload = function(){
       prop: 'opacity',
       start: 1,
       end: 0,
-      step: 0.1,
+      step: -0.1,
       duration: 10000,
       delay: 10
     });
