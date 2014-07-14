@@ -251,8 +251,8 @@ window.onload = function(){
       prop: 'opacity',
       start: 1,
       end: 0,
-      step: -0.1,
-      duration: 10000,
+      step: 0.1,
+      duration: 300,
       delay: 10
     });
     this.bigPicture.style.opacity = '0'; //прячем старую картинку, пока не загрузилась новая
