@@ -231,6 +231,7 @@ window.onload = function(){
         duration: 300,
         delay: 10
       });
+      self.bigPicture.src = ''; //прячем старую картинку, пока не загрузилась новая
       self.bigPicture.src = this.href; // добавляем изображение в большей блок
     }
     preventDef(event);
@@ -254,7 +255,7 @@ window.onload = function(){
       duration: 300,
       delay: 10
     });
-    this.bigPicture.src = '';
+    this.bigPicture.src = ''; //прячем старую картинку, пока не загрузилась новая
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
   };
 
