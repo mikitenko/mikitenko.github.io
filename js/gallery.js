@@ -247,7 +247,7 @@ window.onload = function(){
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
-    this.bigPicture.onload = function () {
+    if(this.bigPicture.complete) {
       console.log('koko');
     }
     /*this.bigPicture.onload = function () {
