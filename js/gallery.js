@@ -249,7 +249,7 @@ window.onload = function(){
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
     this.bigPicture.onload = function () {
        animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
-        elem: this.bigPicture,
+        elem: self.bigPicture,
         prop: 'opacity',
         start: 0,
         end: 1,
