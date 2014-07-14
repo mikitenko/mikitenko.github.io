@@ -158,11 +158,11 @@ window.onload = function(){
       self.nextArrowEvent(event);
     });
 
-    bind(this.galleryWrapper, 'mouseenter', function(){
+    bind(this.galleryWrapper, 'mouseover', function(){
       self.galleryWrapper.setAttribute('tabindex', '0'); //добавляем атрибут для работы клавиш лево, право
       clearInterval(self.sliderInt);
     });
-    bind(this.galleryWrapper, 'mouseleave', function(){self.sliderInt = setInterval(function() {
+    bind(this.galleryWrapper, 'mouseout', function(){self.sliderInt = setInterval(function() {
       self.galleryWrapper.removeAttribute('tabindex');
       self.autoChangeImage();
     }, 5000);});
