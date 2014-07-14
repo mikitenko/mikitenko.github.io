@@ -248,11 +248,8 @@ window.onload = function(){
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
     if(this.bigPicture.complete) {
-      console.log('koko');
-    }
-    /*this.bigPicture.onload = function () {
-       animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
-        elem: self.bigPicture,
+      animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
+        elem: this.bigPicture,
         prop: 'opacity',
         start: 0,
         end: 1,
@@ -260,7 +257,8 @@ window.onload = function(){
         duration: 300,
         delay: 10
       });	
-    };*/
+    }
+      
    
   };
 
