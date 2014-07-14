@@ -225,8 +225,8 @@ window.onload = function(){
       animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: self.bigPicture,
         prop: 'opacity',
-        start: 0,
-        end: 1,
+        start: 1,
+        end: 0,
         step: 0.1,
         duration: 300,
         delay: 10
