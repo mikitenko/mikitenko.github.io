@@ -188,15 +188,15 @@ window.onload = function(){
     if (this.position <= -this.widthPreview*(this.itemPreview.length-this.countPreview)){
       preventDef(event);
     }
-     var newPosition = Math.max(this.position-this.widthPreview, -this.widthPreview*(this.itemPreview.length-this.countPreview));
-     animateProp({
-       elem: this.previews,
-       prop: 'marginLeft',
-       start: this.position,
-       end: newPosition,
-       duration: 100,
-       delay: 20
-     });
+    var newPosition = Math.max(this.position-this.widthPreview, -this.widthPreview*(this.itemPreview.length-this.countPreview));
+    animateProp({
+      elem: this.previews,
+      prop: 'marginLeft',
+      start: this.position,
+      end: newPosition,
+      duration: 100,
+      delay: 20
+    });
     this.position = newPosition;
     preventDef(event);
   };
@@ -222,22 +222,22 @@ window.onload = function(){
     if(self.bigPicture.src !== this.href){
       self.removeClassItemList(); // удаляем класс у всех элементов списка
       addClass(this.parentNode, 'current'); // добавляем класс к элементу списка
+      self.bigPicture.src = this.href; // добавляем изображение в большей блок
       animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: self.bigPicture,
         prop: 'opacity',
-        start: 1,
-        end: 0,
+        start: 0,
+        end: 1,
         step: 0.1,
         duration: 300,
         delay: 10
       });
-      this.bigPicture.style.opacity = '0'; //прячем старую картинку, пока не загрузилась новая
-      self.bigPicture.src = this.href; // добавляем изображение в большей блок
+
     }
     preventDef(event);
   };
 
-   GalleryConstructor.prototype.autoChangeImage = function(){
+  GalleryConstructor.prototype.autoChangeImage = function(){
     var currentItem, nextItem;
     currentItem = this.galleryWrapper.querySelector('.current');
     nextItem = next(currentItem);
@@ -246,22 +246,17 @@ window.onload = function(){
     }
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
-    this.bigPicture.style['opacity'] = '0'; 
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
+    animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
+      elem: this.bigPicture,
+      prop: 'opacity',
+      start: 0,
+      end: 1,
+      step: 0.1,
+      duration: 1000,
+      delay: 10
+    });
 
-    if(this.bigPicture.complete) {
-      animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
-        elem: this.bigPicture,
-        prop: 'opacity',
-        start: 0,
-        end: 1,
-        step: 0.1,
-        duration: 300,
-        delay: 10
-      });
-    }
-      
-   
   };
 
 
