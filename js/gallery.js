@@ -249,7 +249,7 @@ window.onload = function(){
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
     if(this.bigPicture.complete) {
       this.bigPicture.style['opacity'] = '0'; 
-      animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
+     /* animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: this.bigPicture,
         prop: 'opacity',
         start: 0,
@@ -257,7 +257,7 @@ window.onload = function(){
         step: 0.1,
         duration: 300,
         delay: 10
-      });	
+      });	*/
     }
       
    
