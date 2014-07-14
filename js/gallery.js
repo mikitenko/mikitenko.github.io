@@ -263,7 +263,7 @@ window.onload = function(){
       start: 0,
       end: 1,
       step: 0.1,
-      duration: 1000,
+      duration: 300,
       delay: 10
     });
   };
