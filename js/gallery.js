@@ -222,8 +222,7 @@ window.onload = function(){
     if(self.bigPicture.src !== this.href){
       self.removeClassItemList(); // удаляем класс у всех элементов списка
       addClass(this.parentNode, 'current'); // добавляем класс к элементу списка
-      self.bigPicture.src = this.href; // добавляем изображение в большей блок
-      if (self.bigPicture.src === this.href){
+      if(self.bigPicture.src = this.href){ // добавляем изображение в большей блок
         animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
           elem: self.bigPicture,
           prop: 'opacity',
@@ -247,8 +246,7 @@ window.onload = function(){
     }
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
-    this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
-    if (this.bigPicture.src === nextItem.childNodes[0].href){
+    if(this.bigPicture.src = nextItem.childNodes[0].href){ // добавляем изображение в большей блок
       animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: this.bigPicture,
         prop: 'opacity',
@@ -259,6 +257,7 @@ window.onload = function(){
         delay: 10
       });
     }
+
   };
 
 
