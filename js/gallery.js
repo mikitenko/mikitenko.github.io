@@ -254,6 +254,7 @@ window.onload = function(){
       duration: 300,
       delay: 10
     });
+    this.bigPicture.src = '';
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
   };
 
