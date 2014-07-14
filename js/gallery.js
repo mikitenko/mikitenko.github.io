@@ -252,7 +252,7 @@ window.onload = function(){
       start: 1,
       end: 0,
       step: 0.1,
-      duration: 300,
+      duration: 10000,
       delay: 10
     });
     this.bigPicture.style.opacity = '0'; //прячем старую картинку, пока не загрузилась новая
