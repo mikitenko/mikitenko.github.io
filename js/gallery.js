@@ -222,17 +222,16 @@ window.onload = function(){
     if(self.bigPicture.src !== this.href){
       self.removeClassItemList(); // удаляем класс у всех элементов списка
       addClass(this.parentNode, 'current'); // добавляем класс к элементу списка
-      if(self.bigPicture.src = this.href){ // добавляем изображение в большей блок
-        animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
-          elem: self.bigPicture,
-          prop: 'opacity',
-          start: 0,
-          end: 1,
-          step: 0.1,
-          duration: 150,
-          delay: 10
-        });
-      }
+      animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
+        elem: self.bigPicture,
+        prop: 'opacity',
+        start: 0,
+        end: 1,
+        step: 0.1,
+        duration: 300,
+        delay: 10
+      });
+      self.bigPicture.src = this.href; // добавляем изображение в большей блок
     }
     preventDef(event);
   };
@@ -246,18 +245,16 @@ window.onload = function(){
     }
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
-    if(this.bigPicture.src = nextItem.childNodes[0].href){ // добавляем изображение в большей блок
-      animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
-        elem: this.bigPicture,
-        prop: 'opacity',
-        start: 0,
-        end: 1,
-        step: 0.1,
-        duration: 150,
-        delay: 10
-      });
-    }
-
+    animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
+      elem: this.bigPicture,
+      prop: 'opacity',
+      start: 1,
+      end: 0,
+      step: 0.1,
+      duration: 300,
+      delay: 10
+    });
+    this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
   };
 
 
