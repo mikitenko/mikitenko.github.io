@@ -247,7 +247,7 @@ window.onload = function(){
     this.removeClassItemList(); // удаляем класс у всех элементов списка
     addClass(nextItem, 'current'); // добавляем класс к элементу списка
     this.bigPicture.src = nextItem.childNodes[0].href; // добавляем изображение в большей блок
-    this.bigPicture.style.opacity = '0'; // добавляем изображение в большей блок
+    this.bigPicture.style.display = 'none'; // добавляем изображение в большей блок
     if(this.bigPicture.complete) {
       animatePropOpacity({ // добавляем Анимацию на появление нашей картинки
         elem: this.bigPicture,
