@@ -22,7 +22,7 @@ window.onload = function run_onload(){
 
     //random tree image
     var treeImage = new Image();
-    treeImage.src = "../test_task_html5/img/tree.png";
+    treeImage.src = "../mini/img/tree.png";
     treeImage.onload = function () {
         function randomNumber (tree,canvas){
             tree = parseInt(tree);
@@ -46,7 +46,7 @@ window.onload = function run_onload(){
 
     //Player
     var playerImage = new Image();
-    playerImage.src = "../test_task_html5/img/player.png";
+    playerImage.src = "../mini/img/player.png";
     playerImage.onload = function () {
         ctx.drawImage(playerImage, 0, frameWidth*9, frameWidth, frameHeight, 60,50, playerWidth, playerHeight);
     };
