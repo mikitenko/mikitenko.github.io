@@ -128,6 +128,7 @@ window.onload = function(){
       images[i] = new Image();
       images[i].src = imageLinks[i].href;
     }
+    console.log(images);
   }
 
   function GalleryConstructor(domNode) { //создаем конструктор галереи
