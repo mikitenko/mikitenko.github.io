@@ -1,3 +1,6 @@
+var window = {
+  filter_results: '0'
+};
 (function(){
   //auxiliary functions
   var JSON = JSON || {}; //create cross-browser JSON IE7
@@ -76,9 +79,6 @@
 
   //window onload
   function load() {
-    var window = {
-      filter_results: '0'
-    };
     var checkboxesWrapp = document.getElementById('filter-holder'); //get wrapper object
 
     var addCount = (function(){ // count clicks and store in a cookie
