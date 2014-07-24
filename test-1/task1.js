@@ -80,7 +80,7 @@ var window = {
   //window onload
   function load() {
     var checkboxesWrapp = document.getElementById('filter-holder'); //get wrapper object
-
+alert(checkboxesWrapp);
     var addCount = (function(){ // count clicks and store in a cookie
       var checkboxesMatrix,sr1,sr2,sr3,sr4,sr5;
       sr1=sr2=sr3=sr4=sr5 = 0;
@@ -92,6 +92,7 @@ var window = {
       }
 
       return function(event){
+        alert(this);
         if(this.checked || this.getAttribute('checked') === 'checked'){ //if checkbox = checked, add count
           checkboxesMatrix[this.getAttribute('value')-1] += 1;
           document.cookie = ('checkboxesMatrix' + ' = ' + JSON.stringify(checkboxesMatrix));
