@@ -101,7 +101,7 @@ var window = {
             document.cookie = ('window.filter_results' + ' = ' + JSON.stringify(window.filter_results));
           }
         }
-        alert(checkboxesMatrix, window.filter_results);
+        alert(checkboxesMatrix);
       }
     })();
     //add an event handler method delegation,
