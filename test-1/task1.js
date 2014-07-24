@@ -90,8 +90,7 @@ var window = {
         checkboxesMatrix = JSON.parse(getCookie('checkboxesMatrix'));
         window.filter_results = JSON.parse(getCookie('window.filter_results'));
       }
-        alert(checkboxesMatrix);
-        alert(window.filter_results);
+
       return function(event){
         if(this.checked || this.getAttribute('checked') === 'checked'){ //if checkbox = checked, add count
           checkboxesMatrix[this.getAttribute('value')-1] += 1;
