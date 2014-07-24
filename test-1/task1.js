@@ -88,7 +88,7 @@ var window = {
       
       if (!(getCookie('checkboxesMatrix') === undefined)){
         checkboxesMatrix = JSON.parse(getCookie('checkboxesMatrix'));
-        window.filter_results = JSON.parse(getCookie('window.filter_results');
+        window.filter_results = JSON.parse(getCookie('window.filter_results'));
       }
 
       return function(event){
