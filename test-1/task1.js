@@ -80,7 +80,6 @@ var window = {
   //window onload
   function load() {
     var checkboxesWrapp = document.getElementById('filter-holder'); //get wrapper object
-checkboxesWrapp.innerHTML = 'Привет, мир!';
     var addCount = (function(){ // count clicks and store in a cookie
       var checkboxesMatrix,sr1,sr2,sr3,sr4,sr5;
       sr1=sr2=sr3=sr4=sr5 = 0;
