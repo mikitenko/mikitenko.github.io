@@ -85,17 +85,20 @@ var window = {
       var checkboxesMatrix,sr1,sr2,sr3,sr4,sr5;
       sr1=sr2=sr3=sr4=sr5 = 0;
       checkboxesMatrix = [sr1,sr2,sr3,sr4,sr5];
+      
+      if (!(getCookie('checkboxesMatrix') === undefined)){
+        checkboxesMatrix = JSON.parse(getCookie('checkboxesMatrix'));
+        window.filter_results = JSON.parse(getCookie('window.filter_results');
+      }
 
       return function(event){
-        if (!(getCookie('checkboxesMatrix') === undefined)){
-          checkboxesMatrix = JSON.parse(getCookie('checkboxesMatrix'));
-        }
-
+        
         if(this.checked || this.getAttribute('checked') === 'checked'){ //if checkbox = checked, add count
           checkboxesMatrix[this.getAttribute('value')-1] += 1;
           document.cookie = ('checkboxesMatrix' + ' = ' + JSON.stringify(checkboxesMatrix));
           if(checkboxesMatrix[this.getAttribute('value')-1] === getMaxOfArray(checkboxesMatrix)){
-            window.filter_results = this.getAttribute('id') + '=' + getMaxOfArray(checkboxesMatrix);
+            window.filter_results = this.getAttribute('id') + ' = ' + getMaxOfArray(checkboxesMatrix);
+            document.cookie = ('window.filter_results' + ' = ' + JSON.stringify(window.filter_results));
           }
         }
       }
