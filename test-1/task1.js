@@ -102,6 +102,7 @@ var window = {
           }
         }
         alert(checkboxesMatrix);
+        alert(window.filter_results);
       }
     })();
     //add an event handler method delegation,
