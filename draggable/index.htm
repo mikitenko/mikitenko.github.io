@@ -25,9 +25,11 @@ function init() {
       containment: '#content',
       cursor: 'move',
       snap: '#content',
-      revert: true
+      revert: true,
+      stack: '#makeMeDraggable'
   });
   $('#makeMeDroppable').droppable( {
+      accept: '#makeMeDraggable',
     drop: handleDropEvent
   } );
 }
