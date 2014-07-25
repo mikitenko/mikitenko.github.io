@@ -24,7 +24,8 @@ function init() {
   $('#makeMeDraggable').draggable({
       containment: '#content',
       cursor: 'move',
-      snap: '#content'
+      snap: '#content',
+      revert: true
   });
   $('#makeMeDroppable').droppable( {
     drop: handleDropEvent
