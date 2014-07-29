@@ -28,7 +28,9 @@ $(function() {
   var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/player.png','img/money.png','img/small_money.png'];
 
   if ((preload(imageLinks)).length === imageLinks.length){
-    gameContainer.fadeIn(1000);
+    setInterval(function() {
+      gameContainer.fadeIn(500);
+    }, 1000);
   }
 
 
