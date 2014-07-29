@@ -2,13 +2,11 @@
 $(function() {
   function preload(links){
     var images = [];
-    var srcStr = [];
     for (var i = 0; i < links.length; ++i) {
       images[i] = new Image();
-      srcStr.push(links[i]);
       images[i].src = links[i];
     }
-    return true;
+    return images;
   }
 
   function handleDropEvent( event, ui ) {
@@ -29,11 +27,9 @@ $(function() {
 
   var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/player.png','img/money.png','img/small_money.png'];
 
-  if (preload(imageLinks)){
-    gameContainer.removeClass('display_none');
+  if ((preload(imageLinks)).length === imageLinks.length){
+    gameContainer.fadeIn(1000);
   }
-
-
 
 
   moneyMove.draggable({
@@ -46,8 +42,6 @@ $(function() {
   imageSceenWrapp.droppable( {
     drop: handleDropEvent
   });
-
-
 
 
 
