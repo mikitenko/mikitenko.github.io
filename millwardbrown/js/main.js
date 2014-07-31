@@ -24,7 +24,7 @@ $(function() {
         'height': shelf.height(),
         "top": childObj.offset().top,
         "left": childObj.offset().left
-      }, 250, function() {
+      }, 350, function() {
         coin.remove();
         childObj.addClass('shelf_gold');
       });
@@ -51,7 +51,7 @@ $(function() {
     draggable.addClass('display_none');
     setMaxExeuctionInterval( function(){
       coinAnimate(thisScreen);
-    }, 300, 5);
+    }, 400, 5);
 
   }
 
@@ -69,7 +69,7 @@ $(function() {
 
   gameContainer.addClass('display_none');
 
-  var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/player.png','img/money.png','img/small_money.png','img/coin_anim.png','img/work_computer.png'];
+  var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/men.png','img/money.png','img/small_money.png','img/coin_anim.png','img/work_computer.png'];
 
   if ((preload(imageLinks)).length === imageLinks.length){
     setInterval(function() {
