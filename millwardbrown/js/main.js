@@ -69,7 +69,7 @@ $(function() {
 
   gameContainer.addClass('display_none');
 
-  var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/player.png','img/money.png','img/small_money.png','img/coin_anim.png'];
+  var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/player.png','img/money.png','img/small_money.png','img/coin_anim.png','img/work_computer.png'];
 
   if ((preload(imageLinks)).length === imageLinks.length){
     setInterval(function() {
