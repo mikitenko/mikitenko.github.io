@@ -95,10 +95,22 @@ body {
   left: 50%;
   margin-left: -25%;
   z-index: 10;
-  background-image: url('../img/player.png');
+  background-image: url('../img/work_computer.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+}
+.bottom_side .player {
+  position: absolute;
+  width: 50%;
+  height: 120%;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+  background-image: url('../img/player.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
 }
 .money {
   position: absolute;
@@ -125,6 +137,13 @@ body {
   background-position: bottom;
   cursor: pointer;
 }
+.shelf {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+}
 .shelf_gold {
   position: absolute;
   width: 15%;
@@ -140,6 +159,17 @@ body {
 .display_none {
   display: none;
 }
+.coin {
+  position:absolute;
+  z-index: 10;
+  -webkit-animation:1s animateOpacity;
+  background-image: url('../img/coin_anim.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
 @media (max-width: 1024px) {
  /* #game_wrapper .screens .image_sceen_wrapp {
     top: 70%;
