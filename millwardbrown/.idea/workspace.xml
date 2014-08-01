@@ -26,25 +26,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="36" selection-start="1698" selection-end="1698" vertical-scroll-proportion="-10.461538" vertical-offset="476" max-vertical-offset="1156">
+            <state line="44" column="36" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="10" selection-start="685" selection-end="685" vertical-scroll-proportion="0.1973466" vertical-offset="323" max-vertical-offset="1751">
+            <state line="26" column="10" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="14" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="3553">
+            <state line="84" column="31" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.55775577" vertical-offset="1090" max-vertical-offset="3587">
               <folding />
             </state>
           </provider>
@@ -61,17 +61,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1312" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -99,7 +99,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,16 +161,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
+    <property name="options.lastSelected" value="reference.settings.deploy.options" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+  <component name="PublishConfig" autoUpload="true" uploadOnSaveAll="true" />
   <component name="RunManager">
     <list size="0" />
   </component>
@@ -205,7 +206,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-4" y="-4" width="1312" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -214,7 +215,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26152623" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2662957" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -243,6 +244,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="14" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="3553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="17" selection-start="2507" selection-end="2507" vertical-scroll-proportion="0.0" vertical-offset="1606" max-vertical-offset="2822">
@@ -311,42 +319,31 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1191" column="7" selection-start="18444" selection-end="18444" vertical-scroll-proportion="0.3322314" vertical-offset="20046" max-vertical-offset="64651">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/draggable/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="759" selection-end="759" vertical-scroll-proportion="0.08838821" vertical-offset="306" max-vertical-offset="1292">
-          <folding />
-        </state>
+        <state line="1191" column="7" selection-start="18444" selection-end="18444" vertical-scroll-proportion="0.3322314" vertical-offset="20046" max-vertical-offset="64651" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Dropbox/Maxymiser/examples/jsonp(yandex translate API)/translater.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.79549396" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.79549396" vertical-offset="0" max-vertical-offset="1003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="14" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="3553">
+        <state line="84" column="31" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.55775577" vertical-offset="1090" max-vertical-offset="3587">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="1698" selection-end="1698" vertical-scroll-proportion="-10.461538" vertical-offset="476" max-vertical-offset="1156">
+        <state line="44" column="36" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="685" selection-end="685" vertical-scroll-proportion="0.1973466" vertical-offset="323" max-vertical-offset="1751">
+        <state line="26" column="10" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
