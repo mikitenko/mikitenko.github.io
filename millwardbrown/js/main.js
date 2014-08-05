@@ -86,6 +86,7 @@ $(function(){
         }, 1000);
       }
 
+
       moneyMove.draggable({
         containment: '#content',
         snap: '#content',
@@ -117,6 +118,11 @@ $(function(){
         innerWidth:'80%',
         innerHeight:'60%',
         speed: 300
+      });
+
+      $('.cboxIframe').load( function() {
+        $('.cboxIframe').contents().find("head")
+          .append($("<style type='text/css'>video{width: 100%}</style>"));
       });
 
     });
