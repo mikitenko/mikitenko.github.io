@@ -177,7 +177,7 @@ a:focus {
   position: relative;
   height: 100%;
 }
-#game_wrapper .video_wrapper video {
+#game_wrapper .video_wrapper .video_bg {
   background-image: url('../img/video_bg.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -186,6 +186,10 @@ a:focus {
   padding: 6% 4% 10% 2%;
   margin: 0 auto;
   display: block;
+}
+#game_wrapper .video_wrapper .video_bg img {
+  display: block;
+  width: 100%;
 }
 #game_wrapper .video_wrapper .shelf_video {
   width: 29%;
