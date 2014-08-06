@@ -9,6 +9,7 @@ $(function(){
       }
       return images;
     }
+    //game ajax
     var gameLoader = (function(){
       function coinAnimate(obj){
         var childObj = obj.children('div.shelf');
@@ -98,9 +99,46 @@ $(function(){
       });
 
     });
-
+    //video ajax
     var videoTransformSolution = (function(){
+      var newAttachStyle = function(iframeSelector, stringStyle) {
+        var iframe = document.querySelector(iframeSelector);
+        var iframeScope = (iframe.contentWindow || iframe.contentDocument);
+        var st = iframeScope.document.createElement("style");
+        var head = iframeScope.document.querySelector('head');
+        if (st.styleSheet) {
+          st.styleSheet.cssText += stringStyle;
+        } else {
+          st.innerHTML += stringStyle;
+        }
+        head.appendChild(st);
+        return true;
+      };
+
+      function intervalCheckDom (){
+        var time;
+        function stopInterval(){
+          clearInterval(time);
+        }
+        function chekElement(){
+          var iframeElem = document.querySelector('iframe.cboxIframe');
+
+          if(Object.prototype.toString.call(iframeElem) === '[object HTMLIFrameElement]'){
+            if(newAttachStyle('iframe.cboxIframe','video{width:100%}')){
+              $("iframe.cboxIframe").contents().find("video")
+                .attr("controls",false)
+                .attr("autoplay",true)
+                .attr("preload",true);
+              $("iframe.cboxIframe").addClass('show');
+              stopInterval();
+            }
+          }
+        }
+        time = setInterval(chekElement, 600);
+      }
+
       var s = document.createElement("script");
+      var videoStart =  $('.vimeo');
       var gameContainer = $('.game_container');
       gameContainer.addClass('display_none');
       var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/men.png','img/money.png','img/video_bg.png','img/shelf_video.png','img/work_computer.png'];
@@ -115,16 +153,26 @@ $(function(){
       $(".vimeo").colorbox({
         rel:'vimeo',
         iframe:true,
-        innerWidth:'80%',
-        innerHeight:'60%',
+        width: '50%',
+        height: '50%',
         speed: 300
       });
 
-      $('.cboxIframe').load( function() {
-        $('.cboxIframe').contents().find("head")
-          .append($("<style type='text/css'>video{width: 100%}</style>"));
-      });
 
+      videoStart.click(function(event){
+        event.preventDefault();
+        intervalCheckDom();
+        var cboxNext = $('#cboxNext');
+        var cboxPrevious = $('#cboxPrevious');
+        cboxNext.click(function(event){
+          event.preventDefault();
+          intervalCheckDom();
+        });
+        cboxPrevious.click(function(event){
+          event.preventDefault();
+          intervalCheckDom();
+        });
+      });
     });
 
 

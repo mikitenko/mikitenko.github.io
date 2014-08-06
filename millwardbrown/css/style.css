@@ -187,9 +187,38 @@ a:focus {
   margin: 0 auto;
   display: block;
 }
+#game_wrapper .video_bg a {
+  display: block;
+  position: relative;
+}
+#game_wrapper .video_wrapper .video_bg .play_icon {
+  display: block;
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin: -10%;
+  opacity: 0.7;
+}
+#game_wrapper .video_bg a:hover .play_icon {
+  opacity: 1;
+}
+#cboxLoadedContent {
+  background-image: url('images/loader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+iframe.cboxIframe {
+  display: none;
+}
+iframe.show {
+  display: block;
+}
 #game_wrapper .video_wrapper .video_bg img {
   display: block;
   width: 100%;
+  opacity: 0.9;
 }
 #game_wrapper .video_wrapper .shelf_video {
   width: 29%;
