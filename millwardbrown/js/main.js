@@ -101,19 +101,19 @@ $(function(){
     });
     //video ajax
     var videoTransformSolution = (function(){
-      var newAttachStyle = function(iframeSelector, stringStyle) {
-        var iframe = document.querySelector(iframeSelector);
-        var iframeScope = (iframe.contentWindow || iframe.contentDocument);
-        var st = iframeScope.document.createElement("style");
-        var head = iframeScope.document.querySelector('head');
-        if (st.styleSheet) {
-          st.styleSheet.cssText += stringStyle;
-        } else {
-          st.innerHTML += stringStyle;
-        }
-        head.appendChild(st);
-        return true;
-      };
+      /* var newAttachStyle = function(iframeSelector, stringStyle) {
+       var iframe = document.querySelector(iframeSelector);
+       var iframeScope = (iframe.contentWindow || iframe.contentDocument);
+       var st = iframeScope.document.createElement("style");
+       var head = iframeScope.document.querySelector('head');
+       if (st.styleSheet) {
+       st.styleSheet.cssText += stringStyle;
+       } else {
+       st.innerHTML += stringStyle;
+       }
+       head.appendChild(st);
+       return true;
+       };*/
 
       function intervalCheckDom (){
         var time;
@@ -124,14 +124,15 @@ $(function(){
           var iframeElem = document.querySelector('iframe.cboxIframe');
 
           if(Object.prototype.toString.call(iframeElem) === '[object HTMLIFrameElement]'){
-            if(newAttachStyle('iframe.cboxIframe','video{width:100%}')){
-              $("iframe.cboxIframe").contents().find("video")
-                .attr("controls",false)
-                .attr("autoplay",true)
-                .attr("preload",true);
-              $("iframe.cboxIframe").addClass('show');
-              stopInterval();
-            }
+            var iframe = $("iframe.cboxIframe");
+            // if(newAttachStyle('iframe.cboxIframe','video{width:100%}')){
+            iframe.contents().find("video")
+              .attr("controls",true)
+              .attr("autoplay");
+            //.attr("preload",true).css('width','100%');
+            iframe.addClass('show');
+            stopInterval();
+            //}
           }
         }
         time = setInterval(chekElement, 600);
@@ -172,7 +173,7 @@ $(function(){
           event.preventDefault();
           intervalCheckDom();
         });
-      });
+      })
     });
 
 
