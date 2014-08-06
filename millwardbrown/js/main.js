@@ -116,8 +116,8 @@ $(function(){
       $(".vimeo").colorbox({
         rel:'vimeo',
         iframe:true,
-        width: '70%',
-        height: '70%',
+        width: '80%',
+        height: '80%',
         speed: 300
       });
     });
