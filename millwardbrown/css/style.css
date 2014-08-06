@@ -209,12 +209,6 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
 }
-iframe.cboxIframe {
-  display: none;
-}
-iframe.show {
-  display: block;
-}
 #game_wrapper .video_wrapper .video_bg img {
   display: block;
   width: 100%;
