@@ -101,45 +101,7 @@ $(function(){
     });
     //video ajax
     var videoTransformSolution = (function(){
-     /* var newAttachStyle = function(iframeSelector, stringStyle) {
-        var iframe = document.querySelector(iframeSelector);
-        var iframeScope = (iframe.contentWindow || iframe.contentDocument);
-        var st = iframeScope.document.createElement("style");
-        var head = iframeScope.document.querySelector('head');
-        if (st.styleSheet) {
-          st.styleSheet.cssText += stringStyle;
-        } else {
-          st.innerHTML += stringStyle;
-        }
-        head.appendChild(st);
-        return true;
-      };*/
-
-      /*function intervalCheckDom (){
-        var time;
-        function stopInterval(){
-          clearInterval(time);
-        }
-        function chekElement(){
-          var iframeElem = document.querySelector('iframe.cboxIframe');
-
-          if(Object.prototype.toString.call(iframeElem) === '[object HTMLIFrameElement]'){
-            var iframe = $("iframe.cboxIframe");
-           // if(newAttachStyle('iframe.cboxIframe','video{width:100%}')){
-              iframe.contents().find("video")
-                .attr("controls",true)
-                .attr("autoplay");
-                //.attr("preload",true).css('width','100%');
-              iframe.addClass('show');
-              stopInterval();
-            //}
-          }
-        }
-        time = setInterval(chekElement, 600);
-      }*/
-
       var s = document.createElement("script");
-      var videoStart =  $('.vimeo');
       var gameContainer = $('.game_container');
       gameContainer.addClass('display_none');
       var imageLinks = ['img/main_bg.png','img/screen.png','img/flower2.png','img/flower1.png','img/men.png','img/money.png','img/video_bg.png','img/shelf_video.png','img/work_computer.png'];
@@ -154,26 +116,10 @@ $(function(){
       $(".vimeo").colorbox({
         rel:'vimeo',
         iframe:true,
-        width: '50%',
-        height: '50%',
+        width: '90%',
+        height: '90%',
         speed: 300
       });
-
-
-     /* videoStart.click(function(event){
-        event.preventDefault();
-        intervalCheckDom();
-        var cboxNext = $('#cboxNext');
-        var cboxPrevious = $('#cboxPrevious');
-        cboxNext.click(function(event){
-          event.preventDefault();
-          intervalCheckDom();
-        });
-        cboxPrevious.click(function(event){
-          event.preventDefault();
-          intervalCheckDom();
-        });
-      })*/
     });
 
 
