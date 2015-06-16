@@ -1,0 +1,2696 @@
+[
+  {
+    "apiHeader": {
+      "status": "success",
+      "response": {
+        "code": "200",
+        "msg": "",
+        "to": ""
+      }
+    },
+    "prof": {
+      "semaResponse": 433,
+      "ecomProcessing": 65,
+      "jsonConversion": 0,
+      "totalCategoryProcessing": 47,
+      "filterNotRequiredCategory": 46,
+      "processHeaderCheck": 0,
+      "filterProcessing": 0,
+      "productProcessing": 8,
+      "processBreadCrumb": 0,
+      "processRefineOps": 0
+    },
+    "isEcm": false,
+    "cgyLevelIndex": "3",
+    "limit": "200",
+    "resultTask": "http://ecsolrp03.llbean.com:8080/solr/product/select?fq\u003dall_cats%3A511548+\u0026mm\u003d2%3C-1+7%3C-10%25\u0026qf\u003dpage_id_searchable%5E10+all_cats%5E10+title%5E1.4+cat_keywords%5E1.4+title_synonyms%5E1.3+tokenized_categories%5E1.3+keywords%5E1.3+cat_keywords_synonyms%5E1.3+tokenized_categories_synonyms%5E1.2+keywords_synonyms%5E1.2+attr_lvl_1%5E1.0+attr_lvl_1_synonyms%5E1.0+short_desc%5E1.0+short_desc_synonyms%5E1.0+sku_color_names%5E1.0\u0026pf2\u003dtitle%5E1.5+cat_keywords%5E1.5+title_synonyms%5E1.4+tokenized_categories%5E1.4+keywords%5E1.4+cat_keywords_synonyms%5E1.4+tokenized_categories_synonyms%5E1.3+keywords_synonyms%5E1.3+attr_lvl_1%5E1.1+attr_lvl_1_synonyms%5E1.1+short_desc%5E1.1+short_desc_synonyms%5E1.1+sku_color_names%5E1.2\u0026pf3\u003dtitle%5E1.5+cat_keywords%5E1.5+title_synonyms%5E1.4+tokenized_categories%5E1.4+keywords%5E1.4+cat_keywords_synonyms%5E1.4+tokenized_categories_synonyms%5E1.3+keywords_synonyms%5E1.3+attr_lvl_1%5E1.1+attr_lvl_1_synonyms%5E1.1+short_desc%5E1.1+short_desc_synonyms%5E1.1+sku_color_names%5E1.2\u0026q\u003d*%3A*\u0026facet\u003dtrue\u0026facet.mincount\u003d1\u0026facet.field\u003drefine_attr_SIZE_EXCLUDE\u0026facet.field\u003drefine_attr_ACTVTY\u0026facet.field\u003drefine_attr_INSM_LNGTH\u0026facet.field\u003drefine_attr_FTRS\u0026facet.field\u003drefine_attr_PTTRN\u0026facet.field\u003drefine_attr_MATERIAL\u0026facet.field\u003drefine_attr_BRAND\u0026facet.field\u003drefine_attr_WAIST\u0026facet.field\u003drefine_attr_COLOR_FAMILY\u0026facet.field\u003drefine_attr_REVIEW_RATING\u0026facet.field\u003drefine_attr_SIZE\u0026facet.field\u003d%7B%21ex%3Ddt%7Dcat_hierarchies\u0026bf\u003dsum%280.05%2Cproduct%280.95%2Csum%28product%28100.0%2Cfield%28srch_attr_revenue_log10%29%29%29%29%29\u0026qt\u003d%2Fllsearch\u0026facet.sort\u003dindex\u0026facet.limit\u003d-1\u0026rows\u003d48\u0026start\u003d0",
+    "semaURL": "http://ecsolrp-slave-blue/SearchManager/searchManagerServlet?categoryId\u003d511548\u0026subrnd\u003d0\u0026childCatIds\u003d506782\u0026num\u003d48\u0026SS\u003dA\u0026LLBVAT\u003dVISITOR_ID:9:false:true:3:17:0:true:9:4:0:9:0:0:0:0:0:-1:0:0:-1:-1:1433840400000:1433769926444:75\u0026wt\u003dhtml\u0026si\u003dtrue",
+    "gnajax": "/llb/gnajax/2",
+    "gnshop": "/llb/shop/2",
+    "gnsearch": "/llb/search/2",
+    "gnlander": "/llb/lander/2",
+    "moe": "S3",
+    "startPage": 0,
+    "endPage": 0,
+    "currentPage": 1,
+    "totalPages": 0,
+    "productsPerPage": 48,
+    "pageStartPosition": 1,
+    "pageFoundSize": 26,
+    "socDsplFlg": false,
+    "categoryId": "511548",
+    "genTS": "150609-06:08:00",
+    "thumbnailType": 0,
+    "pageType": 1,
+    "viewType": "fourUp",
+    "crt": "",
+    "gnLevel": "GN1",
+    "gnFeat": "511548-GN1",
+    "gnThumbType": 0,
+    "gnSortField": "Relevance",
+    "gnRefine": "",
+    "gnPosition": 0,
+    "gnBreadcrumb": "^26*Men\u0027s^511548*Swimwear",
+    "gnAttr": "",
+    "gnFreeText": "",
+    "metricPath": "Men\u0027s:Swimwear:",
+    "metricDeptName": "Men\u0027s",
+    "metricDeptId": 26,
+    "metricSubDeptName": "Swimwear",
+    "metricSubDeptId": 511548,
+    "metricSub2DeptName": "",
+    "metricSub2DeptId": -1,
+    "metricSub3DeptName": "",
+    "metricSub3DeptId": -1,
+    "subrnd": "0",
+    "secondaryPageCount": 0,
+    "alternateSearch": "",
+    "pageTitle": "Men\u0027s Swimwear | Free Shipping at L.L.Bean",
+    "breadcrumb": "\u003ca href\u003dhttp://www.llbean.com\u003eL.L.Bean\u003c/a\u003e\u003cspan\u003e\u0026gt;\u003c/span\u003e\u003ca display\u003d\u0027guidednav.jsp\u0027 href\u003d\u0027/llb/shop/26\u0027\u003eMen\u0027s\u003c/a\u003e\u003cspan\u003e\u0026gt;\u003c/span\u003e\u003cspan class\u003d\u0027final-breadcrumb\u0027\u003eSwimwear\u003c/span\u003e",
+    "header": "Men\u0027s Swimwear\u003cspan class\u003d\u0027qty\u0027\u003e(26)\u003c/span\u003e",
+    "seoPageInfo": {
+      "titleMetaCustHtml": [],
+      "seoCopyCustHtml": [],
+      "browserTitle": "Men\u0027s Swimwear | Free Shipping at L.L.Bean",
+      "header1": "Men\u0027s Swimwear",
+      "metaDescription": "\u003cmeta name\u003d\"description\" content\u003d\"Free Shipping. Discover the features of our Men\u0027s Swimsuits \u0026 Swim Shorts at L.L.Bean. Our high quality men\u0027s swimwear is backed by a 100% satisfaction guarantee.\" /\u003e",
+      "metaKeywords": "Swimwear, Men\u0027s clothing, ll bean",
+      "keywordPrefix": "Swimwear, Men\u0027s"
+    },
+    "sortOptions": [
+      {
+        "name": "Recommended",
+        "value": "Relevance",
+        "selected": true,
+        "title": "Sort by Recommended"
+      },
+      {
+        "name": "Price",
+        "value": "Price (Ascending)",
+        "selected": false,
+        "title": "Sort by Price (lowest to highest)"
+      },
+      {
+        "name": "Price",
+        "value": "Price (Descending)",
+        "selected": false,
+        "title": "Sort by Price (highest to lowest)"
+      },
+      {
+        "name": "Bestselling",
+        "value": "Num_Of_Orders",
+        "selected": false,
+        "title": "Sort by Bestselling"
+      },
+      {
+        "name": "Newest",
+        "value": "SRCH_ATTR_RECENCY (Descending)",
+        "selected": false,
+        "title": "Sort by Newest"
+      },
+      {
+        "name": "Customer Rating",
+        "value": "Grade (Descending)",
+        "selected": false,
+        "title": "Sort by Customer Rating"
+      },
+      {
+        "name": "A-Z",
+        "value": "Name (Ascending)",
+        "selected": false,
+        "title": "Sort by A-Z"
+      }
+    ],
+    "viewOptions": [
+      "fourUp",
+      "groupView"
+    ],
+    "viewTemplates": [
+      {
+        "view": "fourUp",
+        "id": 0,
+        "spriteName": "fourUp_link",
+        "desc": "Grid (medium images)",
+        "pubFlg": true,
+        "selected": true,
+        "prodPerPage": 48,
+        "sequence": 1
+      },
+      {
+        "view": "groupView",
+        "id": 10,
+        "spriteName": "group_link",
+        "desc": "Categories",
+        "pubFlg": true,
+        "selected": false,
+        "prodPerPage": 8,
+        "sequence": 5
+      }
+    ],
+    "refineOpts": [
+      {
+        "name": "Activity/End Use",
+        "value": "ACTVTY",
+        "refineVals": [
+          {
+            "name": "Fishing",
+            "count": 3,
+            "value": "Fishing",
+            "selected": false,
+            "parm": "1*ACTVTY*Fishing"
+          },
+          {
+            "name": "Hiking",
+            "count": 2,
+            "value": "Hiking",
+            "selected": false,
+            "parm": "1*ACTVTY*Hiking"
+          },
+          {
+            "name": "Paddling",
+            "count": 25,
+            "value": "Paddling",
+            "selected": false,
+            "parm": "1*ACTVTY*Paddling"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Inseam Length",
+        "value": "INSM_LNGTH",
+        "refineVals": [
+          {
+            "name": "6 in.",
+            "count": 2,
+            "value": "6 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*6 in."
+          },
+          {
+            "name": "8 in.",
+            "count": 1,
+            "value": "8 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*8 in."
+          },
+          {
+            "name": "9 in.",
+            "count": 4,
+            "value": "9 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*9 in."
+          },
+          {
+            "name": "10 in.",
+            "count": 4,
+            "value": "10 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*10 in."
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Features",
+        "value": "FTRS",
+        "refineVals": [
+          {
+            "name": "Abrasion-Resistant",
+            "count": 2,
+            "value": "Abrasion-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Abrasion-Resistant"
+          },
+          {
+            "name": "Moisture-Wicking",
+            "count": 2,
+            "value": "Moisture-Wicking",
+            "selected": false,
+            "parm": "1*FTRS*Moisture-Wicking"
+          },
+          {
+            "name": "Quick-Dry",
+            "count": 3,
+            "value": "Quick-Dry",
+            "selected": false,
+            "parm": "1*FTRS*Quick-Dry"
+          },
+          {
+            "name": "UV-Protective",
+            "count": 12,
+            "value": "UV-Protective",
+            "selected": false,
+            "parm": "1*FTRS*UV-Protective"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Pattern",
+        "value": "PTTRN",
+        "refineVals": [
+          {
+            "name": "Graphic",
+            "count": 1,
+            "value": "Graphic",
+            "selected": false,
+            "parm": "1*PTTRN*Graphic"
+          },
+          {
+            "name": "Solid",
+            "count": 2,
+            "value": "Solid",
+            "selected": false,
+            "parm": "1*PTTRN*Solid"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Fabric",
+        "value": "MATERIAL",
+        "refineVals": [
+          {
+            "name": "Neoprene",
+            "count": 1,
+            "value": "Neoprene",
+            "selected": false,
+            "parm": "1*MATERIAL*Neoprene"
+          },
+          {
+            "name": "Nylon",
+            "count": 2,
+            "value": "Nylon",
+            "selected": false,
+            "parm": "1*MATERIAL*Nylon"
+          },
+          {
+            "name": "Polyester",
+            "count": 1,
+            "value": "Polyester",
+            "selected": false,
+            "parm": "1*MATERIAL*Polyester"
+          },
+          {
+            "name": "Supplex",
+            "count": 2,
+            "value": "Supplex",
+            "selected": false,
+            "parm": "1*MATERIAL*Supplex"
+          },
+          {
+            "name": "Synthetic",
+            "count": 3,
+            "value": "Synthetic",
+            "selected": false,
+            "parm": "1*MATERIAL*Synthetic"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Brand",
+        "value": "BRAND",
+        "refineVals": [
+          {
+            "name": "L.L.Bean",
+            "count": 19,
+            "value": "L.L.Bean",
+            "selected": false,
+            "parm": "1*BRAND*L.L.Bean"
+          },
+          {
+            "name": "Camaro",
+            "count": 3,
+            "value": "Camaro",
+            "selected": false,
+            "parm": "1*BRAND*Camaro"
+          },
+          {
+            "name": "NRS",
+            "count": 2,
+            "value": "NRS",
+            "selected": false,
+            "parm": "1*BRAND*NRS"
+          },
+          {
+            "name": "O\u0027Neill",
+            "count": 2,
+            "value": "O\u0027Neill",
+            "selected": false,
+            "parm": "1*BRAND*O\u0027Neill"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Waist",
+        "value": "WAIST",
+        "refineVals": [
+          {
+            "name": "30 in",
+            "count": 1,
+            "value": "30in",
+            "selected": false,
+            "parm": "1*WAIST*30in"
+          },
+          {
+            "name": "32 in",
+            "count": 1,
+            "value": "32in",
+            "selected": false,
+            "parm": "1*WAIST*32in"
+          },
+          {
+            "name": "34 in",
+            "count": 1,
+            "value": "34in",
+            "selected": false,
+            "parm": "1*WAIST*34in"
+          },
+          {
+            "name": "36 in",
+            "count": 1,
+            "value": "36in",
+            "selected": false,
+            "parm": "1*WAIST*36in"
+          },
+          {
+            "name": "38 in",
+            "count": 1,
+            "value": "38in",
+            "selected": false,
+            "parm": "1*WAIST*38in"
+          },
+          {
+            "name": "40 in",
+            "count": 1,
+            "value": "40in",
+            "selected": false,
+            "parm": "1*WAIST*40in"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Color",
+        "value": "COLOR_FAMILY",
+        "refineVals": [
+          {
+            "name": "Brown",
+            "count": 6,
+            "value": "Brown",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Brown"
+          },
+          {
+            "name": "Gray",
+            "count": 3,
+            "value": "Gray",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Gray"
+          },
+          {
+            "name": "Green",
+            "count": 7,
+            "value": "Green",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Green"
+          },
+          {
+            "name": "Orange",
+            "count": 6,
+            "value": "Orange",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Orange"
+          },
+          {
+            "name": "Red",
+            "count": 7,
+            "value": "Red",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Red"
+          },
+          {
+            "name": "Tan",
+            "count": 6,
+            "value": "Tan",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Tan"
+          },
+          {
+            "name": "Black",
+            "count": 17,
+            "value": "Black",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Black"
+          },
+          {
+            "name": "Blue",
+            "count": 11,
+            "value": "Blue",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Blue"
+          }
+        ],
+        "selected": false
+      }
+    ],
+    "topBanners": [
+      {
+        "bannerHtml": "\u003cimg src\u003d\"/dept_resources/mens/promo_images/140627_MensSwim_slice.jpg\" alt\u003d\"SHORTS FOR ALL YOUR ADVENTURES. Choose the inseam that best suits you.\" height\u003d\"200\" width\u003d\"775\" usemap\u003d\"#mensSwim\"\u003e\r\n\u003cmap name\u003d\"mensSwim\" id\u003d\"mensSwim\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/511548?gnrefine\u003d1*INSM_LNGTH*6+in.%5E\u0026nav\u003dbnr1a-511548\" title\u003d\"6\u0026quot;\" coords\u003d\"281, 7, 437, 192\" shape\u003d\"rect\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/511548?gnrefine\u003d1*INSM_LNGTH*8+in.%5E1*INSM_LNGTH*7+in.%5E\u0026nav\u003dbnr2a-511548\" title\u003d\"8\u0026quot;\" coords\u003d\"438, 7, 593, 192\" shape\u003d\"rect\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/511548?gnrefine\u003d1*INSM_LNGTH*10+in.%5E1*INSM_LNGTH*9+in.%5E\u0026nav\u003dbnr3a-511548\" title\u003d\"10\u0026quot;\" coords\u003d\"594, 7, 768, 192\" shape\u003d\"rect\"\u003e\r\n\u003c/map\u003e"
+      }
+    ],
+    "bottomBanners": [],
+    "sideBanners": [
+      {
+        "pos": "11",
+        "viewType": "fourUp",
+        "bannerHtml": "\r\n\u003ca href\u003d\"#\" class\u003d\"fsTriggerS2013\" title\u003d\"Details\"\u003e\u003cimg src\u003d\"/dept_resources/shared/promo_images/141226_FS_THUMB4.png\" height\u003d\"375\" width\u003d\"190\" alt\u003d\"Free Shipping. No minimum order. No end date.\"\u003e\u003c/a\u003e "
+      }
+    ],
+    "dept": [
+      {
+        "level": 0,
+        "name": "Men\u0027s",
+        "categoryId": 26,
+        "categoryIdParent": 2,
+        "count": 1134,
+        "href": "",
+        "display": "wcmdepartment.jsp",
+        "skipLevel": 0,
+        "miniThumbImg": "",
+        "navexp": 0,
+        "leftNavExpandFlg": 0,
+        "pagePathVisible": 0,
+        "localNavVisible": 1,
+        "groupedDisplay": 0,
+        "maxRowsInGrp": 0,
+        "refineOptToShow": 0,
+        "sortAttrBy": 0,
+        "maxAttrVals": 0,
+        "sortAttrValsBy": 0,
+        "sortNestedAttrValsBy": 0,
+        "socDsplFlg": 0,
+        "tmplViewId": 0,
+        "topnavColumn": 0,
+        "topnavSequence": 0,
+        "selected": true,
+        "bannerg1": "",
+        "bannergu": [],
+        "bannergd": [],
+        "bannerg2": [],
+        "dept": [
+          {
+            "level": 1,
+            "name": "Swimwear",
+            "categoryId": 511548,
+            "categoryIdParent": 26,
+            "count": 26,
+            "href": "",
+            "display": "guidednav.jsp",
+            "skipLevel": 0,
+            "miniThumbImg": "http://cdni.llbean.com/is/image/wim/215658_30_42",
+            "navexp": 0,
+            "leftNavExpandFlg": 0,
+            "pagePathVisible": 0,
+            "localNavVisible": 1,
+            "groupedDisplay": 0,
+            "maxRowsInGrp": 0,
+            "refineOptToShow": 0,
+            "sortAttrBy": 0,
+            "maxAttrVals": 0,
+            "sortAttrValsBy": 0,
+            "sortNestedAttrValsBy": 0,
+            "socDsplFlg": 0,
+            "tmplViewId": 0,
+            "topnavColumn": 0,
+            "topnavSequence": 0,
+            "selected": true,
+            "bannerg1": "",
+            "bannergu": [],
+            "bannergd": [],
+            "bannerg2": [],
+            "dept": [
+              {
+                "level": 2,
+                "name": "Swimwear",
+                "categoryId": 506782,
+                "categoryIdParent": 511548,
+                "count": 26,
+                "href": "",
+                "display": "guidednav.jsp",
+                "skipLevel": 0,
+                "miniThumbImg": "",
+                "navexp": 0,
+                "leftNavExpandFlg": 0,
+                "pagePathVisible": 0,
+                "localNavVisible": 0,
+                "groupedDisplay": 0,
+                "maxRowsInGrp": 0,
+                "refineOptToShow": 0,
+                "sortAttrBy": 0,
+                "maxAttrVals": 0,
+                "sortAttrValsBy": 0,
+                "sortNestedAttrValsBy": 0,
+                "socDsplFlg": 0,
+                "tmplViewId": 0,
+                "topnavColumn": 0,
+                "topnavSequence": 0,
+                "selected": false,
+                "bannerg1": "",
+                "bannergu": [],
+                "bannergd": [],
+                "bannerg2": [],
+                "dept": []
+              }
+            ],
+            "bannerld": "\u003clink rel\u003d\"stylesheet\" href\u003d\"/includes/css/banner_pg27_html17506.css\" type\u003d\"text/css\"\u003e\r\n    \r\n    \r\n\u003c!-- Women Dept - PAGE ID: 27 - HTML ID: 17506 --\u003e\r\n \r\n\r\n\u003cdiv class\u003d\"clearBoth\"\u003e\u003c/div\u003e\r\n \r\n\u003cdiv class\u003d\"eaform\"\u003e\r\n    \u003cform title\u003d\"Sign up\" class\u003d\"LNnewsletterForm2\" id\u003d\"newsletter-form2\" name\u003d\"llbNewsLetter2\" action\u003d\"/webapp/wcs/stores/servlet/LLBProcessPromoEmailCmd\" method\u003d\"post\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"1\" name\u003d\"storeId\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"1\" name\u003d\"catalogId\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"-1\" name\u003d\"langId\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"emailacq-27\" name\u003d\"nav\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"0\" name\u003d\"subrnd\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"https://www.llbean.com\" name\u003d\"moe_url\"\u003e\r\n        \u003cinput class\u003d\"email-address\" name\u003d\"emailaddress\" title\u003d\"Exclusive offers and updates - Enter email address\" value\u003d\"Enter email address\" maxlength\u003d\"70\" size\u003d\"20\"\u003e\r\n        \u003cinput class\u003d\"imgMar\" type\u003d\"image\" title\u003d\"Sign up\" alt\u003d\"Be the First to Know about exclusive sales, special offers and more.\" src\u003d\"/dept_resources/shared/promo_images/130422_email_ac_submit.jpg\" align\u003d\"middle\"\u003e\r\n    \u003c/form\u003e\r\n\u003c/div\u003e"
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "58527",
+        "pos": 1,
+        "name": "Supplex Cargo Sport Shorts, 10\" Inseam",
+        "seoName": "supplex-cargo-sport-shorts-10-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eExtremely versatile\u0026nbsp;\u0026#150; wear them swimming, hiking, running or kayaking\u003c/li\u003e \u003cli\u003eSoft, lightweight Supplex nylon is breathable and quick drying\u003c/li\u003e \u003cLI\u003eBuilt-in UPF 50+ sun protection\u003c/LI\u003e \u003cli\u003eRoomy side cargo pockets with secure Velcro\u0026#174;-closure flaps \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eExtremely versatile\u0026nbsp;\u0026#150; wear them swimming, hiking, running or kayaking\u003c/li\u003e \u003cli\u003eSoft, lightweight Supplex nylon is breathable and quick drying\u003c/li\u003e \u003cLI\u003eBuilt-in UPF 50+ sun protection\u003c/LI\u003e \u003cli\u003eRoomy side cargo pockets with secure Velcro\u0026#174;-closure flaps \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "104",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58527\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "256554_72_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "256554_30_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "256554_1_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "256554_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "256554_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "256554_322_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "256554_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "256554_31362_43",
+            "selected": false
+          }
+        ],
+        "img": "256554_30_42",
+        "attr_arry": [
+          {
+            "key": "65816",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65817",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "72",
+            "val": "34.95"
+          },
+          {
+            "key": "30",
+            "val": "34.95"
+          },
+          {
+            "key": "1",
+            "val": "34.95"
+          },
+          {
+            "key": "569",
+            "val": "34.95"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "322",
+            "val": "34.95"
+          },
+          {
+            "key": "34051",
+            "val": "34.95"
+          },
+          {
+            "key": "31362",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "976723",
+            "id": "256554",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "36415",
+        "pos": 2,
+        "name": "Supplex Classic Sport Shorts, 6\" Inseam",
+        "seoName": "supplex-classic-sport-shorts-6-inseam",
+        "geltabUrl": "",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "132",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d36415\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "215657_30_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "215657_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "215657_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "215657_322_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "215657_1_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215657_72_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "215657_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "215657_31362_43",
+            "selected": false
+          }
+        ],
+        "img": "215657_569_42",
+        "attr_arry": [
+          {
+            "key": "30360",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "30359",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "30",
+            "val": "29.95"
+          },
+          {
+            "key": "569",
+            "val": "29.95"
+          },
+          {
+            "key": "37814",
+            "val": "29.95"
+          },
+          {
+            "key": "322",
+            "val": "29.95"
+          },
+          {
+            "key": "1",
+            "val": "29.95"
+          },
+          {
+            "key": "72",
+            "val": "29.95"
+          },
+          {
+            "key": "34051",
+            "val": "29.95"
+          },
+          {
+            "key": "31362",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565627",
+            "id": "215657",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "37360",
+        "pos": 3,
+        "name": "Supplex Classic Sport Shorts, 8\" Inseam",
+        "seoName": "supplex-classic-sport-shorts-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e\u003cLI\u003eAll-purpose shorts for your activities in the water and out\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro\u0026#174;-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e\u003cLI\u003eAll-purpose shorts for your activities in the water and out\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro\u0026#174;-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "132",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d37360\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "215658_30_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "215658_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "215658_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "215658_322_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "215658_1_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215658_72_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "215658_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "215658_31362_43",
+            "selected": false
+          }
+        ],
+        "img": "215658_72_42",
+        "attr_arry": [
+          {
+            "key": "30361",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30362",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "72",
+            "val": "29.95"
+          },
+          {
+            "key": "30",
+            "val": "29.95"
+          },
+          {
+            "key": "569",
+            "val": "29.95"
+          },
+          {
+            "key": "37814",
+            "val": "29.95"
+          },
+          {
+            "key": "1",
+            "val": "29.95"
+          },
+          {
+            "key": "322",
+            "val": "29.95"
+          },
+          {
+            "key": "34051",
+            "val": "29.95"
+          },
+          {
+            "key": "31362",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565683",
+            "id": "215658",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "36414",
+        "pos": 4,
+        "name": "Supplex Cargo Sport Shorts, 6\" Inseam",
+        "seoName": "supplex-cargo-sport-shorts-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e\u003cLI\u003eHit the water or the road in these all-purpose shorts\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eRoomy side cargo pockets with Velcro-closure flaps\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e\u003cLI\u003eHit the water or the road in these all-purpose shorts\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eRoomy side cargo pockets with Velcro-closure flaps\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "104",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d36414\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "215659_1_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215659_72_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Sandstone",
+            "id": "215659_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "215659_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "215659_322_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "215659_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "215659_31362_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "215659_30_43",
+            "selected": false
+          }
+        ],
+        "img": "215659_30_42",
+        "attr_arry": [
+          {
+            "key": "30363",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30364",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "34.95"
+          },
+          {
+            "key": "72",
+            "val": "34.95"
+          },
+          {
+            "key": "569",
+            "val": "34.95"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "322",
+            "val": "34.95"
+          },
+          {
+            "key": "34051",
+            "val": "34.95"
+          },
+          {
+            "key": "31362",
+            "val": "34.95"
+          },
+          {
+            "key": "30",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565739",
+            "id": "215659",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "72774",
+        "pos": 5,
+        "name": "Swift River Shorts",
+        "seoName": "swift-river-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eDurable, lightweight nylon fabric holds up well and dries quickly\u003c/li\u003e \u003cli\u003eRated UPF 40+ for protection against harmful rays\u003c/li\u003e \u003cli\u003eRoomy pockets secure keys, credit cards and other essentials\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eDurable, lightweight nylon fabric holds up well and dries quickly\u003c/li\u003e \u003cli\u003eRated UPF 40+ for protection against harmful rays\u003c/li\u003e \u003cli\u003eRoomy pockets secure keys, credit cards and other essentials\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "87",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d72774\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 11%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt Sea",
+            "id": "274658_28426_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Marshwood",
+            "id": "274658_37113_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Teal Blue",
+            "id": "274658_35147_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Carbon Navy",
+            "id": "274658_32573_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Cabin Red",
+            "id": "274658_427_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "274658_569_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Hemlock",
+            "id": "274658_22294_43",
+            "selected": false
+          }
+        ],
+        "img": "274658_427_42",
+        "attr_arry": [
+          {
+            "key": "90068",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "90069",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "28426",
+            "val": "44.95"
+          },
+          {
+            "key": "37113",
+            "val": "44.95"
+          },
+          {
+            "key": "35147",
+            "val": "44.95"
+          },
+          {
+            "key": "32573",
+            "val": "44.95"
+          },
+          {
+            "key": "427",
+            "val": "44.95"
+          },
+          {
+            "key": "569",
+            "val": "44.95"
+          },
+          {
+            "key": "22294",
+            "val": "39.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1213980",
+            "id": "274658",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82214",
+        "pos": 6,
+        "name": "Bean\u0027s Watersport Shirt, Short-Sleeve Tee",
+        "seoName": "bean-s-watersport-shirt-short-sleeve-tee",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e\u003cli\u003eShields your skin from harmful rays\u003c/li\u003e\u003cli\u003eQuick-drying fabric stretches for great freedom of movement\u003c/li\u003e\u003cli\u003eSits comfortably close to the body\u003c/li\u003e\u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e\u003cli\u003eShields your skin from harmful rays\u003c/li\u003e\u003cli\u003eQuick-drying fabric stretches for great freedom of movement\u003c/li\u003e\u003cli\u003eSits comfortably close to the body\u003c/li\u003e\u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "9",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82214\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "286407_19_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Harbor Gray",
+            "id": "286407_35333_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "286407_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "286407_74_43",
+            "selected": false
+          }
+        ],
+        "img": "286407_37814_42",
+        "attr_arry": [
+          {
+            "key": "103959",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "103958",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "19",
+            "val": "34.95"
+          },
+          {
+            "key": "35333",
+            "val": "34.95"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "74",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1360856",
+            "id": "286407",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87385",
+        "pos": 7,
+        "name": "Riptide Swim Shorts, Print",
+        "seoName": "riptide-swim-shorts-print",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eVersatile swim trunks double as everyday shorts\u003c/li\u003e \u003cli\u003eQucik-drying fabric feels soft against your skin\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eVersatile swim trunks double as everyday shorts\u003c/li\u003e \u003cli\u003eQucik-drying fabric feels soft against your skin\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87385\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Light Azure Marlins",
+            "id": "294912_41870_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Nautical Teal Flags",
+            "id": "294912_41871_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Royal Blue Lobsters",
+            "id": "294912_41872_43",
+            "selected": false
+          }
+        ],
+        "img": "294912_41870_42",
+        "attr_arry": [
+          {
+            "key": "112919",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112920",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41870",
+            "val": "34.99"
+          },
+          {
+            "key": "41871",
+            "val": "34.99"
+          },
+          {
+            "key": "41872",
+            "val": "34.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1467186",
+            "id": "294912",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78788",
+        "pos": 8,
+        "name": "Supplex Sport Shorts, 10\u0026quot; Inseam Front Pocket",
+        "seoName": "supplex-sport-shorts-10-quot-inseam-front-pocket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eAll-day comfort while you swim, hike, paddle or run\u003c/li\u003e \u003cli\u003eLightweight Supplex nylon is breathable and quick to dry\u003c/li\u003e \u003cli\u003eRated UPF 50+ for built-in sun protection\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eAll-day comfort while you swim, hike, paddle or run\u003c/li\u003e \u003cli\u003eLightweight Supplex nylon is breathable and quick to dry\u003c/li\u003e \u003cli\u003eRated UPF 50+ for built-in sun protection\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$19.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $14.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "2",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78788\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$19.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 43%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "282751_30_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Ocean Turquoise",
+            "id": "282751_38575_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Tiger Lily",
+            "id": "282751_33378_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "282751_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "282751_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "282751_569_43",
+            "selected": false
+          }
+        ],
+        "img": "282751_30_42",
+        "attr_arry": [
+          {
+            "key": "98381",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "98382",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "30",
+            "val": "34.95"
+          },
+          {
+            "key": "38575",
+            "val": "19.99"
+          },
+          {
+            "key": "33378",
+            "val": "19.99"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "34051",
+            "val": "34.95"
+          },
+          {
+            "key": "569",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1296262",
+            "id": "282751",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82213",
+        "pos": 9,
+        "name": "Bean\u0027s Watersports Shirt, Quarter-Zip",
+        "seoName": "bean-s-watersports-shirt-quarter-zip",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eUPF 50+ sun protection blocks harmful UV rays\u003c/li\u003e \u003cli\u003eFast-drying nylon/spandex blend stretches with you as you swim, surf and paddle\u003c/li\u003e \u003cli\u003eSits comfortably close to the body\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eUPF 50+ sun protection blocks harmful UV rays\u003c/li\u003e \u003cli\u003eFast-drying nylon/spandex blend stretches with you as you swim, surf and paddle\u003c/li\u003e \u003cli\u003eSits comfortably close to the body\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.6",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "16",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82213\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Harbor Gray/Navy",
+            "id": "286406_38923_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy/Bottle Blue",
+            "id": "286406_37461_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue/Navy",
+            "id": "286406_39154_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Deep Garnet/Navy",
+            "id": "286406_41853_43",
+            "selected": false
+          }
+        ],
+        "img": "286406_39154_42",
+        "attr_arry": [
+          {
+            "key": "103956",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "103957",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "38923",
+            "val": "34.99"
+          },
+          {
+            "key": "37461",
+            "val": "34.99"
+          },
+          {
+            "key": "39154",
+            "val": "34.99"
+          },
+          {
+            "key": "41853",
+            "val": "34.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1360835",
+            "id": "286406",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87384",
+        "pos": 10,
+        "name": "Riptide Swim Shorts, Engineered Stripe",
+        "seoName": "riptide-swim-shorts-engineered-stripe",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eVersatile swim trunks double as everyday shorts\u003c/li\u003e \u003cli\u003eQucik-drying fabric feels soft against your skin\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eVersatile swim trunks double as everyday shorts\u003c/li\u003e \u003cli\u003eQucik-drying fabric feels soft against your skin\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87384\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Orange",
+            "name": "Deep Coral",
+            "id": "294910_437_43",
+            "selected": true
+          }
+        ],
+        "img": "294910_437_42",
+        "attr_arry": [
+          {
+            "key": "112867",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112868",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "437",
+            "val": "34.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1466814",
+            "id": "294910",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82367",
+        "pos": 11,
+        "name": "Sea Sport Shirt",
+        "seoName": "sea-sport-shirt",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eUPF 40+ shields you from harmful rays\u003c/li\u003e \u003cli\u003eQuick-drying fabric stretches for great freedom of movement\u003c/li\u003e \u003cli\u003eSlightly Fitted (formerly known as Trim Fit) is relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eUPF 40+ shields you from harmful rays\u003c/li\u003e \u003cli\u003eQuick-drying fabric stretches for great freedom of movement\u003c/li\u003e \u003cli\u003eSlightly Fitted (formerly known as Trim Fit) is relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $14.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.6",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "18",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82367\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 33%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Flint/Wave",
+            "id": "289056_38764_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Blue Jay/Paddleboard",
+            "id": "289056_40254_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Flint Blue/Ocean Wave",
+            "id": "289056_41896_43",
+            "selected": false
+          }
+        ],
+        "img": "289056_41896_42",
+        "attr_arry": [
+          {
+            "key": "105309",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "105310",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "38764",
+            "val": "29.99"
+          },
+          {
+            "key": "40254",
+            "val": "29.99"
+          },
+          {
+            "key": "41896",
+            "val": "44.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1373091",
+            "id": "289056",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87828",
+        "pos": 12,
+        "name": "Stowaway Swim Shorts",
+        "seoName": "stowaway-swim-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eEasy to pack and ideal for wear in the water or while hiking\u003c/li\u003e \u003cli\u003eFast-drying fabric so you\u0027re back in action after a swim\u003c/li\u003e \u003cli\u003eAbrasion resistant to tackle obstacles on the trail\u003c/li\u003e \u003cli\u003eUPF 50+ sun protection blocks harmful UV rays\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eEasy to pack and ideal for wear in the water or while hiking\u003c/li\u003e \u003cli\u003eFast-drying fabric so you\u0027re back in action after a swim\u003c/li\u003e \u003cli\u003eAbrasion resistant to tackle obstacles on the trail\u003c/li\u003e \u003cli\u003eUPF 50+ sun protection blocks harmful UV rays\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87828\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Darkest Gray Geo",
+            "id": "295070_41898_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Pacific Blue Tropics",
+            "id": "295070_41897_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Vintage Moss Green Topo",
+            "id": "295070_41900_43",
+            "selected": false
+          }
+        ],
+        "img": "295070_41898_42",
+        "attr_arry": [
+          {
+            "key": "113077",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "113078",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41898",
+            "val": "39.95"
+          },
+          {
+            "key": "41897",
+            "val": "39.95"
+          },
+          {
+            "key": "41900",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1468740",
+            "id": "295070",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78791",
+        "pos": 13,
+        "name": "Supplex Sport Shorts, 10\" Front Pocket Pattern",
+        "seoName": "supplex-sport-shorts-10-front-pocket-pattern",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eQuick-drying shorts for all your warm-weather activities\u003c/li\u003e \u003cli\u003eUPF 50+ sun protection is woven right into the fabric\u003c/li\u003e \u003cli\u003eSupplex nylon is tough yet highly breathable\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eQuick-drying shorts for all your warm-weather activities\u003c/li\u003e \u003cli\u003eUPF 50+ sun protection is woven right into the fabric\u003c/li\u003e \u003cli\u003eSupplex nylon is tough yet highly breathable\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "2",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78791\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Maine Camo",
+            "id": "283677_41498_43",
+            "selected": true
+          }
+        ],
+        "img": "283677_41498_42",
+        "attr_arry": [
+          {
+            "key": "98637",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "98638",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41498",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1302009",
+            "id": "283677",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87700",
+        "pos": 14,
+        "name": "Riptide Swim Shorts, Stripe",
+        "seoName": "riptide-swim-shorts-stripe",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eVersatile swim trunks double as everyday shorts\u003c/li\u003e \u003cli\u003eQucik-drying fabric feels soft against your skin\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eVersatile swim trunks double as everyday shorts\u003c/li\u003e \u003cli\u003eQucik-drying fabric feels soft against your skin\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87700\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$39.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$34.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "French Blue",
+            "id": "294911_47_43",
+            "selected": true
+          }
+        ],
+        "img": "294911_47_42",
+        "attr_arry": [
+          {
+            "key": "112924",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112925",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "47",
+            "val": "34.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1467693",
+            "id": "294911",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78104",
+        "pos": 15,
+        "name": "Superstretch Titanium Booties",
+        "seoName": "superstretch-titanium-booties",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible booties featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like sea kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSeamless design prevents chafing\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible booties featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like sea kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSeamless design prevents chafing\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$49.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78104\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$49.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "282611_1_43",
+            "selected": true
+          }
+        ],
+        "img": "282611_1_42",
+        "attr_arry": [
+          {
+            "key": "97801",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "97802",
+            "val": "ECOM_SHOE_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "49.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1290089",
+            "id": "282611",
+            "name": "",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "81745",
+        "pos": 16,
+        "name": "Men\u0027s NRS HydroSkin .5 mm Shorts",
+        "seoName": "men-s-nrs-hydroskin-5-mm-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eA waterproof, insulating layer for cool-weather paddling, surfing or swimming\u003c/LI\u003e \u003cLI\u003eStretch fabrics allow for unrestricted movement\u003c/LI\u003e \u003cLI\u003eMicroPlush fleece lining for next-to-skin comfort\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eA waterproof, insulating layer for cool-weather paddling, surfing or swimming\u003c/LI\u003e \u003cLI\u003eStretch fabrics allow for unrestricted movement\u003c/LI\u003e \u003cLI\u003eMicroPlush fleece lining for next-to-skin comfort\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$69.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d81745\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$69.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "288488_1_43",
+            "selected": true
+          }
+        ],
+        "img": "288488_1_42",
+        "attr_arry": [
+          {
+            "key": "104628",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "104629",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "69.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1366233",
+            "id": "288488",
+            "name": "",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87680",
+        "pos": 17,
+        "name": "Men\u0027s O\u0027Neill Superfreak Board Shorts",
+        "seoName": "men-s-o-neill-superfreak-board-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eWater shorts that combine durability, quick dry time and comfort\u003c/li\u003e \u003cli\u003eFour-way stretch moves with you in all directions\u003c/li\u003e \u003cli\u003e22\" outseam; there is no inseam that can chafe\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eWater shorts that combine durability, quick dry time and comfort\u003c/li\u003e \u003cli\u003eFour-way stretch moves with you in all directions\u003c/li\u003e \u003cli\u003e22\" outseam; there is no inseam that can chafe\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$58\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87680\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$58\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "294751_1_43",
+            "selected": true
+          }
+        ],
+        "img": "294751_1_42",
+        "attr_arry": [
+          {
+            "key": "112559",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112560",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "58.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1463383",
+            "id": "294751",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "77296",
+        "pos": 18,
+        "name": "Men\u0027s Superstretch Titanium Sleeveless Shorty Wet Suit",
+        "seoName": "men-s-superstretch-titanium-sleeveless-shorty-wet-suit",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible shorty wet suit featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003cli\u003eSleeveless design for warmer conditions\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible shorty wet suit featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003cli\u003eSleeveless design for warmer conditions\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$99.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "2",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d77296\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$99.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "281901_1_43",
+            "selected": true
+          }
+        ],
+        "img": "281901_1_42",
+        "attr_arry": [
+          {
+            "key": "96951",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "96952",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "99.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1281851",
+            "id": "281901",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "81744",
+        "pos": 19,
+        "name": "Men\u0027s NRS HydroSkin .5 mm Pants",
+        "seoName": "men-s-nrs-hydroskin-5-mm-pants",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eA waterproof, insulating layer for cool-weather paddling, surfing or swimming\u003c/LI\u003e \u003cLI\u003eStretch fabrics allow for unrestricted movement\u003c/LI\u003e \u003cLI\u003eThermalPlush fleece lining for next-to-skin comfort\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eA waterproof, insulating layer for cool-weather paddling, surfing or swimming\u003c/LI\u003e \u003cLI\u003eStretch fabrics allow for unrestricted movement\u003c/LI\u003e \u003cLI\u003eThermalPlush fleece lining for next-to-skin comfort\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$99.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "5.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d81744\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$99.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "288494_1_43",
+            "selected": true
+          }
+        ],
+        "img": "288494_1_42",
+        "attr_arry": [
+          {
+            "key": "104637",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "104638",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "99.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1366276",
+            "id": "288494",
+            "name": "",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78111",
+        "pos": 20,
+        "name": "Men\u0027s Superstretch Paddlers Shorts",
+        "seoName": "men-s-superstretch-paddlers-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eStylish, supercomfortable paddling shorts\u003c/li\u003e \u003cli\u003eSCS Titanium neoprene liner shorts provide warmth and excellent range of motion\u003c/li\u003e \u003cli\u003eOvershorts are quick-drying and equipped with multiple pockets\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eStylish, supercomfortable paddling shorts\u003c/li\u003e \u003cli\u003eSCS Titanium neoprene liner shorts provide warmth and excellent range of motion\u003c/li\u003e \u003cli\u003eOvershorts are quick-drying and equipped with multiple pockets\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$99.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "2.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78111\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$99.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "282576_1_43",
+            "selected": true
+          }
+        ],
+        "img": "282576_1_42",
+        "attr_arry": [
+          {
+            "key": "97760",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "97761",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "99.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1289750",
+            "id": "282576",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "77314",
+        "pos": 21,
+        "name": "Men\u0027s Superstretch Titanium Farmer John Wet Suit",
+        "seoName": "men-s-superstretch-titanium-farmer-john-wet-suit",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible shorty wet suit featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003cli\u003e3 mm thick\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible shorty wet suit featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003cli\u003e3 mm thick\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$139.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d77314\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$139.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "281900_1_43",
+            "selected": true
+          }
+        ],
+        "img": "281900_1_42",
+        "attr_arry": [
+          {
+            "key": "96913",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "96914",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "139.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1281718",
+            "id": "281900",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78100",
+        "pos": 22,
+        "name": "Superstretch Titanium Seamless Gloves",
+        "seoName": "superstretch-titanium-seamless-gloves",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible gloves featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like sea kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSeamless design prevents chafing\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible gloves featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like sea kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSeamless design prevents chafing\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$45\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "8",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78100\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$45\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "282617_1_43",
+            "selected": true
+          }
+        ],
+        "img": "282617_1_42",
+        "attr_arry": [
+          {
+            "key": "97806",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "97807",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "45.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1290105",
+            "id": "282617",
+            "name": "",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "77295",
+        "pos": 23,
+        "name": "Men\u0027s Superstretch Titanium Paddling Jacket",
+        "seoName": "men-s-superstretch-titanium-paddling-jacket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible wet suit jacket featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like kayaking, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible wet suit jacket featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvides excellent range of motion for activities like kayaking, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$109.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "2.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d77295\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$109.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "281902_1_43",
+            "selected": true
+          }
+        ],
+        "img": "281902_1_42",
+        "attr_arry": [
+          {
+            "key": "96953",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "96954",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "109.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1281856",
+            "id": "281902",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87674",
+        "pos": 24,
+        "name": "Men\u0027s O\u0027Neill Heat 4/3 Wet Suit",
+        "seoName": "men-s-o-neill-heat-4-3-wet-suit",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eComfortable wet suit featuring UltraFlex DS neoprene that is lightweight, superwarm and has 30\u0026#37; more flex than standard neoprene\u003c/li\u003e \u003cli\u003eFour mm neoprene thickness over your core for maximum warmth; 3 mm for legs and arms for freedom of movement\u003c/li\u003e \u003cli\u003eUltraFlex Firewall insulation over chest wicks moisture and increases warmth\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eComfortable wet suit featuring UltraFlex DS neoprene that is lightweight, superwarm and has 30\u0026#37; more flex than standard neoprene\u003c/li\u003e \u003cli\u003eFour mm neoprene thickness over your core for maximum warmth; 3 mm for legs and arms for freedom of movement\u003c/li\u003e \u003cli\u003eUltraFlex Firewall insulation over chest wicks moisture and increases warmth\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$284.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87674\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$284.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "294752_1_43",
+            "selected": true
+          }
+        ],
+        "img": "294752_1_42",
+        "attr_arry": [
+          {
+            "key": "112561",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112562",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "284.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1463390",
+            "id": "294752",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "77294",
+        "pos": 25,
+        "name": "Men\u0027s Superstretch Titanium Shorts",
+        "seoName": "men-s-superstretch-titanium-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible wet suit shorts featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvide excellent range of motion for activities like kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eToasty warm, highly flexible wet suit shorts featuring state-of-the-art titanium technology\u003c/li\u003e \u003cli\u003eProvide excellent range of motion for activities like kayaking, swimming, stand-up paddleboarding and surfing\u003c/li\u003e \u003cli\u003eSealed, blind-stitched seams prevent chafing\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$69.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "7",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d77294\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$69.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "281903_1_43",
+            "selected": true
+          }
+        ],
+        "img": "281903_1_42",
+        "attr_arry": [
+          {
+            "key": "96956",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "96955",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "69.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1281861",
+            "id": "281903",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "88132",
+        "pos": 26,
+        "name": "Camaro Titanium Hood, 4 mm",
+        "seoName": "camaro-titanium-hood-4-mm",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eSuperwarm hood made from stretchy SCS Titanium open cell neoprene\u003c/li\u003e \u003cli\u003eV-shaped collar fits snugly under wet suits\u003c/li\u003e \u003cli\u003eIntegrated ventilation system for when things warm up\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eSuperwarm hood made from stretchy SCS Titanium open cell neoprene\u003c/li\u003e \u003cli\u003eV-shaped collar fits snugly under wet suits\u003c/li\u003e \u003cli\u003eIntegrated ventilation system for when things warm up\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d88132\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "295697_1_43",
+            "selected": true
+          }
+        ],
+        "img": "295697_1_42",
+        "attr_arry": [
+          {
+            "key": "113424",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "115576",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1471178",
+            "id": "295697",
+            "name": "",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      }
+    ],
+    "serialVersionUID": 0,
+    "canonicalURL": "http://www.llbean.com/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d511548\u0026page\u003dmens-swimwear",
+    "pageParam": "mens-swimwear",
+    "rrPageIds": "58527,36415,37360,36414,72774,82214,87385,78788,82213,87384,82367,87828,78791,87700,78104",
+    "partialResult": false
+  }
+]
