@@ -119,12 +119,11 @@
     display: inline-block;
     background: url("../img/arrowSide.png") no-repeat 0 -150px;
     text-decoration: none;
-    width: 110px;
+    width: 97px;
     height: 26px;
     padding-left: 8px;
     text-align: left;
     line-height: 26px;
     color: #FF6200;
     font-size: 14px;
-
 }
