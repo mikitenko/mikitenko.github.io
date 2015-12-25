@@ -99,6 +99,7 @@
         },
         addEvent: function (node, event, fn) {
             event = event.split(',');
+
             for (var i = 0; i < event.length; i++) {
                 if (node.addEventListener) {
                     node.addEventListener(event[i], fn, false);
@@ -167,7 +168,13 @@
         },
         renderProduct: function (event) {
             var isTarger = function (event, string) {
-                return this.hasClass(event.target, string) && event.path.indexOf(document.querySelector(this.container)) != -1;
+                var pathEvent = [],
+                    parent = event.target;
+                while (parent) {
+                    pathEvent.push(parent);
+                    parent = parent.parentNode;
+                }
+                return this.hasClass(event.target, string) && pathEvent.indexOf(document.querySelector(this.container)) != -1;
             };
 
             var product, description, mainImage;
