@@ -1,7 +1,6 @@
 var app = angular.module('GalleryApp', ['ngRoute']);
 
 app.config(function ($routeProvider) {
-    debugger;
     $routeProvider
         .when('/', {
             controller: "HomeController",
