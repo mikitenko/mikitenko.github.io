@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        div.main-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        div.main-container div.item {
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+
+        div.main-container .item .side-image,
+        div.main-container .item .side-description {
+            float: left;
+        }
+
+        div.main-container .item .side-image {
+            width: 30%;
+        }
+
+        div.main-container .item .side-image .main-image {
+            width: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            display: block;
+            border: none;
+            margin-bottom: 15px;
+        }
+
+        a.call-button {
+            display: block;
+            background: #FF6600;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            min-height: 40px;
+        }
+
+        div.main-container .item .side-description {
+            width: 65%;
+            padding-left: 5%;
+        }
+
+        div.main-container .item .side-description .header-description {
+            overflow: hidden;
+            margin-bottom: 10px;
+            color: #404040;
+        }
+
+        div.main-container .item .side-description .header-description span.name {
+            float: left;
+            font-size: 40px;
+        }
+
+        div.main-container .item .side-description .header-description span.price {
+            float: right;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        div.main-container .courses,
+        div.main-container .about {
+            overflow: hidden;
+            margin-bottom: 10px;
+            color: #404040;
+        }
+
+        div.main-container .courses span,
+        div.main-container .about span {
+            font-size: 24px;
+            line-height: 24px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        div.main-container .courses ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.main-container .courses ul li {
+            display: inline-block;
+            padding: 0 5px;
+            line-height: 20px;
+            margin: 4px 0 0 0;
+        }
+
+        div.main-container .about p {
+            margin: 0;
+            font-size: 20px;
+            line-height: 24px;
+            font-style: italic;
+        }
+
+        div.experience ul {
+            list-style: none;
+            margin: 0;
+            padding: 5px;
+            background: #1B3E82;
+            color: white;
+            font-weight: bold;
+        }
+
+        div.experience ul li {
+            display: inline-block;
+            border-left: 2px solid white;
+            text-align: center;
+            width: 32%;
+        }
+
+        div.experience ul li:first-child {
+            display: inline-block;
+            border-left: none;
+        }
+
+        audio {
+            margin-bottom: 15px;
+        }
+
+        .green {
+            background: #046A39;
+            color: white;
+        }
+
+        .yellow {
+            background: #FEC60F;
+            color: #404040;
+        }
+
+        .red {
+            background: #C52C26;
+            color: white;
+        }
+
+        .blue {
+            background: #1B3E82;
+            color: white;
+        }
+
+        @media (max-width: 570px) {
+            div.main-container {
+                margin: 0 10px;
+            }
+
+            div.main-container .item .side-image {
+                width: 100%;
+            }
+
+            div.main-container .item .side-description {
+                width: 100%;
+                padding-left: 0;
+            }
+        }
+
+        @media (max-width: 415px) {
+            div.main-container .item .side-description .header-description span.name,
+            div.main-container .item .side-description .header-description span.price {
+                width: 100%;
+                text-align: center;
+            }
+
+            div.experience ul li {
+                width: 100%;
+                border-left: none;
+                border-top: 2px solid white;
+            }
+
+            div.experience ul li:first-child {
+                border-top: none;
+            }
+        }
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+<div class="main-container">
+    <div class="item">
+        <div class="side-image">
+            <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
+            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+        </div>
+        <div class="side-description">
+            <div class="header-description">
+                <span class="name">Михаил</span>
+                <span class="price">от 600 р.</span>
+            </div>
+            <div class="courses">
+                <span>Курсы:</span>
+                <ul>
+                    <li class="green">общий</li>
+                    <li class="yellow">разговорный</li>
+                    <li class="red">ПМЖ</li>
+                    <li class="blue">бизнес</li>
+                </ul>
+            </div>
+            <div class="about">
+                <span>О себе:</span>
+
+                <p>Репетитор по немецкому языку.
+                    Образование: Российский государственный университет им. И. Канта (РГУ), юридический факультет,
+                    специальность – юрист (2002 г.); Литературный институт им. Горького, специальность – литературное
+                    мастерство, проза (2009 г.).
+                    Курс обучения в университете Германии (юридический).
+                    Стажировка в адвокатском бюро (Берлин).
+                    Опыт репетиторства – с 2010 года.
+                </p>
+            </div>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="experience">
+                <ul>
+                    <li>Опыт: 10 лет</li>
+                    <li>Skype: 7 лет</li>
+                    <li>Уроков: 985</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="item">
+        <div class="side-image">
+            <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
+            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+        </div>
+        <div class="side-description">
+            <div class="header-description">
+                <span class="name">Михаил</span>
+                <span class="price">от 600 р.</span>
+            </div>
+            <div class="courses">
+                <span>Курсы:</span>
+                <ul>
+                    <li class="green">общий</li>
+                    <li class="yellow">разговорный</li>
+                    <li class="red">ПМЖ</li>
+                    <li class="blue">бизнес</li>
+                </ul>
+            </div>
+            <div class="about">
+                <span>О себе:</span>
+
+                <p>Репетитор по немецкому языку.
+                    Образование: Российский государственный университет им. И. Канта (РГУ), юридический факультет,
+                    специальность – юрист (2002 г.); Литературный институт им. Горького, специальность – литературное
+                    мастерство, проза (2009 г.).
+                    Курс обучения в университете Германии (юридический).
+                    Стажировка в адвокатском бюро (Берлин).
+                    Опыт репетиторства – с 2010 года.
+                </p>
+            </div>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="experience">
+                <ul>
+                    <li>Опыт: 10 лет</li>
+                    <li>Skype: 7 лет</li>
+                    <li>Уроков: 985</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="side-image">
+            <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
+            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+        </div>
+        <div class="side-description">
+            <div class="header-description">
+                <span class="name">Михаил</span>
+                <span class="price">от 600 р.</span>
+            </div>
+            <div class="courses">
+                <span>Курсы:</span>
+                <ul>
+                    <li class="green">общий</li>
+                    <li class="yellow">разговорный</li>
+                    <li class="red">ПМЖ</li>
+                    <li class="blue">бизнес</li>
+                </ul>
+            </div>
+            <div class="about">
+                <span>О себе:</span>
+
+                <p>Репетитор по немецкому языку.
+                    Образование: Российский государственный университет им. И. Канта (РГУ), юридический факультет,
+                    специальность – юрист (2002 г.); Литературный институт им. Горького, специальность – литературное
+                    мастерство, проза (2009 г.).
+                    Курс обучения в университете Германии (юридический).
+                    Стажировка в адвокатском бюро (Берлин).
+                    Опыт репетиторства – с 2010 года.
+                </p>
+            </div>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="experience">
+                <ul>
+                    <li>Опыт: 10 лет</li>
+                    <li>Skype: 7 лет</li>
+                    <li>Уроков: 985</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
