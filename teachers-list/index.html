@@ -159,7 +159,7 @@
             padding: 0;
             display: inline-block;
             float: right;
-            overflow: hidden; 
+            overflow: hidden;
         }
 
         .pagination li,
@@ -169,7 +169,7 @@
 
         .pagination li {
             float: left;
-            border: 1px solid #404040;
+            border: 1px solid #1B3E82;
             color: #999;
             margin-left: 5px;
             margin-bottom: 5px;
@@ -211,6 +211,62 @@
 
         .last a:after {
             content: " »";
+        }
+
+        .modalDialog {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 99999;
+            opacity: 0;
+            -webkit-transition: opacity 400ms ease-in;
+            -moz-transition: opacity 400ms ease-in;
+            transition: opacity 400ms ease-in;
+            pointer-events: none;
+        }
+
+        .modalDialog:target {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modalDialog > div {
+            width: 400px;
+            position: relative;
+            margin: 10% auto;
+            padding: 5px 20px 13px 20px;
+            border-radius: 10px;
+            background: #fff;
+            background: -moz-linear-gradient(#fff, #999);
+            background: -webkit-linear-gradient(#fff, #999);
+            background: -o-linear-gradient(#fff, #999);
+        }
+
+        .close {
+            background: #606061;
+            color: #FFFFFF;
+            line-height: 25px;
+            position: absolute;
+            right: -12px;
+            text-align: center;
+            top: -10px;
+            width: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            -moz-box-shadow: 1px 1px 3px #000;
+            -webkit-box-shadow: 1px 1px 3px #000;
+            box-shadow: 1px 1px 3px #000;
+        }
+
+        .close:hover {
+            background: #00d9ff;
         }
 
         @media (max-width: 570px) {
@@ -255,7 +311,7 @@
     <div class="item">
         <div class="side-image">
             <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
-            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+            <a href="#openModal" class="call-button" title="связаться">связаться</a>
         </div>
         <div class="side-description">
             <div class="header-description">
@@ -304,7 +360,7 @@
     <div class="item">
         <div class="side-image">
             <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
-            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+            <a href="#openModal" class="call-button" title="связаться">связаться</a>
         </div>
         <div class="side-description">
             <div class="header-description">
@@ -353,7 +409,7 @@
     <div class="item">
         <div class="side-image">
             <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
-            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+            <a href="#openModal" class="call-button" title="связаться">связаться</a>
         </div>
         <div class="side-description">
             <div class="header-description">
@@ -409,6 +465,15 @@
         <li><a href=#>6</a></li>
         <li class=last><a href=#></a></li>
     </ol>
+
+
+    <div id="openModal" class="modalDialog">
+        <div>	<a href="#close" title="Close" class="close">X</a>
+
+            <h2>EXAMPLE</h2>
+
+        </div>
+    </div>
 </div>
 
 </body>
