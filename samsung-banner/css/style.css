@@ -1,0 +1,244 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.main-container {
+    width: 968px;
+    height: 248px;
+    border: 1px solid #000000;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/loading.jpg") 0 0 no-repeat;
+}
+
+.image,
+.logo,
+.description,
+.draginfo,
+.close-ad,
+.buy-now {
+    display: inline-block;
+    position: absolute;
+}
+
+.image {
+    width: 515px;
+    height: 220px;
+    bottom: -220px;
+    right: 180px;
+    background: url("../images/phone_sprite.png") 0 0 no-repeat;
+}
+
+.show .image {
+    bottom: 15px;
+    -webkit-transition: bottom 0.7s ease-out 0s;
+    -moz-transition: bottom 0.7s ease-out 0s;
+    -o-transition: bottom 0.7s ease-out 0s;
+    transition: bottom 0.7s ease-out 0s;
+}
+
+.logo {
+    width: 260px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: url("../images/logo.png") 0 0 no-repeat;
+}
+
+.description {
+    opacity: 0;
+    width: 240px;
+    height: 108px;
+    bottom: 0;
+    left: 20px;
+    background: url("../images/description.png") 0 0 no-repeat;
+}
+
+.show .description {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-out 0s;
+    -moz-transition: opacity 1s ease-out 0s;
+    -o-transition: opacity 1s ease-out 0s;
+    transition: opacity 1s ease-out 0s;
+
+}
+
+.draginfo {
+    opacity: 0;
+    width: 101px;
+    height: 9px;
+    top: 30px;
+    right: 36px;
+    background: url("../images/dragtext.png") 0 0 no-repeat;
+}
+
+.show .draginfo {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+}
+
+.close-ad {
+    width: 72px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    background: url("../images/close_black.png") 100% 0 no-repeat;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.buy-now {
+    opacity: 0;
+    width: 101px;
+    height: 30px;
+    bottom: 22px;
+    right: 35px;
+    background: url("../images/cta.png") 0 0 no-repeat;
+}
+
+.show .buy-now {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-out 1s;
+    -moz-transition: opacity 1s ease-out 1s;
+    -o-transition: opacity 1s ease-out 1s;
+    transition: opacity 1s ease-out 1s;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    position: absolute;
+    bottom: -200px;
+    right: 80px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    cursor: move;
+}
+
+.show input[type=range] {
+    bottom: 50%;
+    -webkit-transition: bottom 0.7s ease-out 0.2s;
+    -moz-transition: bottom 0.7s ease-out 0.2s;
+    -o-transition: bottom 0.7s ease-out 0.2s;
+    transition: bottom 0.7s ease-out 0.2s;
+}
+
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    border-radius: 10px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #000;
+    -webkit-appearance: none;
+    margin-top: -10px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    border-radius: 10px;
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #000;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 1px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 10px 0;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+input[type=range]::-ms-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #000;
+}
+
+input[type=range]::-ms-tooltip {
+    display: none;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #ccc;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+}
+
