@@ -1,39 +1,3 @@
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 .main-container {
     width: 968px;
     height: 248px;
@@ -48,7 +12,8 @@
 .description,
 .draginfo,
 .close-ad,
-.buy-now {
+.buy-now,
+.fade-aria{
     display: inline-block;
     position: absolute;
 }
@@ -93,6 +58,24 @@
     -o-transition: opacity 1s ease-out 0s;
     transition: opacity 1s ease-out 0s;
 
+}
+
+.fade-aria {
+    opacity: 1;
+    width: 240px;
+    height: 108px;
+    bottom: 0;
+    left: 20px;
+}
+
+.fade.fade-aria {
+    opacity: 0;
+    background: white;
+    z-index: 5;
+    -webkit-transition: opacity 0.5s ease-out 0s;
+    -moz-transition: opacity 0.5s ease-out 0s;
+    -o-transition: opacity 0.5s ease-out 0s;
+    transition: opacity 0.5s ease-out 0s;
 }
 
 .draginfo {
