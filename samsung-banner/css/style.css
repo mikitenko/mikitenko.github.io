@@ -13,7 +13,7 @@
 .draginfo,
 .close-ad,
 .buy-now,
-.fade-aria{
+.fade-aria {
     display: inline-block;
     position: absolute;
 }
@@ -148,9 +148,23 @@ input[type=range] {
     transition: bottom 0.7s ease-out 0.2s;
 }
 
-.flash{
+.flash {
     display: block;
     opacity: 1;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 83px;
+    left: 372px;
+    margin-left: -350px;
+    margin-top: -350px;
+    background: url("../images/flash.png") center no-repeat;
+    background-size: 0;
+}
+
+.flash {
+    opacity: 1;
+    display: block;
     position: absolute;
     width: 500px;
     height: 500px;
@@ -159,21 +173,19 @@ input[type=range] {
     margin-left: -250px;
     margin-top: -250px;
     background: url("../images/flash.png") center no-repeat;
-    background-size: 1%;
+    background-size: 0;
 }
 
-.flash:hover {
-    opacity: 0;
+.light.flash {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     transform: rotate(360deg);
-    background-size:100%;
-    transition:all 0.5s ;
-    -webkit-transition:all 0.5s ;
-    -o-transition:all 0.5s ;
-    -moz-transition:all 0.5s ;
+    background-size: 100%;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
 }
-
 
 input[type=range]:focus {
     outline: none;
