@@ -38,7 +38,7 @@ var adB = {
         else if (window.attachEvent) window.attachEvent('onload', handler);
     },
 
-    fadeDescription: function (node) {
+    fade: function (node) {
         this.addClass(node, 'fade');
         setTimeout(function () {
             adB.removeClass(node, 'fade');
@@ -81,25 +81,25 @@ adB.domReady(function () {
 
             if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 4) {
                 if (DESCRIPTION_STAT == 0) return;
-                adB.fadeDescription(fadeAria);
+                adB.fade(fadeAria);
 
                 descriptionContainer.style.backgroundPositionY = 0;
                 DESCRIPTION_STAT = 0;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 2.25) {
                 if (DESCRIPTION_STAT == 1) return;
-                adB.fadeDescription(fadeAria);
+                adB.fade(fadeAria);
 
                 descriptionContainer.style.backgroundPositionY = -1 * DESCRIPTION_H + 'px';
                 DESCRIPTION_STAT = 1;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 1.25) {
                 if (DESCRIPTION_STAT == 2) return;
-                adB.fadeDescription(fadeAria);
+                adB.fade(fadeAria);
 
                 descriptionContainer.style.backgroundPositionY = -2 * DESCRIPTION_H + 'px';
                 DESCRIPTION_STAT = 2;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I) {
                 if (DESCRIPTION_STAT == 3) return;
-                adB.fadeDescription(fadeAria);
+                adB.fade(fadeAria);
 
                 descriptionContainer.style.backgroundPositionY = -3 * DESCRIPTION_H + 'px';
                 DESCRIPTION_STAT = 3;
