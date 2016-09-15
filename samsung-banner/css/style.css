@@ -148,6 +148,32 @@ input[type=range] {
     transition: bottom 0.7s ease-out 0.2s;
 }
 
+.flash{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 83px;
+    left: 372px;
+    margin-left: -250px;
+    margin-top: -250px;
+    background: url("../images/flash.png") center no-repeat;
+    background-size: 1%;
+}
+
+.flash:hover {
+    opacity: 0;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-size:100%;
+    transition:all 0.5s ;
+    -webkit-transition:all 0.5s ;
+    -o-transition:all 0.5s ;
+    -moz-transition:all 0.5s ;
+}
+
 
 input[type=range]:focus {
     outline: none;

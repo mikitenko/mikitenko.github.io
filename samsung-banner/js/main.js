@@ -38,11 +38,11 @@ var adB = {
         else if (window.attachEvent) window.attachEvent('onload', handler);
     },
 
-    fade: function (node) {
+    fade: function (node, delay) {
         this.addClass(node, 'fade');
         setTimeout(function () {
             adB.removeClass(node, 'fade');
-        }, 300);
+        }, delay);
     }
 
 };
@@ -62,13 +62,14 @@ adB.domReady(function () {
         rangeInput = adB.node('input[type=range]'),
         mainImage = adB.node('.image'),
         descriptionContainer = adB.node('.description'),
-        fadeAria = adB.node('.fade-aria');
+        descriptionFadeAria = adB.node('.fade-aria');
 
 
     var MAIN_IMAGE_H = 221,
         MAIN_IMAGE_MAX_I = 59,
         DESCRIPTION_H = 108,
-        DESCRIPTION_STAT = 0;
+        DESCRIPTION_STATE = 0,
+        DESCRIPTION_FADE_DELAY = 300;
 
 
     adB.imageOnload(images, function (data) {
@@ -80,29 +81,29 @@ adB.domReady(function () {
             mainImage.style.backgroundPosition = '0px ' + (-Number(event.target.value) * MAIN_IMAGE_H + 'px');
 
             if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 4) {
-                if (DESCRIPTION_STAT == 0) return;
-                adB.fade(fadeAria);
+                if (DESCRIPTION_STATE == 0) return;
+                adB.fade(descriptionFadeAria, DESCRIPTION_FADE_DELAY);
 
                 descriptionContainer.style.backgroundPosition = '0px 0px';
-                DESCRIPTION_STAT = 0;
+                DESCRIPTION_STATE = 0;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 2.25) {
-                if (DESCRIPTION_STAT == 1) return;
-                adB.fade(fadeAria);
+                if (DESCRIPTION_STATE == 1) return;
+                adB.fade(descriptionFadeAria, DESCRIPTION_FADE_DELAY);
 
                 descriptionContainer.style.backgroundPosition = '0px ' + (-1 * DESCRIPTION_H + 'px');
-                DESCRIPTION_STAT = 1;
+                DESCRIPTION_STATE = 1;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 1.25) {
-                if (DESCRIPTION_STAT == 2) return;
-                adB.fade(fadeAria);
+                if (DESCRIPTION_STATE == 2) return;
+                adB.fade(descriptionFadeAria, DESCRIPTION_FADE_DELAY);
 
                 descriptionContainer.style.backgroundPosition = '0px ' + (-2 * DESCRIPTION_H + 'px');
-                DESCRIPTION_STAT = 2;
+                DESCRIPTION_STATE = 2;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I) {
-                if (DESCRIPTION_STAT == 3) return;
-                adB.fade(fadeAria);
+                if (DESCRIPTION_STATE == 3) return;
+                adB.fade(descriptionFadeAria, DESCRIPTION_FADE_DELAY);
 
                 descriptionContainer.style.backgroundPosition = '0px ' + (-3 * DESCRIPTION_H + 'px');
-                DESCRIPTION_STAT = 3;
+                DESCRIPTION_STATE = 3;
             }
 
         }, false);
