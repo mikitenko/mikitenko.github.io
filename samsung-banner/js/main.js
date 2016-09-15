@@ -48,9 +48,8 @@ var images = [
 ];
 
 
-
-adB.domReady(function () {
-    adB.imageOnload(images, function (data) {
+adB.imageOnload(images, function (data) {
+    adB.domReady(function () {
         adB.addClass('.main-container', 'show');
     });
 });
