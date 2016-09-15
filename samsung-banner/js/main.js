@@ -42,7 +42,7 @@ var adB = {
         this.addClass(node, 'fade');
         setTimeout(function () {
             adB.removeClass(node, 'fade');
-        }, 500);
+        }, 300);
     }
 
 };
