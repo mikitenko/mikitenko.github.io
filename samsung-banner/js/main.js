@@ -42,7 +42,7 @@ var adB = {
         this.addClass(node, 'fade');
         setTimeout(function () {
             adB.removeClass(node, 'fade');
-        }, 200);
+        }, 500);
     }
 
 };
@@ -77,31 +77,31 @@ adB.domReady(function () {
 
         rangeInput.addEventListener('mousemove', function (event) {
 
-            mainImage.style.backgroundPositionY = -Number(event.target.value) * MAIN_IMAGE_H + 'px';
+            mainImage.style.backgroundPosition = '0px ' + (-Number(event.target.value) * MAIN_IMAGE_H + 'px');
 
             if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 4) {
                 if (DESCRIPTION_STAT == 0) return;
                 adB.fade(fadeAria);
 
-                descriptionContainer.style.backgroundPositionY = 0;
+                descriptionContainer.style.backgroundPosition = '0px 0px';
                 DESCRIPTION_STAT = 0;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 2.25) {
                 if (DESCRIPTION_STAT == 1) return;
                 adB.fade(fadeAria);
 
-                descriptionContainer.style.backgroundPositionY = -1 * DESCRIPTION_H + 'px';
+                descriptionContainer.style.backgroundPosition = '0px ' + (-1 * DESCRIPTION_H + 'px');
                 DESCRIPTION_STAT = 1;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 1.25) {
                 if (DESCRIPTION_STAT == 2) return;
                 adB.fade(fadeAria);
 
-                descriptionContainer.style.backgroundPositionY = -2 * DESCRIPTION_H + 'px';
+                descriptionContainer.style.backgroundPosition = '0px ' + (-2 * DESCRIPTION_H + 'px');
                 DESCRIPTION_STAT = 2;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I) {
                 if (DESCRIPTION_STAT == 3) return;
                 adB.fade(fadeAria);
 
-                descriptionContainer.style.backgroundPositionY = -3 * DESCRIPTION_H + 'px';
+                descriptionContainer.style.backgroundPosition = '0px ' + (-3 * DESCRIPTION_H + 'px');
                 DESCRIPTION_STAT = 3;
             }
 
