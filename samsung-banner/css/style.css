@@ -95,7 +95,7 @@
 }
 
 .fade.image-fade-aria .card-highlight {
-    animation: cardHighlight 0.7s ease 2;
+    animation: cardHighlight 0.7s ease 2s 2;
 }
 
 .logo {
