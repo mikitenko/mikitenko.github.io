@@ -1,9 +1,9 @@
 @keyframes cardHighlight {
     from {
-        background: url("../images/card_highlight.png") -200px 0 no-repeat;
+        background-position: -200px 0;
     }
     to {
-        background: url("../images/card_highlight.png") 100px 0 no-repeat;
+        background-position: 100px 0;
     }
 }
 
@@ -24,7 +24,8 @@
 .buy-now,
 .description-fade-aria,
 .image-fade-aria,
-.internals-frame {
+.internals-frame,
+.ytb-video {
     display: inline-block;
     position: absolute;
 }
@@ -34,6 +35,7 @@
     height: 220px;
     bottom: -220px;
     right: 180px;
+    z-index: 1;
     background: url("../images/phone_sprite.png") 0 0 no-repeat;
 }
 
@@ -45,7 +47,20 @@
     transition: bottom 0.7s ease-out 0s;
 }
 
+.ytb-video {
+    display: none;
+}
+
+.ytb-video.play {
+    display: block;
+    width: 363px;
+    height: 198px;
+    top: 14px;
+    left: 77px;
+}
+
 .image-fade-aria {
+    z-index: 0;
     opacity: 0;
     width: 515px;
     height: 220px;
@@ -56,7 +71,7 @@
 
 .fade.image-fade-aria {
     opacity: 1;
-    z-index: 1;
+    z-index: 2;
     -webkit-transition: opacity 0.7s ease-out 0s;
     -moz-transition: opacity 0.7s ease-out 0s;
     -o-transition: opacity 0.7s ease-out 0s;
@@ -69,7 +84,7 @@
     bottom: 36px;
     left: 78px;
     overflow: hidden;
-    z-index: 2;
+    z-index: 3;
 }
 
 .internals-frame-img {
@@ -77,24 +92,28 @@
     top: -1px;
     width: 56px;
     height: 47px;
-    z-index: 2;
+    z-index: 3;
     background: url("../images/internals_frame.png") 0 0 no-repeat;
 }
 
 .card-highlight {
     position: relative;
-    width: 70px;
-    height: 70px;
-    top: -15px;
-    left: -2px;
+    width: 55px;
+    height: 60px;
+    top: -5px;
+    left: 0;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
     -webkit-transform: rotate(300deg);
     -moz-transform: rotate(300deg);
     transform: rotate(300deg);
+    background: url("../images/card_highlight.png") -200px 0 no-repeat;
 }
 
 .fade.image-fade-aria .card-highlight {
+    -webkit-animation: cardHighlight 0.7s ease 2s 2;
+    -moz-animation: cardHighlight 0.7s ease 2s 2;
+    -o-animation: cardHighlight 0.7s ease 2s 2;
     animation: cardHighlight 0.7s ease 2s 2;
 }
 
@@ -191,6 +210,7 @@
 }
 
 .flash {
+    z-index: 2;
     opacity: 1;
     display: block;
     position: absolute;

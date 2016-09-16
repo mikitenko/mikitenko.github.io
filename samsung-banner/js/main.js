@@ -34,8 +34,11 @@ var adB = {
 
     domReady: function (handler) {
         if (document && document.readyState === 'complete') return handler();
-        if (window.addEventListener) window.addEventListener('DOMContentLoaded', handler, false);
-        else if (window.attachEvent) window.attachEvent('onload', handler);
+        if (window.addEventListener) {
+            window.addEventListener('DOMContentLoaded', handler, false);
+        } else if (window.attachEvent) {
+            window.attachEvent('onload', handler);
+        }
     },
 
     toggleClass: function (node, name, delay) {
@@ -62,7 +65,8 @@ adB.domReady(function () {
         descriptionContainer = adB.node('.description'),
         descriptionFadeAria = adB.node('.description-fade-aria'),
         imageFadeAria = adB.node('.image-fade-aria'),
-        flashAria = adB.node('.flash');
+        flashAria = adB.node('.flash'),
+        youtubeVideo = adB.node('.ytb-video');
 
     var descriptionState = 0;
 
@@ -80,7 +84,13 @@ adB.domReady(function () {
         rangeInput.addEventListener('mousemove', function (event) {
             if (Number(event.target.value) == FLASH_LIGHT_NUM) adB.toggleClass(flashAria, 'light', FLASH_LIGHT_DELAY);
 
-            if (Number(event.target.value) == MAIN_IMAGE_MAX_I){
+            if (Number(event.target.value) == 0) {
+                adB.addClass(youtubeVideo, 'play')
+            } else {
+                adB.removeClass(youtubeVideo, 'play');
+            }
+
+            if (Number(event.target.value) == MAIN_IMAGE_MAX_I) {
                 adB.addClass(imageFadeAria, 'fade');
                 imageFadeAria.style.backgroundPosition = '0px ' + (-Number(event.target.value) * MAIN_IMAGE_H + 'px');
             } else {
