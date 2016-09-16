@@ -1,3 +1,12 @@
+@keyframes cardHighlight {
+    from {
+        background: url("../images/card_highlight.png") -200px 0 no-repeat;
+    }
+    to {
+        background: url("../images/card_highlight.png") 100px 0 no-repeat;
+    }
+}
+
 .main-container {
     width: 968px;
     height: 248px;
@@ -13,7 +22,9 @@
 .draginfo,
 .close-ad,
 .buy-now,
-.fade-aria {
+.description-fade-aria,
+.image-fade-aria,
+.internals-frame {
     display: inline-block;
     position: absolute;
 }
@@ -32,6 +43,59 @@
     -moz-transition: bottom 0.7s ease-out 0s;
     -o-transition: bottom 0.7s ease-out 0s;
     transition: bottom 0.7s ease-out 0s;
+}
+
+.image-fade-aria {
+    opacity: 0;
+    width: 515px;
+    height: 220px;
+    bottom: 15px;
+    right: 180px;
+    background: url("../images/phone_sprite.png") 0 0 no-repeat white;
+}
+
+.fade.image-fade-aria {
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: opacity 0.7s ease-out 0s;
+    -moz-transition: opacity 0.7s ease-out 0s;
+    -o-transition: opacity 0.7s ease-out 0s;
+    transition: opacity 0.7s ease-out 0s;
+}
+
+.internals-frame {
+    width: 56px;
+    height: 46px;
+    bottom: 36px;
+    left: 78px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.internals-frame-img {
+    position: absolute;
+    top: -1px;
+    width: 56px;
+    height: 47px;
+    z-index: 2;
+    background: url("../images/internals_frame.png") 0 0 no-repeat;
+}
+
+.card-highlight {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: -15px;
+    left: -2px;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transform: rotate(300deg);
+    -moz-transform: rotate(300deg);
+    transform: rotate(300deg);
+}
+
+.fade.image-fade-aria .card-highlight {
+    animation: cardHighlight 0.7s ease 2;
 }
 
 .logo {
@@ -60,7 +124,7 @@
 
 }
 
-.fade-aria {
+.description-fade-aria {
     opacity: 1;
     width: 240px;
     height: 108px;
@@ -68,7 +132,7 @@
     left: 20px;
 }
 
-.fade.fade-aria {
+.fade.description-fade-aria {
     opacity: 0;
     background: white;
     z-index: 5;
@@ -126,42 +190,6 @@
     transition: opacity 1s ease-out 1s;
 }
 
-input[type=range] {
-    -webkit-appearance: none;
-    position: absolute;
-    bottom: -200px;
-    right: 80px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
-    cursor: move;
-}
-
-.show input[type=range] {
-    bottom: 50%;
-    -webkit-transition: bottom 0.7s ease-out 0.2s;
-    -moz-transition: bottom 0.7s ease-out 0.2s;
-    -o-transition: bottom 0.7s ease-out 0.2s;
-    transition: bottom 0.7s ease-out 0.2s;
-}
-
-.flash {
-    display: block;
-    opacity: 1;
-    position: absolute;
-    width: 700px;
-    height: 700px;
-    top: 83px;
-    left: 372px;
-    margin-left: -350px;
-    margin-top: -350px;
-    background: url("../images/flash.png") center no-repeat;
-    background-size: 0;
-}
-
 .flash {
     opacity: 1;
     display: block;
@@ -185,6 +213,30 @@ input[type=range] {
     -webkit-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
+}
+
+input[type=range] {
+    z-index: 2;
+    -webkit-appearance: none;
+    position: absolute;
+    bottom: -200px;
+    right: 80px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    cursor: move;
+}
+
+.show input[type=range] {
+
+    bottom: 50%;
+    -webkit-transition: bottom 0.7s ease-out 0.2s;
+    -moz-transition: bottom 0.7s ease-out 0.2s;
+    -o-transition: bottom 0.7s ease-out 0.2s;
+    transition: bottom 0.7s ease-out 0.2s;
 }
 
 input[type=range]:focus {

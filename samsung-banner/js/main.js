@@ -48,10 +48,7 @@ var adB = {
 
 };
 
-
 adB.domReady(function () {
-
-
     var images = [
         '/samsung-banner/images/phone_sprite.png',
         '/samsung-banner/images/description.png',
@@ -63,7 +60,8 @@ adB.domReady(function () {
         rangeInput = adB.node('input[type=range]'),
         mainImage = adB.node('.image'),
         descriptionContainer = adB.node('.description'),
-        descriptionFadeAria = adB.node('.fade-aria'),
+        descriptionFadeAria = adB.node('.description-fade-aria'),
+        imageFadeAria = adB.node('.image-fade-aria'),
         flashAria = adB.node('.flash');
 
     var descriptionState = 0;
@@ -75,44 +73,42 @@ adB.domReady(function () {
         FLASH_LIGHT_NUM = 29,
         FLASH_LIGHT_DELAY = 500;
 
-
     adB.imageOnload(images, function (data) {
 
         adB.addClass(mainContainer, 'show');
 
         rangeInput.addEventListener('mousemove', function (event) {
-
-            mainImage.style.backgroundPosition = '0px ' + (-Number(event.target.value) * MAIN_IMAGE_H + 'px');
-
             if (Number(event.target.value) == FLASH_LIGHT_NUM) adB.toggleClass(flashAria, 'light', FLASH_LIGHT_DELAY);
+
+            if (Number(event.target.value) == MAIN_IMAGE_MAX_I){
+                adB.addClass(imageFadeAria, 'fade');
+                imageFadeAria.style.backgroundPosition = '0px ' + (-Number(event.target.value) * MAIN_IMAGE_H + 'px');
+            } else {
+                adB.removeClass(imageFadeAria, 'fade');
+                mainImage.style.backgroundPosition = '0px ' + (-Number(event.target.value) * MAIN_IMAGE_H + 'px');
+            }
 
             if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 4) {
                 if (descriptionState == 0) return;
                 adB.toggleClass(descriptionFadeAria, 'fade', DESCRIPTION_FADE_DELAY);
-
                 descriptionContainer.style.backgroundPosition = '0px 0px';
                 descriptionState = 0;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 2.25) {
                 if (descriptionState == 1) return;
                 adB.toggleClass(descriptionFadeAria, 'fade', DESCRIPTION_FADE_DELAY);
-
                 descriptionContainer.style.backgroundPosition = '0px ' + (-1 * DESCRIPTION_H + 'px');
                 descriptionState = 1;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I / 1.25) {
                 if (descriptionState == 2) return;
                 adB.toggleClass(descriptionFadeAria, 'fade', DESCRIPTION_FADE_DELAY);
-
                 descriptionContainer.style.backgroundPosition = '0px ' + (-2 * DESCRIPTION_H + 'px');
                 descriptionState = 2;
             } else if (Number(event.target.value) < MAIN_IMAGE_MAX_I) {
                 if (descriptionState == 3) return;
                 adB.toggleClass(descriptionFadeAria, 'fade', DESCRIPTION_FADE_DELAY);
-
                 descriptionContainer.style.backgroundPosition = '0px ' + (-3 * DESCRIPTION_H + 'px');
                 descriptionState = 3;
             }
-
         }, false);
-
     });
 });
