@@ -47,8 +47,29 @@ var adB = {
         setTimeout(function () {
             adB.removeClass(node, name);
         }, delay);
-    }
+    },
 
+    loadYTPlayer: (function () {
+        var tag = document.createElement('script'),
+            firstScriptTag = document.getElementsByTagName('script')[0];
+
+        tag.src = "https://www.youtube.com/player_api";
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        window.onYouTubePlayerAPIReady = function () {
+            adB.player = new YT.Player('ytplayer', {
+                height: '100%',
+                width: '100%',
+                videoId: '9xKR8Vcjias',
+                playerVars: {
+                    autoplay: 1,
+                    loop: 1,
+                    rel: 0,
+                    showinfo: 0
+                }
+            });
+        };
+    })()
 };
 
 adB.domReady(function () {
@@ -84,9 +105,11 @@ adB.domReady(function () {
             if (Number(event.target.value) == FLASH_LIGHT_NUM) adB.toggleClass(flashAria, 'light', FLASH_LIGHT_DELAY);
 
             if (Number(event.target.value) == 0) {
-                adB.addClass(mainImage, 'play')
+                adB.addClass(mainImage, 'play');
+                adB.player.playVideo();
             } else {
                 adB.removeClass(mainImage, 'play');
+                adB.player.pauseVideo();
             }
 
             if (Number(event.target.value) == MAIN_IMAGE_MAX_I) {
