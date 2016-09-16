@@ -25,7 +25,8 @@
 .description-fade-aria,
 .image-fade-aria,
 .internals-frame,
-.ytb-video {
+.ytb-video,
+.ytb-highlight{
     display: inline-block;
     position: absolute;
 }
@@ -47,11 +48,22 @@
     transition: bottom 0.7s ease-out 0s;
 }
 
-.ytb-video {
+.ytb-video,
+.ytb-highlight {
     display: none;
 }
 
-.ytb-video.play {
+.play .ytb-highlight {
+    display: block;
+    width: 363px;
+    height: 15px;
+    bottom: 7px;
+    left: 77px;
+    z-index: 1;
+    background: url("../images/highlights.png") 0 0 no-repeat;
+}
+
+.play .ytb-video {
     display: block;
     width: 363px;
     height: 198px;
@@ -210,7 +222,7 @@
 }
 
 .flash {
-    z-index: 2;
+    z-index: 0;
     opacity: 1;
     display: block;
     position: absolute;
@@ -225,6 +237,7 @@
 }
 
 .light.flash {
+    z-index: 2;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     transform: rotate(360deg);

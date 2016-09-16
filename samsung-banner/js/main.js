@@ -65,8 +65,7 @@ adB.domReady(function () {
         descriptionContainer = adB.node('.description'),
         descriptionFadeAria = adB.node('.description-fade-aria'),
         imageFadeAria = adB.node('.image-fade-aria'),
-        flashAria = adB.node('.flash'),
-        youtubeVideo = adB.node('.ytb-video');
+        flashAria = adB.node('.flash');
 
     var descriptionState = 0;
 
@@ -85,9 +84,9 @@ adB.domReady(function () {
             if (Number(event.target.value) == FLASH_LIGHT_NUM) adB.toggleClass(flashAria, 'light', FLASH_LIGHT_DELAY);
 
             if (Number(event.target.value) == 0) {
-                adB.addClass(youtubeVideo, 'play')
+                adB.addClass(mainImage, 'play')
             } else {
-                adB.removeClass(youtubeVideo, 'play');
+                adB.removeClass(mainImage, 'play');
             }
 
             if (Number(event.target.value) == MAIN_IMAGE_MAX_I) {
