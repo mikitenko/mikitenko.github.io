@@ -64,7 +64,7 @@ var SamsungBanner = function () {
         return this;
     };
 
-    this.decriptionChange = function (e, maxIndex, descriptHeight, delay) {
+    this.decriptChange = function (e, maxIndex, descriptHeight, delay) {
         if (Number(e.target.value) < maxIndex / 4) {
             if (this.descriptState == 0) return this;
             this.toggleClass(this.descriptFadeAria, 'fade', delay);
@@ -192,7 +192,7 @@ sB.loadYTPlayer(function () {
         sB.addClass(sB.mainContainer, 'show');
         sB.rangeInput.addEventListener('mousemove', function (event) {
             sB.mainImageChange(event, MAIN_IMAGE_MAX_I, MAIN_IMAGE_H)
-                .decriptionChange(event, MAIN_IMAGE_MAX_I, DESCRIPT_H, DESCRIPT_FADE_DELAY)
+                .decriptChange(event, MAIN_IMAGE_MAX_I, DESCRIPT_H, DESCRIPT_FADE_DELAY)
                 .blinkFlashAria(event, FLASH_LIGHT_STATE, FLASH_LIGHT_DELAY)
                 .ytbPlayerControl(event, YOUTUBE_PLAYER_STATE)
                 .rainControl(event, RAIN_START_POS, RAIN_STOP_POS);
