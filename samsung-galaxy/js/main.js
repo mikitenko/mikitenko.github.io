@@ -169,10 +169,10 @@ var SamsungBanner = function () {
 
 
 var images = [
-    '/galaxy-s7/images/phone_sprite.png',
-    '/galaxy-s7/images/description.png',
-    '/galaxy-s7/images/dragtext.png',
-    '/galaxy-s7/images/cta.png'
+    '/samsung-galaxy/images/phone_sprite.png',
+    '/samsung-galaxy/images/description.png',
+    '/samsung-galaxy/images/dragtext.png',
+    '/samsung-galaxy/images/cta.png'
 ];
 
 var MAIN_IMAGE_H = 221,
