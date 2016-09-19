@@ -121,6 +121,7 @@ var SamsungBanner = function () {
         var self = this;
         this.dropRainState = true;
         this.addClass(this.raindropAria, 'drop');
+
         this.dropInterval = setInterval(function () {
             var drop = document.createElement('div');
             drop.className = 'raindrop' + String((Math.round(Math.random() * 3)) + 1);
@@ -148,8 +149,6 @@ var SamsungBanner = function () {
 
     this.loadYTPlayer = function (fn) {
         var self = this;
-
-
         window.onYouTubePlayerAPIReady = function () {
             self.player = new YT.Player('ytplayer', {
                 height: '100%',
