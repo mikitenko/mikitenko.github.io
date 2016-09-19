@@ -7,6 +7,21 @@
     }
 }
 
+@keyframes rainDrop {
+    0% {
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        margin-left: -25px;
+    }
+}
+
+@keyframes rainMove {
+    100% {
+        top: 110%;
+    }
+}
+
 .main-container {
     width: 968px;
     height: 248px;
@@ -19,6 +34,7 @@
 .image,
 .logo,
 .description,
+.raindrop-aria,
 .draginfo,
 .close-ad,
 .buy-now,
@@ -26,7 +42,11 @@
 .image-fade-aria,
 .internals-frame,
 .ytb-video,
-.ytb-highlight{
+.ytb-highlight,
+.raindrop1,
+.raindrop2,
+.raindrop3,
+.raindrop4 {
     display: inline-block;
     position: absolute;
 }
@@ -46,6 +66,50 @@
     -moz-transition: bottom 0.7s ease-out 0s;
     -o-transition: bottom 0.7s ease-out 0s;
     transition: bottom 0.7s ease-out 0s;
+}
+
+.raindrop-aria {
+    width: 515px;
+    height: 220px;
+    bottom: 15px;
+    right: 180px;
+    z-index: 1;
+}
+
+.raindrop-aria.drop {
+    z-index: 2;
+}
+
+.raindrop-aria div[class*="raindrop"] {
+    background-size: 100% 100%;
+    -webkit-animation: rainDrop 0.2s ease 0s 1 none, rainMove 1s ease-in 0.5s 1 forwards;
+    -moz-animation: rainDrop 0.2s ease 0s 1 none, rainMove 1s ease-in 0.5s 1 forwards;
+    -o-animation: rainDrop 0.2s ease 0s 1 none, rainMove 1s ease-in 0.5s 1 forwards;
+    animation: rainDrop 0.2s ease 0s 1 none, rainMove 1s ease-in 0.5s 1 forwards;
+}
+
+.raindrop1 {
+    width: 29px;
+    height: 27px;
+    background: url("../images/raindrop_1.png") no-repeat;
+}
+
+.raindrop2 {
+    width: 15px;
+    height: 23px;
+    background: url("../images/raindrop_2.png") no-repeat;
+}
+
+.raindrop3 {
+    width: 19px;
+    height: 19px;
+    background: url("../images/raindrop_3.png") no-repeat;
+}
+
+.raindrop4 {
+    width: 15px;
+    height: 23px;
+    background: url("../images/raindrop_4.png") no-repeat;
 }
 
 .ytb-video,
