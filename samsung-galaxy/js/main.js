@@ -1,6 +1,25 @@
+/**
+ *
+ * @constructor
+ */
 var SamsungBanner = function () {
+
+    /**
+     * Main image position
+     * @type {number}
+     */
     this.descriptState = 0;
+
+    /**
+     * State drop rain
+     * @type {boolean}
+     */
     this.dropRainState = false;
+
+    /**
+     * Elements
+     * @type {Element}
+     */
     this.mainContainer = document.querySelector('.main-container');
     this.rangeInput = document.querySelector('input[type=range]');
     this.mainImage = document.querySelector('.image');
@@ -10,10 +29,22 @@ var SamsungBanner = function () {
     this.imageFadeAria = document.querySelector('.image-fade-aria');
     this.raindropAria = document.querySelector('.raindrop-aria');
 
+    /**
+     * Check item class
+     * @param node
+     * @param className
+     * @returns {boolean}
+     */
     this.hasClass = function (node, className) {
         return new RegExp("(?:^|\\s+)" + className + "(?:\\s+|$)").test(node.className);
     };
 
+    /**
+     * Adding a class to element
+     * @param node
+     * @param className
+     * @returns {SamsungBanner}
+     */
     this.addClass = function (node, className) {
         if (!this.hasClass(node, className)) {
             node.className = node.className ? [node.className, className].join(' ') : className;
@@ -21,6 +52,12 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Removing a class of element
+     * @param node
+     * @param className
+     * @returns {SamsungBanner}
+     */
     this.removeClass = function (node, className) {
         if (this.hasClass(node, className)) {
             var c = node.className;
@@ -29,6 +66,12 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Preload array of images
+     * @param arr
+     * @param fn
+     * @returns fn result
+     */
     this.imageOnload = function (arr, fn) {
         var preloadedImages = [];
 
@@ -42,7 +85,12 @@ var SamsungBanner = function () {
         }
     };
 
-
+    /**
+     * Toggle class using delay
+     * @param node
+     * @param className
+     * @param delay
+     */
     this.toggleClass = function (node, className, delay) {
         var self = this,
             name = className;
@@ -53,6 +101,13 @@ var SamsungBanner = function () {
         }, delay);
     };
 
+    /**
+     * Changes main image
+     * @param e
+     * @param maxIndex
+     * @param imageHeight
+     * @returns {SamsungBanner}
+     */
     this.mainImageChange = function (e, maxIndex, imageHeight) {
         if (Number(e.target.value) == maxIndex) {
             this.addClass(this.imageFadeAria, 'fade');
@@ -64,6 +119,14 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Changes description aria
+     * @param e
+     * @param maxIndex
+     * @param descriptHeight
+     * @param delay
+     * @returns {SamsungBanner}
+     */
     this.decriptChange = function (e, maxIndex, descriptHeight, delay) {
         if (Number(e.target.value) < maxIndex / 4) {
             if (this.descriptState == 0) return this;
@@ -89,6 +152,13 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Flash launches
+     * @param e
+     * @param state
+     * @param delay
+     * @returns {SamsungBanner}
+     */
     this.blinkFlashAria = function (e, state, delay) {
         if (Number(e.target.value) == state) {
             this.toggleClass(this.flashAria, 'light', delay);
@@ -96,6 +166,12 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Youtube video control
+     * @param e
+     * @param state
+     * @returns {SamsungBanner}
+     */
     this.ytbPlayerControl = function (e, state) {
         if (Number(e.target.value) == state) {
             this.addClass(this.mainImage, 'play');
@@ -107,6 +183,13 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Rain control
+     * @param e
+     * @param start
+     * @param stop
+     * @returns {SamsungBanner}
+     */
     this.rainControl = function (e, start, stop) {
         if (Number(e.target.value) >= start && Number(e.target.value) <= stop) {
             if (this.dropRainState) return this;
@@ -117,6 +200,10 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Start rain
+     * @returns {SamsungBanner}
+     */
     this.startRain = function () {
         var self = this;
         this.dropRainState = true;
@@ -137,6 +224,10 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Stop rain
+     * @returns {SamsungBanner}
+     */
     this.stopRain = function () {
         clearInterval(this.dropInterval);
         this.dropRainState = false;
@@ -147,6 +238,11 @@ var SamsungBanner = function () {
         return this;
     };
 
+    /**
+     * Youtube video load
+     * @param fn
+     * @returns fn result
+     */
     this.loadYTPlayer = function (fn) {
         var self = this;
         window.onYouTubePlayerAPIReady = function () {
@@ -175,6 +271,7 @@ var images = [
     '/samsung-galaxy/images/cta.png'
 ];
 
+
 var MAIN_IMAGE_H = 221,
     MAIN_IMAGE_MAX_I = 59,
     DESCRIPT_H = 108,
@@ -185,7 +282,8 @@ var MAIN_IMAGE_H = 221,
     RAIN_STOP_POS = 25,
     YOUTUBE_PLAYER_STATE = 0;
 
-window.sB = new SamsungBanner();
+
+var sB = new SamsungBanner();
 sB.loadYTPlayer(function () {
     sB.imageOnload(images, function (data) {
         sB.addClass(sB.mainContainer, 'show');
