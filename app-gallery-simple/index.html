@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" />
+
+
+    <script src="js/shared/angular.min.js"></script>
+    <script src="js/shared/angular-route.min.js"></script>
+</head>
+<body ng-app="GalleryApp">
+
+<div class="header">
+    <div class="container">
+        <a href="./#">
+           LOGO
+        </a>
+    </div>
+</div>
+
+<div ng-view></div>
+
+<!-- Modules -->
+<script src="js/app.js"></script>
+
+<!-- Controllers -->
+<script src="js/controllers/HomeController.js"></script>
+<script src="js/controllers/PhotoController.js"></script>
+
+<!-- Services -->
+<script src="js/services/photos.js"></script>
+
+</body>
+</html>

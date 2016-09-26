@@ -1,0 +1,5514 @@
+[
+  {
+    "apiHeader": {
+      "status": "success",
+      "response": {
+        "code": "200",
+        "msg": "",
+        "to": ""
+      }
+    },
+    "prof": {
+      "semaResponse": 148,
+      "ecomProcessing": 82,
+      "jsonConversion": 0,
+      "totalCategoryProcessing": 38,
+      "filterNotRequiredCategory": 36,
+      "processHeaderCheck": 0,
+      "filterProcessing": 0,
+      "productProcessing": 35,
+      "processBreadCrumb": 0,
+      "processRefineOps": 0
+    },
+    "isEcm": false,
+    "cgyLevelIndex": "3",
+    "limit": "200",
+    "resultTask": "http://ecsolrp03.llbean.com:8080/solr/product/select?fq\u003dall_cats%3A908+\u0026mm\u003d2%3C-1+7%3C-10%25\u0026qf\u003dpage_id_searchable%5E10+all_cats%5E10+title%5E1.4+cat_keywords%5E1.4+title_synonyms%5E1.3+tokenized_categories%5E1.3+keywords%5E1.3+cat_keywords_synonyms%5E1.3+tokenized_categories_synonyms%5E1.2+keywords_synonyms%5E1.2+attr_lvl_1%5E1.0+attr_lvl_1_synonyms%5E1.0+short_desc%5E1.0+short_desc_synonyms%5E1.0+sku_color_names%5E1.0\u0026pf2\u003dtitle%5E1.5+cat_keywords%5E1.5+title_synonyms%5E1.4+tokenized_categories%5E1.4+keywords%5E1.4+cat_keywords_synonyms%5E1.4+tokenized_categories_synonyms%5E1.3+keywords_synonyms%5E1.3+attr_lvl_1%5E1.1+attr_lvl_1_synonyms%5E1.1+short_desc%5E1.1+short_desc_synonyms%5E1.1+sku_color_names%5E1.2\u0026pf3\u003dtitle%5E1.5+cat_keywords%5E1.5+title_synonyms%5E1.4+tokenized_categories%5E1.4+keywords%5E1.4+cat_keywords_synonyms%5E1.4+tokenized_categories_synonyms%5E1.3+keywords_synonyms%5E1.3+attr_lvl_1%5E1.1+attr_lvl_1_synonyms%5E1.1+short_desc%5E1.1+short_desc_synonyms%5E1.1+sku_color_names%5E1.2\u0026q\u003d*%3A*\u0026facet\u003dtrue\u0026facet.mincount\u003d1\u0026facet.field\u003drefine_attr_COLLECT\u0026facet.field\u003drefine_attr_INSM_LNGTH\u0026facet.field\u003drefine_attr_FIT\u0026facet.field\u003drefine_attr_FRNT_STYL\u0026facet.field\u003drefine_attr_WST_STYL\u0026facet.field\u003drefine_attr_FTRS\u0026facet.field\u003drefine_attr_ACTVTY\u0026facet.field\u003drefine_attr_MATERIAL\u0026facet.field\u003drefine_attr_PTTRN\u0026facet.field\u003drefine_attr_BRAND\u0026facet.field\u003d%7B%21ex%3Ddt%7Dcat_hierarchies\u0026bf\u003dsum%280.05%2Cproduct%280.95%2Csum%28product%28100.0%2Cfield%28srch_attr_revenue_log10%29%29%29%29%29\u0026qt\u003d%2Fllsearch\u0026facet.sort\u003dindex\u0026facet.limit\u003d-1\u0026rows\u003d48\u0026start\u003d0",
+    "semaURL": "http://ecsolrp-slave-blue/SearchManager/searchManagerServlet?categoryId\u003d908\u0026subrnd\u003d0\u0026childCatIds\u003d511549~506777\u0026num\u003d48\u0026SS\u003dA\u0026LLBVAT\u003dVISITOR_ID:9:false:true:3:17:0:true:9:4:0:9:0:0:0:0:0:-1:0:0:-1:-1:1433840400000:1433769926444:75\u0026wt\u003dhtml\u0026si\u003dtrue",
+    "gnajax": "/llb/gnajax/2",
+    "gnshop": "/llb/shop/2",
+    "gnsearch": "/llb/search/2",
+    "gnlander": "/llb/lander/2",
+    "moe": "S3",
+    "startPage": 0,
+    "endPage": 0,
+    "currentPage": 1,
+    "totalPages": 0,
+    "productsPerPage": 48,
+    "pageStartPosition": 1,
+    "pageFoundSize": 59,
+    "socDsplFlg": false,
+    "categoryId": "908",
+    "genTS": "150609-06:07:09",
+    "thumbnailType": 0,
+    "pageType": 1,
+    "viewType": "fourUp",
+    "crt": "",
+    "gnLevel": "GN1",
+    "gnFeat": "908-GN1",
+    "gnThumbType": 0,
+    "gnSortField": "Relevance",
+    "gnRefine": "",
+    "gnPosition": 0,
+    "gnBreadcrumb": "^26*Men\u0027s^908*Shorts",
+    "gnAttr": "",
+    "gnFreeText": "",
+    "metricPath": "Men\u0027s:Shorts:",
+    "metricDeptName": "Men\u0027s",
+    "metricDeptId": 26,
+    "metricSubDeptName": "Shorts",
+    "metricSubDeptId": 908,
+    "metricSub2DeptName": "",
+    "metricSub2DeptId": -1,
+    "metricSub3DeptName": "",
+    "metricSub3DeptId": -1,
+    "subrnd": "0",
+    "secondaryPageCount": 0,
+    "alternateSearch": "",
+    "pageTitle": "Men\u0027s Shorts and Swim | Free Shipping at L.L.Bean",
+    "breadcrumb": "\u003ca href\u003dhttp://www.llbean.com\u003eL.L.Bean\u003c/a\u003e\u003cspan\u003e\u0026gt;\u003c/span\u003e\u003ca display\u003d\u0027guidednav.jsp\u0027 href\u003d\u0027/llb/shop/26\u0027\u003eMen\u0027s\u003c/a\u003e\u003cspan\u003e\u0026gt;\u003c/span\u003e\u003cspan class\u003d\u0027final-breadcrumb\u0027\u003eShorts\u003c/span\u003e",
+    "header": "Men\u0027s Shorts\u003cspan class\u003d\u0027qty\u0027\u003e(59)\u003c/span\u003e",
+    "seoPageInfo": {
+      "titleMetaCustHtml": [],
+      "seoCopyCustHtml": [],
+      "browserTitle": "\u003ctitle\u003eMen\u0027s Shorts and Swim | Free Shipping at L.L.Bean\u003c/title\u003e",
+      "header1": "Men\u0027s Shorts",
+      "metaDescription": "\u003cmeta name\u003d\"description\" content\u003d\"Free Shipping at L.L.Bean. Shop L.L.Bean for Men\u0027s shorts and swimwear for  all your summer outfitting needs. \" /\u003e",
+      "metaKeywords": "\u003cmeta name\u003d\"keywords\" content\u003d\"Men\u0027s shorts, cargo shorts, dress shorts, men\u0027s swim shorts, men\u0027s swimwear, bathing suits\" /\u003e",
+      "keywordPrefix": "Shorts, Men\u0027s"
+    },
+    "sortOptions": [
+      {
+        "name": "Recommended",
+        "value": "Relevance",
+        "selected": true,
+        "title": "Sort by Recommended"
+      },
+      {
+        "name": "Price",
+        "value": "Price (Ascending)",
+        "selected": false,
+        "title": "Sort by Price (lowest to highest)"
+      },
+      {
+        "name": "Price",
+        "value": "Price (Descending)",
+        "selected": false,
+        "title": "Sort by Price (highest to lowest)"
+      },
+      {
+        "name": "Bestselling",
+        "value": "Num_Of_Orders",
+        "selected": false,
+        "title": "Sort by Bestselling"
+      },
+      {
+        "name": "Newest",
+        "value": "SRCH_ATTR_RECENCY (Descending)",
+        "selected": false,
+        "title": "Sort by Newest"
+      },
+      {
+        "name": "Customer Rating",
+        "value": "Grade (Descending)",
+        "selected": false,
+        "title": "Sort by Customer Rating"
+      },
+      {
+        "name": "A-Z",
+        "value": "Name (Ascending)",
+        "selected": false,
+        "title": "Sort by A-Z"
+      }
+    ],
+    "viewOptions": [
+      "fourUp",
+      "groupView"
+    ],
+    "viewTemplates": [
+      {
+        "view": "fourUp",
+        "id": 0,
+        "spriteName": "fourUp_link",
+        "desc": "Grid (medium images)",
+        "pubFlg": true,
+        "selected": true,
+        "prodPerPage": 48,
+        "sequence": 1
+      },
+      {
+        "view": "groupView",
+        "id": 10,
+        "spriteName": "group_link",
+        "desc": "Categories",
+        "pubFlg": true,
+        "selected": false,
+        "prodPerPage": 8,
+        "sequence": 5
+      }
+    ],
+    "refineOpts": [
+      {
+        "name": "Collection",
+        "value": "COLLECT",
+        "refineVals": [
+          {
+            "name": "Allagash",
+            "count": 2,
+            "value": "Allagash",
+            "selected": false,
+            "parm": "1*COLLECT*Allagash"
+          },
+          {
+            "name": "Double L Chinos",
+            "count": 12,
+            "value": "Double L Chinos",
+            "selected": false,
+            "parm": "1*COLLECT*Double L Chinos"
+          },
+          {
+            "name": "Pathfinder",
+            "count": 2,
+            "value": "Pathfinder",
+            "selected": false,
+            "parm": "1*COLLECT*Pathfinder"
+          },
+          {
+            "name": "Signature",
+            "count": 2,
+            "value": "Signature",
+            "selected": false,
+            "parm": "1*COLLECT*Signature"
+          },
+          {
+            "name": "Tropic-Weight",
+            "count": 4,
+            "value": "Tropic-Weight",
+            "selected": false,
+            "parm": "1*COLLECT*Tropic-Weight"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Inseam Length",
+        "value": "INSM_LNGTH",
+        "refineVals": [
+          {
+            "name": "6 in.",
+            "count": 9,
+            "value": "6 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*6 in."
+          },
+          {
+            "name": "7 in.",
+            "count": 2,
+            "value": "7 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*7 in."
+          },
+          {
+            "name": "8 in.",
+            "count": 7,
+            "value": "8 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*8 in."
+          },
+          {
+            "name": "9 in.",
+            "count": 11,
+            "value": "9 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*9 in."
+          },
+          {
+            "name": "10 in.",
+            "count": 9,
+            "value": "10 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*10 in."
+          },
+          {
+            "name": "11 in.",
+            "count": 1,
+            "value": "11 in.",
+            "selected": false,
+            "parm": "1*INSM_LNGTH*11 in."
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Fit",
+        "value": "FIT",
+        "refineVals": [
+          {
+            "name": "Classic",
+            "count": 8,
+            "value": "Classic",
+            "selected": false,
+            "parm": "1*FIT*Classic"
+          },
+          {
+            "name": "Comfort",
+            "count": 8,
+            "value": "Comfort",
+            "selected": false,
+            "parm": "1*FIT*Comfort"
+          },
+          {
+            "name": "Natural",
+            "count": 9,
+            "value": "Natural",
+            "selected": false,
+            "parm": "1*FIT*Natural"
+          },
+          {
+            "name": "Relaxed",
+            "count": 1,
+            "value": "Relaxed",
+            "selected": false,
+            "parm": "1*FIT*Relaxed"
+          },
+          {
+            "name": "Slim/Straight",
+            "count": 1,
+            "value": "Slim/Straight",
+            "selected": false,
+            "parm": "1*FIT*Slim/Straight"
+          },
+          {
+            "name": "Standard",
+            "count": 15,
+            "value": "Standard",
+            "selected": false,
+            "parm": "1*FIT*Standard"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Front Style",
+        "value": "FRNT_STYL",
+        "refineVals": [
+          {
+            "name": "Plain Front",
+            "count": 31,
+            "value": "Plain Front",
+            "selected": false,
+            "parm": "1*FRNT_STYL*Plain Front"
+          },
+          {
+            "name": "Pleated Front",
+            "count": 6,
+            "value": "Pleated Front",
+            "selected": false,
+            "parm": "1*FRNT_STYL*Pleated Front"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Waist Style",
+        "value": "WST_STYL",
+        "refineVals": [
+          {
+            "name": "Comfort",
+            "count": 6,
+            "value": "Comfort",
+            "selected": false,
+            "parm": "1*WST_STYL*Comfort"
+          },
+          {
+            "name": "Hidden Comfort",
+            "count": 4,
+            "value": "Hidden Comfort",
+            "selected": false,
+            "parm": "1*WST_STYL*Hidden Comfort"
+          },
+          {
+            "name": "Regular",
+            "count": 24,
+            "value": "Regular",
+            "selected": false,
+            "parm": "1*WST_STYL*Regular"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Features",
+        "value": "FTRS",
+        "refineVals": [
+          {
+            "name": "Breathable",
+            "count": 2,
+            "value": "Breathable",
+            "selected": false,
+            "parm": "1*FTRS*Breathable"
+          },
+          {
+            "name": "Moisture-Wicking",
+            "count": 7,
+            "value": "Moisture-Wicking",
+            "selected": false,
+            "parm": "1*FTRS*Moisture-Wicking"
+          },
+          {
+            "name": "Quick-Dry",
+            "count": 10,
+            "value": "Quick-Dry",
+            "selected": false,
+            "parm": "1*FTRS*Quick-Dry"
+          },
+          {
+            "name": "Shrink-Resistant",
+            "count": 13,
+            "value": "Shrink-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Shrink-Resistant"
+          },
+          {
+            "name": "Stain-Resistant",
+            "count": 12,
+            "value": "Stain-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Stain-Resistant"
+          },
+          {
+            "name": "Stretch",
+            "count": 4,
+            "value": "Stretch",
+            "selected": false,
+            "parm": "1*FTRS*Stretch"
+          },
+          {
+            "name": "UV-Protective",
+            "count": 12,
+            "value": "UV-Protective",
+            "selected": false,
+            "parm": "1*FTRS*UV-Protective"
+          },
+          {
+            "name": "Water-Repellent",
+            "count": 1,
+            "value": "Water-Repellent",
+            "selected": false,
+            "parm": "1*FTRS*Water-Repellent"
+          },
+          {
+            "name": "Wrinkle-Free",
+            "count": 12,
+            "value": "Wrinkle-Free",
+            "selected": false,
+            "parm": "1*FTRS*Wrinkle-Free"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Activity/End Use",
+        "value": "ACTVTY",
+        "refineVals": [
+          {
+            "name": "Cycling",
+            "count": 12,
+            "value": "Cycling",
+            "selected": false,
+            "parm": "1*ACTVTY*Cycling"
+          },
+          {
+            "name": "Fishing",
+            "count": 5,
+            "value": "Fishing",
+            "selected": false,
+            "parm": "1*ACTVTY*Fishing"
+          },
+          {
+            "name": "Fitness",
+            "count": 3,
+            "value": "Fitness",
+            "selected": false,
+            "parm": "1*ACTVTY*Fitness"
+          },
+          {
+            "name": "Hiking",
+            "count": 9,
+            "value": "Hiking",
+            "selected": false,
+            "parm": "1*ACTVTY*Hiking"
+          },
+          {
+            "name": "Paddling",
+            "count": 10,
+            "value": "Paddling",
+            "selected": false,
+            "parm": "1*ACTVTY*Paddling"
+          },
+          {
+            "name": "Running",
+            "count": 2,
+            "value": "Running",
+            "selected": false,
+            "parm": "1*ACTVTY*Running"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Fabric",
+        "value": "MATERIAL",
+        "refineVals": [
+          {
+            "name": "Canvas",
+            "count": 2,
+            "value": "Canvas",
+            "selected": false,
+            "parm": "1*MATERIAL*Canvas"
+          },
+          {
+            "name": "Cotton",
+            "count": 28,
+            "value": "Cotton",
+            "selected": false,
+            "parm": "1*MATERIAL*Cotton"
+          },
+          {
+            "name": "Cotton Blend",
+            "count": 1,
+            "value": "Cotton Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Cotton Blend"
+          },
+          {
+            "name": "Linen",
+            "count": 1,
+            "value": "Linen",
+            "selected": false,
+            "parm": "1*MATERIAL*Linen"
+          },
+          {
+            "name": "Madras",
+            "count": 1,
+            "value": "Madras",
+            "selected": false,
+            "parm": "1*MATERIAL*Madras"
+          },
+          {
+            "name": "Nylon",
+            "count": 5,
+            "value": "Nylon",
+            "selected": false,
+            "parm": "1*MATERIAL*Nylon"
+          },
+          {
+            "name": "Nylon Blend",
+            "count": 3,
+            "value": "Nylon Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Nylon Blend"
+          },
+          {
+            "name": "Polyester",
+            "count": 1,
+            "value": "Polyester",
+            "selected": false,
+            "parm": "1*MATERIAL*Polyester"
+          },
+          {
+            "name": "Polyester Blend",
+            "count": 1,
+            "value": "Polyester Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Polyester Blend"
+          },
+          {
+            "name": "Ripstop",
+            "count": 3,
+            "value": "Ripstop",
+            "selected": false,
+            "parm": "1*MATERIAL*Ripstop"
+          },
+          {
+            "name": "Seersucker",
+            "count": 1,
+            "value": "Seersucker",
+            "selected": false,
+            "parm": "1*MATERIAL*Seersucker"
+          },
+          {
+            "name": "Supplex",
+            "count": 2,
+            "value": "Supplex",
+            "selected": false,
+            "parm": "1*MATERIAL*Supplex"
+          },
+          {
+            "name": "Synthetic",
+            "count": 14,
+            "value": "Synthetic",
+            "selected": false,
+            "parm": "1*MATERIAL*Synthetic"
+          },
+          {
+            "name": "Twill",
+            "count": 14,
+            "value": "Twill",
+            "selected": false,
+            "parm": "1*MATERIAL*Twill"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Pattern",
+        "value": "PTTRN",
+        "refineVals": [
+          {
+            "name": "Plaid",
+            "count": 3,
+            "value": "Plaid",
+            "selected": false,
+            "parm": "1*PTTRN*Plaid"
+          },
+          {
+            "name": "Print",
+            "count": 1,
+            "value": "Print",
+            "selected": false,
+            "parm": "1*PTTRN*Print"
+          },
+          {
+            "name": "Solid",
+            "count": 33,
+            "value": "Solid",
+            "selected": false,
+            "parm": "1*PTTRN*Solid"
+          },
+          {
+            "name": "Stripe",
+            "count": 2,
+            "value": "Stripe",
+            "selected": false,
+            "parm": "1*PTTRN*Stripe"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Brand",
+        "value": "BRAND",
+        "refineVals": [
+          {
+            "name": "L.L.Bean",
+            "count": 44,
+            "value": "L.L.Bean",
+            "selected": false,
+            "parm": "1*BRAND*L.L.Bean"
+          },
+          {
+            "name": "Canari",
+            "count": 3,
+            "value": "Canari",
+            "selected": false,
+            "parm": "1*BRAND*Canari"
+          },
+          {
+            "name": "NRS",
+            "count": 1,
+            "value": "NRS",
+            "selected": false,
+            "parm": "1*BRAND*NRS"
+          },
+          {
+            "name": "Pearl Izumi",
+            "count": 3,
+            "value": "Pearl Izumi",
+            "selected": false,
+            "parm": "1*BRAND*Pearl Izumi"
+          },
+          {
+            "name": "Sugoi",
+            "count": 1,
+            "value": "Sugoi",
+            "selected": false,
+            "parm": "1*BRAND*Sugoi"
+          },
+          {
+            "name": "Under Armour",
+            "count": 1,
+            "value": "Under Armour",
+            "selected": false,
+            "parm": "1*BRAND*Under Armour"
+          },
+          {
+            "name": "Zoic",
+            "count": 3,
+            "value": "Zoic",
+            "selected": false,
+            "parm": "1*BRAND*Zoic"
+          }
+        ],
+        "selected": false
+      }
+    ],
+    "topBanners": [
+      {
+        "bannerHtml": "\u003cimg src\u003d\"/dept_resources/mens/promo_images/140627_MensShortsFit_slice.jpg\" alt\u003d\"Men\u0027s Shorts. SHOP BY FIT.\" height\u003d\"200\" width\u003d\"775\" usemap\u003d\"#mensShorts\"\u003e\r\n\u003cmap name\u003d\"mensShorts\" id\u003d\"mensShorts\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/908?gnrefine\u003d1*FIT*Standard%5E\u0026nav\u003dbnr1a-908\" title\u003d\"Standard: Sits slightly below natural waist and has straight legs\" coords\u003d\"1, 30, 187, 199\" shape\u003d\"rect\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/908?gnrefine\u003d1*FIT*Classic%5E\u0026nav\u003dbnr2a-908\" title\u003d\"Classic: Sits at natural waist, straight through the hips and thighs\" coords\u003d\"188, 30, 383, 199\" shape\u003d\"rect\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/908?gnrefine\u003d1*FIT*Natural%5E\u0026nav\u003dbnr3a-908\" title\u003d\"Natural: Sits at natural waist, relaxed through the hips and thighs\" coords\u003d\"383, 30, 583, 198\" shape\u003d\"rect\"\u003e\r\n\t\u003carea href\u003d\"/llb/shop/908?gnrefine\u003d1*FIT*Comfort%5E\u0026nav\u003dbnr4a-908\" title\u003d\"Comfort: Elastic at the waist for all-day comfort\" coords\u003d\"583, 31, 774, 199\" shape\u003d\"rect\"\u003e\r\n\u003c/map\u003e"
+      }
+    ],
+    "bottomBanners": [
+      {
+        "bannerHtml": "\u003ch2\u003eMen\u0027s Shorts and Swimwear. \u003c/h2\u003eShop L.L.Bean for Men\u0027s shorts and swim shorts with lasting style and comfort. From comfortable, easygoing Men\u0027s cargo shorts that become instant weekend favorites to dress shorts that look crisp all day at the office, we\u0027ve got Men\u0027s shorts for every day of the week. When the weather heats up, our Men\u0027s swim shorts and Men\u0027s swimwear are the perfect basics for a day at the beach. Our Men\u0027s bathing suits are available in a variety of styles to fit your needs this summer. L.L.Bean Men\u0027s shorts and swimwear are made to fit your style and your budget. Men\u0027s swimwear is always shipped free and guaranteed to last."
+      }
+    ],
+    "sideBanners": [
+      {
+        "pos": "11",
+        "viewType": "fourUp",
+        "bannerHtml": "\r\n\u003ca href\u003d\"#\" class\u003d\"fsTriggerS2013\" title\u003d\"Details\"\u003e\u003cimg src\u003d\"/dept_resources/shared/promo_images/141226_FS_THUMB4.png\" height\u003d\"375\" width\u003d\"190\" alt\u003d\"Free Shipping. No minimum order. No end date.\"\u003e\u003c/a\u003e "
+      }
+    ],
+    "dept": [
+      {
+        "level": 0,
+        "name": "Men\u0027s",
+        "categoryId": 26,
+        "categoryIdParent": 2,
+        "count": 1134,
+        "href": "",
+        "display": "wcmdepartment.jsp",
+        "skipLevel": 0,
+        "miniThumbImg": "",
+        "navexp": 0,
+        "leftNavExpandFlg": 0,
+        "pagePathVisible": 0,
+        "localNavVisible": 1,
+        "groupedDisplay": 0,
+        "maxRowsInGrp": 0,
+        "refineOptToShow": 0,
+        "sortAttrBy": 0,
+        "maxAttrVals": 0,
+        "sortAttrValsBy": 0,
+        "sortNestedAttrValsBy": 0,
+        "socDsplFlg": 0,
+        "tmplViewId": 0,
+        "topnavColumn": 0,
+        "topnavSequence": 0,
+        "selected": true,
+        "bannerg1": "",
+        "bannergu": [],
+        "bannergd": [],
+        "bannerg2": [],
+        "dept": [
+          {
+            "level": 1,
+            "name": "Shorts",
+            "categoryId": 908,
+            "categoryIdParent": 26,
+            "count": 59,
+            "href": "",
+            "display": "guidednav.jsp",
+            "skipLevel": 0,
+            "miniThumbImg": "http://cdni.llbean.com/is/image/wim/256501_463_41",
+            "navexp": 1,
+            "leftNavExpandFlg": 0,
+            "pagePathVisible": 0,
+            "localNavVisible": 1,
+            "groupedDisplay": 0,
+            "maxRowsInGrp": 0,
+            "refineOptToShow": 0,
+            "sortAttrBy": 0,
+            "maxAttrVals": 0,
+            "sortAttrValsBy": 0,
+            "sortNestedAttrValsBy": 0,
+            "socDsplFlg": 0,
+            "tmplViewId": 0,
+            "topnavColumn": 0,
+            "topnavSequence": 0,
+            "selected": true,
+            "bannerg1": "",
+            "bannergu": [],
+            "bannergd": [],
+            "bannerg2": [],
+            "dept": [
+              {
+                "level": 2,
+                "name": "Active",
+                "categoryId": 511549,
+                "categoryIdParent": 908,
+                "count": 34,
+                "href": "",
+                "display": "guidednav.jsp",
+                "skipLevel": 0,
+                "miniThumbImg": "",
+                "navexp": 0,
+                "leftNavExpandFlg": 0,
+                "pagePathVisible": 0,
+                "localNavVisible": 1,
+                "groupedDisplay": 0,
+                "maxRowsInGrp": 0,
+                "refineOptToShow": 0,
+                "sortAttrBy": 0,
+                "maxAttrVals": 0,
+                "sortAttrValsBy": 0,
+                "sortNestedAttrValsBy": 0,
+                "socDsplFlg": 0,
+                "tmplViewId": 0,
+                "topnavColumn": 0,
+                "topnavSequence": 0,
+                "selected": false,
+                "bannerg1": "",
+                "bannergu": [],
+                "bannergd": [],
+                "bannerg2": [],
+                "dept": []
+              },
+              {
+                "level": 2,
+                "name": "Casual",
+                "categoryId": 506777,
+                "categoryIdParent": 908,
+                "count": 30,
+                "href": "",
+                "display": "guidednav.jsp",
+                "skipLevel": 0,
+                "miniThumbImg": "",
+                "navexp": 0,
+                "leftNavExpandFlg": 0,
+                "pagePathVisible": 0,
+                "localNavVisible": 1,
+                "groupedDisplay": 0,
+                "maxRowsInGrp": 0,
+                "refineOptToShow": 0,
+                "sortAttrBy": 0,
+                "maxAttrVals": 0,
+                "sortAttrValsBy": 0,
+                "sortNestedAttrValsBy": 0,
+                "socDsplFlg": 0,
+                "tmplViewId": 0,
+                "topnavColumn": 0,
+                "topnavSequence": 0,
+                "selected": false,
+                "bannerg1": "",
+                "bannergu": [],
+                "bannergd": [],
+                "bannerg2": [],
+                "dept": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "78292",
+        "pos": 1,
+        "name": "Tropic Weight Cargo Shorts, Comfort Waist 10\"",
+        "seoName": "tropic-weight-cargo-shorts-comfort-waist-10",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e\u003cli\u003eLightweight, breathable cotton keeps you cool on hot days\u003c/li\u003e\u003cli\u003eLightweight and breathable\u0026nbsp;\u0026#150; to keep you dry as temperatures rise\u003c/li\u003e\u003cli\u003eElastic side panels in back for all-day comfort\u003c/li\u003e\u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e\u003cli\u003eLightweight, breathable cotton keeps you cool on hot days\u003c/li\u003e\u003cli\u003eLightweight and breathable\u0026nbsp;\u0026#150; to keep you dry as temperatures rise\u003c/li\u003e\u003cli\u003eElastic side panels in back for all-day comfort\u003c/li\u003e\u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$44.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "139",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78292\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$44.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "British Khaki",
+            "id": "282476_115_43",
+            "selected": false
+          },
+          {
+            "family": "White",
+            "name": "Stone",
+            "id": "282476_463_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Vintage Indigo",
+            "id": "282476_37956_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Burnt Sienna",
+            "id": "282476_309_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Graystone",
+            "id": "282476_33604_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dusty Olive",
+            "id": "282476_228_43",
+            "selected": false
+          }
+        ],
+        "img": "282476_115_42",
+        "attr_arry": [
+          {
+            "key": "98361",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "98362",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "115",
+            "val": "44.95"
+          },
+          {
+            "key": "463",
+            "val": "44.95"
+          },
+          {
+            "key": "37956",
+            "val": "44.95"
+          },
+          {
+            "key": "309",
+            "val": "44.95"
+          },
+          {
+            "key": "33604",
+            "val": "44.95"
+          },
+          {
+            "key": "228",
+            "val": "44.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1295802",
+            "id": "282476",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "40603",
+        "pos": 2,
+        "name": "Tropic-Weight Cargo Shorts, Comfort Waist 6\" Inseam",
+        "seoName": "tropic-weight-cargo-shorts-comfort-waist-6-inseam",
+        "geltabUrl": "",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLightweight and breathable\u0026nbsp;\u0026#150; to keep you cool and dry as temperatures rise\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003cli\u003eElastic side panels in waist for all-day comfort\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLightweight and breathable\u0026nbsp;\u0026#150; to keep you cool and dry as temperatures rise\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003cli\u003eElastic side panels in waist for all-day comfort\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$44.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "458",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d40603\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$44.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "White",
+            "name": "Stone",
+            "id": "224994_463_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Vintage Indigo",
+            "id": "224994_37956_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "British Khaki",
+            "id": "224994_115_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dusty Olive",
+            "id": "224994_228_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Graystone",
+            "id": "224994_33604_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Burnt Sienna",
+            "id": "224994_309_43",
+            "selected": false
+          }
+        ],
+        "img": "224994_463_42",
+        "attr_arry": [
+          {
+            "key": "36943",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "36942",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "463",
+            "val": "44.95"
+          },
+          {
+            "key": "37956",
+            "val": "44.95"
+          },
+          {
+            "key": "115",
+            "val": "44.95"
+          },
+          {
+            "key": "228",
+            "val": "44.95"
+          },
+          {
+            "key": "33604",
+            "val": "44.95"
+          },
+          {
+            "key": "309",
+            "val": "44.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "652707",
+            "id": "224994",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "58488",
+        "pos": 3,
+        "name": "Tropic-Weight Cargo Shorts, 10\" Inseam",
+        "seoName": "tropic-weight-cargo-shorts-10-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLightweight, breathable cotton keeps you cool on hot summer days\u003c/li\u003e \u003cli\u003ePlenty of pockets secure essentials like keys, wallet or money\u003c/li\u003e \u003cli\u003eRegular waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLightweight, breathable cotton keeps you cool on hot summer days\u003c/li\u003e \u003cli\u003ePlenty of pockets secure essentials like keys, wallet or money\u003c/li\u003e \u003cli\u003eRegular waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $14.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "408",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58488\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 33%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Tan",
+            "name": "British Khaki",
+            "id": "256501_115_43",
+            "selected": false
+          },
+          {
+            "family": "White",
+            "name": "Stone",
+            "id": "256501_463_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Turquoise Sea",
+            "id": "256501_30443_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Burnt Sienna",
+            "id": "256501_309_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Vintage Indigo",
+            "id": "256501_37956_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Graystone",
+            "id": "256501_33604_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dusty Olive",
+            "id": "256501_228_43",
+            "selected": false
+          }
+        ],
+        "img": "256501_463_42",
+        "attr_arry": [
+          {
+            "key": "66553",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "66552",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "115",
+            "val": "44.95"
+          },
+          {
+            "key": "463",
+            "val": "44.95"
+          },
+          {
+            "key": "30443",
+            "val": "29.99"
+          },
+          {
+            "key": "309",
+            "val": "44.95"
+          },
+          {
+            "key": "37956",
+            "val": "44.95"
+          },
+          {
+            "key": "33604",
+            "val": "44.95"
+          },
+          {
+            "key": "228",
+            "val": "44.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "983927",
+            "id": "256501",
+            "name": "Regular",
+            "catId": "",
+            "stock": "July 6"
+          }
+        ],
+        "backOrderDate": "July 6",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "58527",
+        "pos": 4,
+        "name": "Supplex Cargo Sport Shorts, 10\" Inseam",
+        "seoName": "supplex-cargo-sport-shorts-10-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eExtremely versatile\u0026nbsp;\u0026#150; wear them swimming, hiking, running or kayaking\u003c/li\u003e \u003cli\u003eSoft, lightweight Supplex nylon is breathable and quick drying\u003c/li\u003e \u003cLI\u003eBuilt-in UPF 50+ sun protection\u003c/LI\u003e \u003cli\u003eRoomy side cargo pockets with secure Velcro\u0026#174;-closure flaps \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eExtremely versatile\u0026nbsp;\u0026#150; wear them swimming, hiking, running or kayaking\u003c/li\u003e \u003cli\u003eSoft, lightweight Supplex nylon is breathable and quick drying\u003c/li\u003e \u003cLI\u003eBuilt-in UPF 50+ sun protection\u003c/LI\u003e \u003cli\u003eRoomy side cargo pockets with secure Velcro\u0026#174;-closure flaps \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "104",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58527\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "256554_72_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "256554_30_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "256554_1_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "256554_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "256554_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "256554_322_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "256554_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "256554_31362_43",
+            "selected": false
+          }
+        ],
+        "img": "256554_30_42",
+        "attr_arry": [
+          {
+            "key": "65816",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65817",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "72",
+            "val": "34.95"
+          },
+          {
+            "key": "30",
+            "val": "34.95"
+          },
+          {
+            "key": "1",
+            "val": "34.95"
+          },
+          {
+            "key": "569",
+            "val": "34.95"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "322",
+            "val": "34.95"
+          },
+          {
+            "key": "34051",
+            "val": "34.95"
+          },
+          {
+            "key": "31362",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "976723",
+            "id": "256554",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "68812",
+        "pos": 5,
+        "name": "Double L Chino Shorts, Hidden Comfort Waist Plain Front 8\" Inseam",
+        "seoName": "double-l-chino-shorts-hidden-comfort-waist-plain-front-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cLI\u003eWear them straight from the dryer\u0026nbsp;\u0026#150; no ironing required\u003c/LI\u003e \u003cLI\u003eGuaranteed to remain true to size, wash after wash\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eSubtle elastic at the waist adds comfort\u003c/LI\u003e   \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cLI\u003eWear them straight from the dryer\u0026nbsp;\u0026#150; no ironing required\u003c/LI\u003e \u003cLI\u003eGuaranteed to remain true to size, wash after wash\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eSubtle elastic at the waist adds comfort\u003c/LI\u003e   \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "13",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d68812\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "267795_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "267795_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "267795_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "267795_74_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "267795_19_43",
+            "selected": false
+          }
+        ],
+        "img": "267795_1165_42",
+        "attr_arry": [
+          {
+            "key": "83806",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "83807",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1165",
+            "val": "39.95"
+          },
+          {
+            "key": "1458",
+            "val": "39.95"
+          },
+          {
+            "key": "36686",
+            "val": "39.95"
+          },
+          {
+            "key": "74",
+            "val": "39.95"
+          },
+          {
+            "key": "19",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1139143",
+            "id": "267795",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "36415",
+        "pos": 6,
+        "name": "Supplex Classic Sport Shorts, 6\" Inseam",
+        "seoName": "supplex-classic-sport-shorts-6-inseam",
+        "geltabUrl": "",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "132",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d36415\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "215657_30_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "215657_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "215657_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "215657_322_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "215657_1_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215657_72_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "215657_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "215657_31362_43",
+            "selected": false
+          }
+        ],
+        "img": "215657_569_42",
+        "attr_arry": [
+          {
+            "key": "30360",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "30359",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "30",
+            "val": "29.95"
+          },
+          {
+            "key": "569",
+            "val": "29.95"
+          },
+          {
+            "key": "37814",
+            "val": "29.95"
+          },
+          {
+            "key": "322",
+            "val": "29.95"
+          },
+          {
+            "key": "1",
+            "val": "29.95"
+          },
+          {
+            "key": "72",
+            "val": "29.95"
+          },
+          {
+            "key": "34051",
+            "val": "29.95"
+          },
+          {
+            "key": "31362",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565627",
+            "id": "215657",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "37360",
+        "pos": 7,
+        "name": "Supplex Classic Sport Shorts, 8\" Inseam",
+        "seoName": "supplex-classic-sport-shorts-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e\u003cLI\u003eAll-purpose shorts for your activities in the water and out\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro\u0026#174;-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e\u003cLI\u003eAll-purpose shorts for your activities in the water and out\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eBack patch pocket with Velcro\u0026#174;-closure flap\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "132",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d37360\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "215658_30_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "215658_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "215658_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "215658_322_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "215658_1_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215658_72_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "215658_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "215658_31362_43",
+            "selected": false
+          }
+        ],
+        "img": "215658_72_42",
+        "attr_arry": [
+          {
+            "key": "30361",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30362",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "72",
+            "val": "29.95"
+          },
+          {
+            "key": "30",
+            "val": "29.95"
+          },
+          {
+            "key": "569",
+            "val": "29.95"
+          },
+          {
+            "key": "37814",
+            "val": "29.95"
+          },
+          {
+            "key": "1",
+            "val": "29.95"
+          },
+          {
+            "key": "322",
+            "val": "29.95"
+          },
+          {
+            "key": "34051",
+            "val": "29.95"
+          },
+          {
+            "key": "31362",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565683",
+            "id": "215658",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "62570",
+        "pos": 8,
+        "name": "Allagash Cargo Shorts",
+        "seoName": "allagash-cargo-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eRugged cargos crafted from surprisingly soft cotton fabric\u003c/li\u003e \u003cli\u003eLots of functional pockets for your wallet, cell phone and more\u003c/li\u003e  \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eRugged cargos crafted from surprisingly soft cotton fabric\u003c/li\u003e \u003cli\u003eLots of functional pockets for your wallet, cell phone and more\u003c/li\u003e  \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$49.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "116",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d62570\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$49.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 20%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Loden",
+            "id": "262571_259_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Canyon Rust",
+            "id": "262571_499_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Olive Gray",
+            "id": "262571_34368_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Slate Blue",
+            "id": "262571_96_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Tan",
+            "id": "262571_170_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Carbon",
+            "id": "262571_176_43",
+            "selected": false
+          }
+        ],
+        "img": "262571_170_42",
+        "attr_arry": [
+          {
+            "key": "74038",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "74039",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "259",
+            "val": "39.99"
+          },
+          {
+            "key": "499",
+            "val": "39.99"
+          },
+          {
+            "key": "34368",
+            "val": "49.95"
+          },
+          {
+            "key": "96",
+            "val": "49.95"
+          },
+          {
+            "key": "170",
+            "val": "49.95"
+          },
+          {
+            "key": "176",
+            "val": "49.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1046609",
+            "id": "262571",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "40596",
+        "pos": 9,
+        "name": "Pathfinder Shorts, Canvas 7\" Inseam",
+        "seoName": "pathfinder-shorts-canvas-7-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eIdeal for casual hikes or working around the yard\u003c/LI\u003e \u003cLI\u003eMade from soft, durable cotton canvas\u003c/LI\u003e \u003cLI\u003eDesigned with lots of roomy pockets\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eIdeal for casual hikes or working around the yard\u003c/LI\u003e \u003cLI\u003eMade from soft, durable cotton canvas\u003c/LI\u003e \u003cLI\u003eDesigned with lots of roomy pockets\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "98",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d40596\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Tan",
+            "name": "Shell Khaki",
+            "id": "225022_36678_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Basil",
+            "id": "225022_28420_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Canyon Khaki",
+            "id": "225022_40616_43",
+            "selected": false
+          }
+        ],
+        "img": "225022_40616_42",
+        "attr_arry": [
+          {
+            "key": "36976",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "36975",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "36678",
+            "val": "39.95"
+          },
+          {
+            "key": "28420",
+            "val": "39.95"
+          },
+          {
+            "key": "40616",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "653020",
+            "id": "225022",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "49334",
+        "pos": 10,
+        "name": "Pathfinder Shorts, Canvas 9\" Inseam",
+        "seoName": "pathfinder-shorts-canvas-9-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eDesigned for casual day hikes or everyday wear\u003c/LI\u003e \u003cLI\u003eRugged cotton canvas is washed for broken-in softness\u003c/LI\u003e \u003cLI\u003eTwo low-profile hook-and-loop-closure cargo pockets\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eDesigned for casual day hikes or everyday wear\u003c/LI\u003e \u003cLI\u003eRugged cotton canvas is washed for broken-in softness\u003c/LI\u003e \u003cLI\u003eTwo low-profile hook-and-loop-closure cargo pockets\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "98",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d49334\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Tan",
+            "name": "Shell Khaki",
+            "id": "242462_36678_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Basil",
+            "id": "242462_28420_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Mariner Blue",
+            "id": "242462_62_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Light Saddle",
+            "id": "242462_147_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Canyon Khaki",
+            "id": "242462_40616_43",
+            "selected": false
+          }
+        ],
+        "img": "242462_40616_42",
+        "attr_arry": [
+          {
+            "key": "52632",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "52631",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "36678",
+            "val": "39.95"
+          },
+          {
+            "key": "28420",
+            "val": "39.95"
+          },
+          {
+            "key": "62",
+            "val": "39.95"
+          },
+          {
+            "key": "147",
+            "val": "34.99"
+          },
+          {
+            "key": "40616",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "849672",
+            "id": "242462",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "68810",
+        "pos": 11,
+        "name": "Double L Chino Shorts, Classic Fit Plain Front 8\u0026#34; Inseam",
+        "seoName": "double-l-chino-shorts-classic-fit-plain-front-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003ePremium cotton sheds wrinkles and stains\u003c/li\u003e \u003cLI\u003eCount on them to remain true to size, wash after wash\u003c/LI\u003e \u003cli\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003ePremium cotton sheds wrinkles and stains\u003c/li\u003e \u003cLI\u003eCount on them to remain true to size, wash after wash\u003c/LI\u003e \u003cli\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "18",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d68810\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "267793_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "267793_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "267793_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "267793_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "267793_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "267793_19_43",
+            "selected": false
+          }
+        ],
+        "img": "267793_1165_42",
+        "attr_arry": [
+          {
+            "key": "83810",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "83811",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "36686",
+            "val": "34.95"
+          },
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1139277",
+            "id": "267793",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82265",
+        "pos": 12,
+        "name": "Tropic-Weight Chino Shorts, Natural Fit Plain Front",
+        "seoName": "tropic-weight-chino-shorts-natural-fit-plain-front",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLightweight, breathable cotton keeps you cool on hot days\u003c/li\u003e \u003cli\u003ePigment-dyed for a weathered look that gets even better with age\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLightweight, breathable cotton keeps you cool on hot days\u003c/li\u003e \u003cli\u003ePigment-dyed for a weathered look that gets even better with age\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "24",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82265\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "British Khaki",
+            "id": "288705_115_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Graystone",
+            "id": "288705_33604_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Burnt Sienna",
+            "id": "288705_309_43",
+            "selected": false
+          },
+          {
+            "family": "White",
+            "name": "Stone",
+            "id": "288705_463_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Vintage Indigo",
+            "id": "288705_37956_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dusty Olive",
+            "id": "288705_228_43",
+            "selected": false
+          }
+        ],
+        "img": "288705_115_42",
+        "attr_arry": [
+          {
+            "key": "104992",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "104993",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "115",
+            "val": "39.95"
+          },
+          {
+            "key": "33604",
+            "val": "39.95"
+          },
+          {
+            "key": "309",
+            "val": "39.95"
+          },
+          {
+            "key": "463",
+            "val": "39.95"
+          },
+          {
+            "key": "37956",
+            "val": "39.95"
+          },
+          {
+            "key": "228",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1370099",
+            "id": "288705",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "49352",
+        "pos": 13,
+        "name": "Double L Chino Shorts, Natural Fit Pleated Hidden Comfort 8\" Inseam",
+        "seoName": "double-l-chino-shorts-natural-fit-pleated-hidden-comfort-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cLI\u003eSimply wash, dry and wear\u003c/LI\u003e \u003cLI\u003eGuaranteed to remain true to size, wash after wash\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eHidden elastic panels at the waist for all-day comfort\u003c/LI\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cLI\u003eSimply wash, dry and wear\u003c/LI\u003e \u003cLI\u003eGuaranteed to remain true to size, wash after wash\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eHidden elastic panels at the waist for all-day comfort\u003c/LI\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "29",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d49352\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "240259_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "240259_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "240259_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "240259_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "240259_19_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "240259_1220_43",
+            "selected": false
+          }
+        ],
+        "img": "240259_19_42",
+        "attr_arry": [
+          {
+            "key": "51519",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "51520",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "39.95"
+          },
+          {
+            "key": "1165",
+            "val": "39.95"
+          },
+          {
+            "key": "1458",
+            "val": "39.95"
+          },
+          {
+            "key": "36686",
+            "val": "39.95"
+          },
+          {
+            "key": "19",
+            "val": "39.95"
+          },
+          {
+            "key": "1220",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "835422",
+            "id": "240259",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "36414",
+        "pos": 14,
+        "name": "Supplex Cargo Sport Shorts, 6\" Inseam",
+        "seoName": "supplex-cargo-sport-shorts-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e\u003cLI\u003eHit the water or the road in these all-purpose shorts\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eRoomy side cargo pockets with Velcro-closure flaps\u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e\u003cLI\u003eHit the water or the road in these all-purpose shorts\u003c/LI\u003e \u003cLI\u003eLightweight Supplex nylon is breathable and quick drying\u003c/LI\u003e \u003cLI\u003eRated to UPF 50+ for superior protection from the sun\u0027s UV rays\u003c/LI\u003e \u003cLI\u003eRoomy side cargo pockets with Velcro-closure flaps\u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "104",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d36414\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "215659_1_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215659_72_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Sandstone",
+            "id": "215659_569_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "215659_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Sail Orange",
+            "id": "215659_322_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "215659_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Elm",
+            "id": "215659_31362_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "215659_30_43",
+            "selected": false
+          }
+        ],
+        "img": "215659_30_42",
+        "attr_arry": [
+          {
+            "key": "30363",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30364",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "34.95"
+          },
+          {
+            "key": "72",
+            "val": "34.95"
+          },
+          {
+            "key": "569",
+            "val": "34.95"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "322",
+            "val": "34.95"
+          },
+          {
+            "key": "34051",
+            "val": "34.95"
+          },
+          {
+            "key": "31362",
+            "val": "34.95"
+          },
+          {
+            "key": "30",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565739",
+            "id": "215659",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82278",
+        "pos": 15,
+        "name": "Bean\u0027s Trail Shorts",
+        "seoName": "bean-s-trail-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLightweight, ripstop nylon stands up to rugged wear, and also wicks moisture, dries fast, and offers UPF 50+ protection\u003c/li\u003e \u003cli\u003eVersatile cargo styling and 10\" inseam \u003c/li\u003e \u003cli\u003eDiscreet elastic insets at the waist for a great fit and all-day comfort\u003c/li\u003e \u003cli\u003eSix pockets\u0026nbsp;\u0026#150; four with Velcro-closures\u0026nbsp;\u0026#150; to stow personal items \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLightweight, ripstop nylon stands up to rugged wear, and also wicks moisture, dries fast, and offers UPF 50+ protection\u003c/li\u003e \u003cli\u003eVersatile cargo styling and 10\" inseam \u003c/li\u003e \u003cli\u003eDiscreet elastic insets at the waist for a great fit and all-day comfort\u003c/li\u003e \u003cli\u003eSix pockets\u0026nbsp;\u0026#150; four with Velcro-closures\u0026nbsp;\u0026#150; to stow personal items \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "35",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82278\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 14%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Tan",
+            "name": "Light Tan",
+            "id": "289047_1143_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Dark Mariner",
+            "id": "289047_36_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Marshwood",
+            "id": "289047_37113_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Loden",
+            "id": "289047_222_43",
+            "selected": false
+          }
+        ],
+        "img": "289047_1143_42",
+        "attr_arry": [
+          {
+            "key": "105257",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "105256",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1143",
+            "val": "34.95"
+          },
+          {
+            "key": "36",
+            "val": "34.95"
+          },
+          {
+            "key": "37113",
+            "val": "29.99"
+          },
+          {
+            "key": "222",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1372731",
+            "id": "289047",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "72774",
+        "pos": 16,
+        "name": "Swift River Shorts",
+        "seoName": "swift-river-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eDurable, lightweight nylon fabric holds up well and dries quickly\u003c/li\u003e \u003cli\u003eRated UPF 40+ for protection against harmful rays\u003c/li\u003e \u003cli\u003eRoomy pockets secure keys, credit cards and other essentials\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eDurable, lightweight nylon fabric holds up well and dries quickly\u003c/li\u003e \u003cli\u003eRated UPF 40+ for protection against harmful rays\u003c/li\u003e \u003cli\u003eRoomy pockets secure keys, credit cards and other essentials\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "87",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d72774\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 11%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt Sea",
+            "id": "274658_28426_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Marshwood",
+            "id": "274658_37113_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Teal Blue",
+            "id": "274658_35147_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Carbon Navy",
+            "id": "274658_32573_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Cabin Red",
+            "id": "274658_427_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "274658_569_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Hemlock",
+            "id": "274658_22294_43",
+            "selected": false
+          }
+        ],
+        "img": "274658_427_42",
+        "attr_arry": [
+          {
+            "key": "90068",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "90069",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "28426",
+            "val": "44.95"
+          },
+          {
+            "key": "37113",
+            "val": "44.95"
+          },
+          {
+            "key": "35147",
+            "val": "44.95"
+          },
+          {
+            "key": "32573",
+            "val": "44.95"
+          },
+          {
+            "key": "427",
+            "val": "44.95"
+          },
+          {
+            "key": "569",
+            "val": "44.95"
+          },
+          {
+            "key": "22294",
+            "val": "39.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1213980",
+            "id": "274658",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "76906",
+        "pos": 17,
+        "name": "Cresta Hiking Shorts",
+        "seoName": "cresta-hiking-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLightweight nylon fabric wicks moisture, dries quickly and stands up to \"extreme wear and tear\"\u003c/li\u003e \u003cli\u003eBuilt-in UPF 40+ sun protection blocks harmful rays\u003c/li\u003e \u003cli\u003eTwo-way vertical stretch for excellent range of motion\u003c/li\u003e \u003cli\u003eStandard Fit sits slightly below the natural waist and is straight through the hips \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLightweight nylon fabric wicks moisture, dries quickly and stands up to \"extreme wear and tear\"\u003c/li\u003e \u003cli\u003eBuilt-in UPF 40+ sun protection blocks harmful rays\u003c/li\u003e \u003cli\u003eTwo-way vertical stretch for excellent range of motion\u003c/li\u003e \u003cli\u003eStandard Fit sits slightly below the natural waist and is straight through the hips \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$54\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.6",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "66",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d76906\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$54\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Granite",
+            "id": "280942_184_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Driftwood",
+            "id": "280942_126_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Graphite",
+            "id": "280942_185_43",
+            "selected": false
+          }
+        ],
+        "img": "280942_184_42",
+        "attr_arry": [
+          {
+            "key": "96270",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "96271",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "184",
+            "val": "54.00"
+          },
+          {
+            "key": "126",
+            "val": "54.00"
+          },
+          {
+            "key": "185",
+            "val": "54.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1274404",
+            "id": "280942",
+            "name": "Regular",
+            "catId": "",
+            "stock": "June 15"
+          }
+        ],
+        "backOrderDate": "June 15",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "23607",
+        "pos": 18,
+        "name": "Wrinkle-Resistant Double L Chino Shorts, Natural Fit Plain Front 8\u0026#34; Inseam",
+        "seoName": "wrinkle-resistant-double-l-chino-shorts-natural-fit-plain-front-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e  \u003cLI\u003eCome out of the dryer stain and wrinkle free and stay that way all day\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eResist shrinking for a good fit that lasts\u003c/LI\u003e\u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e  \u003cLI\u003eCome out of the dryer stain and wrinkle free and stay that way all day\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eResist shrinking for a good fit that lasts\u003c/LI\u003e\u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "23",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d23607\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "215649_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215649_74_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "215649_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "215649_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "215649_19_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "215649_1220_43",
+            "selected": false
+          }
+        ],
+        "img": "215649_1220_42",
+        "attr_arry": [
+          {
+            "key": "30347",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30348",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "36686",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565117",
+            "id": "215649",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82266",
+        "pos": 19,
+        "name": "Lakewashed Cotton Chino Shorts",
+        "seoName": "lakewashed-cotton-chino-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBroken-in softness from day one\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist and is straight through the hips\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBroken-in softness from day one\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist and is straight through the hips\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "17",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82266\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Purple",
+            "name": "Apple Cinnamon",
+            "id": "286392_32568_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Lapis Slate",
+            "id": "286392_28438_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "286392_74_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "286392_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Bottle Green",
+            "id": "286392_208_43",
+            "selected": false
+          },
+          {
+            "family": "Yellow",
+            "name": "Buff Yellow",
+            "id": "286392_37793_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "286392_140_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Glacier Blue",
+            "id": "286392_48_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Chestnut",
+            "id": "286392_117_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Rustic Green",
+            "id": "286392_28214_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Mariner Blue",
+            "id": "286392_62_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Tidal Blue",
+            "id": "286392_104_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Orange Spice",
+            "id": "286392_523_43",
+            "selected": false
+          }
+        ],
+        "img": "286392_117_42",
+        "attr_arry": [
+          {
+            "key": "104995",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "104994",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "48",
+            "val": "34.99"
+          },
+          {
+            "key": "32568",
+            "val": "39.95"
+          },
+          {
+            "key": "28438",
+            "val": "39.95"
+          },
+          {
+            "key": "74",
+            "val": "34.99"
+          },
+          {
+            "key": "1220",
+            "val": "34.99"
+          },
+          {
+            "key": "208",
+            "val": "34.99"
+          },
+          {
+            "key": "37793",
+            "val": "34.99"
+          },
+          {
+            "key": "140",
+            "val": "39.95"
+          },
+          {
+            "key": "117",
+            "val": "39.95"
+          },
+          {
+            "key": "28214",
+            "val": "34.99"
+          },
+          {
+            "key": "62",
+            "val": "39.95"
+          },
+          {
+            "key": "104",
+            "val": "39.95"
+          },
+          {
+            "key": "523",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1370132",
+            "id": "286392",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "33947",
+        "pos": 20,
+        "name": "Wrinkle-Resistant Double L Chino Shorts, Natural Fit Plain Front 6\" Inseam",
+        "seoName": "wrinkle-resistant-double-l-chino-shorts-natural-fit-plain-front-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e  \u003cLI\u003eTop-quality cotton fabric won\u0027t shrink, pill, fade or wrinkle\u003c/LI\u003e  \u003cLI\u003eNatural Fit is relaxed through the hips and thighs \u003c/LI\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e  \u003cLI\u003eTop-quality cotton fabric won\u0027t shrink, pill, fade or wrinkle\u003c/LI\u003e  \u003cLI\u003eNatural Fit is relaxed through the hips and thighs \u003c/LI\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "23",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d33947\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "215650_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215650_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "215650_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "215650_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "215650_19_43",
+            "selected": false
+          }
+        ],
+        "img": "215650_1165_42",
+        "attr_arry": [
+          {
+            "key": "30349",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30350",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565202",
+            "id": "215650",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "49351",
+        "pos": 21,
+        "name": "Double L Chino Shorts, Natural Fit Pleated Hidden Comfort 6\u0026#34; Inseam",
+        "seoName": "double-l-chino-shorts-natural-fit-pleated-hidden-comfort-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cLI\u003ePremium cotton resists wrinkling, shrinking and fading\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eHidden Comfort Waist stretches with you\u003c/LI\u003e   \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cLI\u003ePremium cotton resists wrinkling, shrinking and fading\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eHidden Comfort Waist stretches with you\u003c/LI\u003e   \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "29",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d49351\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "240258_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "240258_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "240258_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "240258_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "240258_19_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "240258_1220_43",
+            "selected": false
+          }
+        ],
+        "img": "240258_1165_42",
+        "attr_arry": [
+          {
+            "key": "51517",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "51518",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "39.95"
+          },
+          {
+            "key": "1165",
+            "val": "39.95"
+          },
+          {
+            "key": "1458",
+            "val": "39.95"
+          },
+          {
+            "key": "36686",
+            "val": "39.95"
+          },
+          {
+            "key": "19",
+            "val": "39.95"
+          },
+          {
+            "key": "1220",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "835330",
+            "id": "240258",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "68811",
+        "pos": 22,
+        "name": "Double L Chino Shorts, Hidden Comfort Waist Plain Front 6\" Inseam",
+        "seoName": "double-l-chino-shorts-hidden-comfort-waist-plain-front-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cLI\u003eWrinkle free equals worry free\u003c/LI\u003e \u003cLI\u003eGuaranteed to shed stains and remain true to size, wash after wash\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eComfortable, subtle elastic tabs at the waist\u003c/LI\u003e  \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cLI\u003eWrinkle free equals worry free\u003c/LI\u003e \u003cLI\u003eGuaranteed to shed stains and remain true to size, wash after wash\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eComfortable, subtle elastic tabs at the waist\u003c/LI\u003e  \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.2",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "13",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d68811\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "267794_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "267794_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "267794_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "267794_19_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "267794_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "267794_1458_43",
+            "selected": false
+          }
+        ],
+        "img": "267794_74_42",
+        "attr_arry": [
+          {
+            "key": "83804",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "83805",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "39.95"
+          },
+          {
+            "key": "36686",
+            "val": "39.95"
+          },
+          {
+            "key": "19",
+            "val": "39.95"
+          },
+          {
+            "key": "1220",
+            "val": "39.95"
+          },
+          {
+            "key": "1165",
+            "val": "39.95"
+          },
+          {
+            "key": "1458",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1139088",
+            "id": "267794",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "23608",
+        "pos": 23,
+        "name": "Wrinkle Resistant Double L Chino Shorts, Pleated 8\u0026quot; Inseam",
+        "seoName": "wrinkle-resistant-double-l-chino-shorts-pleated-8-quot-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eShed wrinkles and stains while remaining true to size, wash after wash\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003c/UL\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eShed wrinkles and stains while remaining true to size, wash after wash\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "19",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d23608\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "215651_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "215651_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215651_74_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "215651_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "215651_19_43",
+            "selected": false
+          }
+        ],
+        "img": "215651_1220_42",
+        "attr_arry": [
+          {
+            "key": "30351",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "30352",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565287",
+            "id": "215651",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82201",
+        "pos": 24,
+        "name": "Athletic Sweats, Shorts",
+        "seoName": "athletic-sweats-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "50",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82201\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "287922_1704_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "287922_74_43",
+            "selected": false
+          }
+        ],
+        "img": "287922_1704_42",
+        "attr_arry": [
+          {
+            "key": "103308",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "103309",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1704",
+            "val": "29.95"
+          },
+          {
+            "key": "74",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1352143",
+            "id": "287922",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "68809",
+        "pos": 25,
+        "name": "Double L Chino Shorts, Classic Fit Plain Front 6\u0027\u0027 Inseam",
+        "seoName": "double-l-chino-shorts-classic-fit-plain-front-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e\u003cLI\u003eSoft yet sturdy cotton resists stains and wrinkles\u003c?LI\u003e  \u003cLI\u003eGuaranteed to stay true to size, wash after wash\u003c/LI\u003e  \u003cLI\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/LI\u003e\u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e\u003cLI\u003eSoft yet sturdy cotton resists stains and wrinkles\u003c?LI\u003e  \u003cLI\u003eGuaranteed to stay true to size, wash after wash\u003c/LI\u003e  \u003cLI\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/LI\u003e\u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "18",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d68809\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "267792_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "267792_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Chalk Blue",
+            "id": "267792_36686_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "267792_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "267792_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "267792_19_43",
+            "selected": false
+          }
+        ],
+        "img": "267792_74_42",
+        "attr_arry": [
+          {
+            "key": "83808",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "83809",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "36686",
+            "val": "34.95"
+          },
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1139198",
+            "id": "267792",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78788",
+        "pos": 26,
+        "name": "Supplex Sport Shorts, 10\u0026quot; Inseam Front Pocket",
+        "seoName": "supplex-sport-shorts-10-quot-inseam-front-pocket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eAll-day comfort while you swim, hike, paddle or run\u003c/li\u003e \u003cli\u003eLightweight Supplex nylon is breathable and quick to dry\u003c/li\u003e \u003cli\u003eRated UPF 50+ for built-in sun protection\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eAll-day comfort while you swim, hike, paddle or run\u003c/li\u003e \u003cli\u003eLightweight Supplex nylon is breathable and quick to dry\u003c/li\u003e \u003cli\u003eRated UPF 50+ for built-in sun protection\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$19.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $14.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "2",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78788\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$19.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 43%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Cobalt",
+            "id": "282751_30_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Ocean Turquoise",
+            "id": "282751_38575_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Tiger Lily",
+            "id": "282751_33378_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Garnet",
+            "id": "282751_37814_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Teal Blast",
+            "id": "282751_34051_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "282751_569_43",
+            "selected": false
+          }
+        ],
+        "img": "282751_30_42",
+        "attr_arry": [
+          {
+            "key": "98381",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "98382",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "30",
+            "val": "34.95"
+          },
+          {
+            "key": "38575",
+            "val": "19.99"
+          },
+          {
+            "key": "33378",
+            "val": "19.99"
+          },
+          {
+            "key": "37814",
+            "val": "34.95"
+          },
+          {
+            "key": "34051",
+            "val": "34.95"
+          },
+          {
+            "key": "569",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1296262",
+            "id": "282751",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "68808",
+        "pos": 27,
+        "name": "Double L Chino Shorts, Classic Fit Pleated 8\u0026#34; Inseam",
+        "seoName": "double-l-chino-shorts-classic-fit-pleated-8-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e\u003cLI\u003eSummer classics that won\u0027t stain or wrinkle \u003c/LI\u003e \u003cli\u003eResist shrinking, so you can count on wearing them for seasons to come\u003c/li\u003e \u003cli\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e\u003cLI\u003eSummer classics that won\u0027t stain or wrinkle \u003c/LI\u003e \u003cli\u003eResist shrinking, so you can count on wearing them for seasons to come\u003c/li\u003e \u003cli\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d68808\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 14%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "267791_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "267791_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "267791_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deepest Red",
+            "id": "267791_438_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "267791_19_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Marine Blue",
+            "id": "267791_2608_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "267791_1220_43",
+            "selected": false
+          }
+        ],
+        "img": "267791_19_42",
+        "attr_arry": [
+          {
+            "key": "83814",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "83815",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "438",
+            "val": "29.99"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          },
+          {
+            "key": "2608",
+            "val": "29.99"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1139435",
+            "id": "267791",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87827",
+        "pos": 28,
+        "name": "Mountainside Shorts",
+        "seoName": "mountainside-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA lightweight cotton/nylon blends keeps you cool on warm days\u003c/li\u003e \u003cli\u003eAbrasion resistance provides durability while outdoors\u003c/li\u003e \u003cli\u003eSmooth interior for ease of motion on the trail\u003c/li\u003e \u003cli\u003eSeven pockets with capacity for your essentials\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA lightweight cotton/nylon blends keeps you cool on warm days\u003c/li\u003e \u003cli\u003eAbrasion resistance provides durability while outdoors\u003c/li\u003e \u003cli\u003eSmooth interior for ease of motion on the trail\u003c/li\u003e \u003cli\u003eSeven pockets with capacity for your essentials\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$49.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "8",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87827\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$49.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "295061_140_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Driftwood",
+            "id": "295061_126_43",
+            "selected": false
+          }
+        ],
+        "img": "295061_126_42",
+        "attr_arry": [
+          {
+            "key": "113066",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "113067",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "140",
+            "val": "49.95"
+          },
+          {
+            "key": "126",
+            "val": "49.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1468632",
+            "id": "295061",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "63061",
+        "pos": 29,
+        "name": "Bean\u0027s Summer Shorts, Madras",
+        "seoName": "bean-s-summer-shorts-madras",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e\u003cLI\u003eMade of authentic cotton madras from India\u0026nbsp;\u0026#150; a cool, colorful summer fabric\u003c/LI\u003e \u003cLI\u003ePair easily with solid-color polos or graphic tees for an effortlessly cool look\u003c/LI\u003e \u003cLI\u003eStandard Fit sits below the waist and is straight through the hips and thighs\u003c/LI\u003e\u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e\u003cLI\u003eMade of authentic cotton madras from India\u0026nbsp;\u0026#150; a cool, colorful summer fabric\u003c/LI\u003e \u003cLI\u003ePair easily with solid-color polos or graphic tees for an effortlessly cool look\u003c/LI\u003e \u003cLI\u003eStandard Fit sits below the waist and is straight through the hips and thighs\u003c/LI\u003e\u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "20",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d63061\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 25%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Burnt Sienna Plaid",
+            "id": "262336_41874_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Mariner Blue",
+            "id": "262336_62_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Rich Turquoise",
+            "id": "262336_38766_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bright Navy Plaid",
+            "id": "262336_672_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Nautical Teal Plaid",
+            "id": "262336_41875_43",
+            "selected": false
+          }
+        ],
+        "img": "262336_41874_42",
+        "attr_arry": [
+          {
+            "key": "75424",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "75425",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41874",
+            "val": "39.95"
+          },
+          {
+            "key": "62",
+            "val": "29.99"
+          },
+          {
+            "key": "38766",
+            "val": "29.99"
+          },
+          {
+            "key": "672",
+            "val": "29.99"
+          },
+          {
+            "key": "41875",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1057313",
+            "id": "262336",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "33948",
+        "pos": 30,
+        "name": "Wrinkle-Resistant Double L Chino Shorts, Natural Fit Pleated 6\" Inseam",
+        "seoName": "wrinkle-resistant-double-l-chino-shorts-natural-fit-pleated-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e  \u003cUL\u003e\u003cLI\u003eWrinkle resistance means there\u0027s no need to iron\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eResist stains and shrinking for lasting good looks\u003c/LI\u003e    \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e  \u003cUL\u003e\u003cLI\u003eWrinkle resistance means there\u0027s no need to iron\u003c/LI\u003e \u003cLI\u003eNatural Fit is relaxed through the hips and thighs\u003c/LI\u003e \u003cLI\u003eResist stains and shrinking for lasting good looks\u003c/LI\u003e    \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "19",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d33948\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "215652_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "215652_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "215652_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "215652_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "215652_19_43",
+            "selected": false
+          }
+        ],
+        "img": "215652_1458_42",
+        "attr_arry": [
+          {
+            "key": "30354",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "30353",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "565372",
+            "id": "215652",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87382",
+        "pos": 31,
+        "name": "Lightweight Ripstop Cargo Short",
+        "seoName": "lightweight-ripstop-cargo-short",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLight and breathable in 100\u0026#37; cotton\u003c/li\u003e \u003cli\u003eDurable fabric stops rips and tears before they can even start\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist and is straight through the hips\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLight and breathable in 100\u0026#37; cotton\u003c/li\u003e \u003cli\u003eDurable fabric stops rips and tears before they can even start\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist and is straight through the hips\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$44.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "2",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87382\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$44.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Coastal Dune",
+            "id": "294896_35336_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Eucalyptus",
+            "id": "294896_231_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Soapstone",
+            "id": "294896_5368_43",
+            "selected": false
+          }
+        ],
+        "img": "294896_35336_42",
+        "attr_arry": [
+          {
+            "key": "112874",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112875",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "35336",
+            "val": "44.95"
+          },
+          {
+            "key": "231",
+            "val": "44.95"
+          },
+          {
+            "key": "5368",
+            "val": "44.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1466830",
+            "id": "294896",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85970",
+        "pos": 32,
+        "name": "Men\u0027s Tropicwear Shorts, 7\u0026#34; Inseam",
+        "seoName": "men-s-tropicwear-shorts-7-inseam",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eCool, lightweight design lets you beat the heat\u003c/li\u003e \u003cli\u003eUPF 50+ sun block for superior protection from the sun\u0027s UV rays\u003c/li\u003e \u003cli\u003eWrinkle-resistant fabric and cargo pockets are great for traveling\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eCool, lightweight design lets you beat the heat\u003c/li\u003e \u003cli\u003eUPF 50+ sun block for superior protection from the sun\u0027s UV rays\u003c/li\u003e \u003cli\u003eWrinkle-resistant fabric and cargo pockets are great for traveling\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$49.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "8",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85970\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$49.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Slate",
+            "id": "293426_195_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "British Khaki",
+            "id": "293426_115_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Frost Gray",
+            "id": "293426_29449_43",
+            "selected": false
+          }
+        ],
+        "img": "293426_115_42",
+        "attr_arry": [
+          {
+            "key": "110382",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "110381",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "195",
+            "val": "49.95"
+          },
+          {
+            "key": "115",
+            "val": "49.95"
+          },
+          {
+            "key": "29449",
+            "val": "49.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1437892",
+            "id": "293426",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82219",
+        "pos": 33,
+        "name": "Timberledge Shorts",
+        "seoName": "timberledge-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eDesigned to move with you as you negotiate fallen logs, boulders and steep terrain\u003c/li\u003e \u003cli\u003eLightweight nylon wicks moisture and dries quickly to keep you cool and dry the trail\u003c/li\u003e \u003cli\u003eHandy pockets secure gear within easy reach\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eDesigned to move with you as you negotiate fallen logs, boulders and steep terrain\u003c/li\u003e \u003cli\u003eLightweight nylon wicks moisture and dries quickly to keep you cool and dry the trail\u003c/li\u003e \u003cli\u003eHandy pockets secure gear within easy reach\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "20",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82219\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$44.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 11%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Ash",
+            "id": "288087_112_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Briar",
+            "id": "288087_3564_43",
+            "selected": false
+          }
+        ],
+        "img": "288087_3564_42",
+        "attr_arry": [
+          {
+            "key": "104030",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "104031",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "112",
+            "val": "39.99"
+          },
+          {
+            "key": "3564",
+            "val": "44.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1361299",
+            "id": "288087",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "80424",
+        "pos": 34,
+        "name": "Men\u0027s Comfort Cycling Shorts",
+        "seoName": "men-s-comfort-cycling-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eWe\u0027ve listened to your feedback and updated the fit and pockets of these bestselling shorts\u003c/li\u003e \u003cli\u003eRemovable liner features a seamless chamois pad\u003c/li\u003e \u003cli\u003ePlenty of pockets for ID, cash and snacks\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eWe\u0027ve listened to your feedback and updated the fit and pockets of these bestselling shorts\u003c/li\u003e \u003cli\u003eRemovable liner features a seamless chamois pad\u003c/li\u003e \u003cli\u003ePlenty of pockets for ID, cash and snacks\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$59.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "21",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d80424\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$59.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "286042_1_43",
+            "selected": true
+          }
+        ],
+        "img": "286042_1_42",
+        "attr_arry": [
+          {
+            "key": "101833",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "101832",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "59.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1334213",
+            "id": "286042",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "83418",
+        "pos": 35,
+        "name": "Multisport Shorts",
+        "seoName": "multisport-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eQuick-drying ripstop fabric keeps you cool and comfortable as you exercise\u003c/li\u003e \u003cli\u003eBuilt-in UPF 40+ sun protection\u003c/li\u003e \u003cli\u003eA great choice for workouts, hikes, runs and more\u003c/li\u003e \u003cli\u003e10\" inseam\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eQuick-drying ripstop fabric keeps you cool and comfortable as you exercise\u003c/li\u003e \u003cli\u003eBuilt-in UPF 40+ sun protection\u003c/li\u003e \u003cli\u003eA great choice for workouts, hikes, runs and more\u003c/li\u003e \u003cli\u003e10\" inseam\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "5",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d83418\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Iron",
+            "id": "290785_37558_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Carbon Navy",
+            "id": "290785_32573_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Classic Black",
+            "id": "290785_23161_43",
+            "selected": false
+          }
+        ],
+        "img": "290785_37558_42",
+        "attr_arry": [
+          {
+            "key": "107080",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "107081",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "37558",
+            "val": "34.99"
+          },
+          {
+            "key": "32573",
+            "val": "34.99"
+          },
+          {
+            "key": "23161",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1397647",
+            "id": "290785",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "83149",
+        "pos": 36,
+        "name": "Allagash Cargo Shorts, Camouflage",
+        "seoName": "allagash-cargo-shorts-camouflage",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLots of functional pockets for your wallet, cell phone and more\u003c/li\u003e \u003cli\u003eCotton fabric has a subtle texture and an airy feel\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLots of functional pockets for your wallet, cell phone and more\u003c/li\u003e \u003cli\u003eCotton fabric has a subtle texture and an airy feel\u003c/li\u003e \u003cli\u003eNatural Fit is relaxed through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$49.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $14.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "116",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d83149\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$34.99\u003cspan\u003e-$49.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 30%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Camo",
+            "id": "290367_29064_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Sandstone",
+            "id": "290367_569_43",
+            "selected": false
+          }
+        ],
+        "img": "290367_569_42",
+        "attr_arry": [
+          {
+            "key": "106366",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "106367",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "29064",
+            "val": "34.99"
+          },
+          {
+            "key": "569",
+            "val": "49.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1383915",
+            "id": "290367",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "83582",
+        "pos": 37,
+        "name": "Bean\u0027s Summer Shorts, Seersucker",
+        "seoName": "bean-s-summer-shorts-seersucker",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eCotton seersucker\u0027s a crinkled weave that lets cooling air circulate\u003c/li\u003e \u003cli\u003ePair them with a tee or your favorite polo for an effortlessly casual look\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eCotton seersucker\u0027s a crinkled weave that lets cooling air circulate\u003c/li\u003e \u003cli\u003ePair them with a tee or your favorite polo for an effortlessly casual look\u003c/li\u003e \u003cli\u003eStandard Fit sits below the natural waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "20",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d83582\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$29.99\u003cspan\u003e-$39.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 25%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Mallard Blue",
+            "id": "290650_61_43",
+            "selected": false
+          },
+          {
+            "family": "Purple",
+            "name": "Bering Blue",
+            "id": "290650_34019_43",
+            "selected": false
+          }
+        ],
+        "img": "290650_34019_42",
+        "attr_arry": [
+          {
+            "key": "106784",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "106783",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "61",
+            "val": "29.99"
+          },
+          {
+            "key": "34019",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1394007",
+            "id": "290650",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85882",
+        "pos": 38,
+        "name": "Signature Washed-Canvas Cloth Short",
+        "seoName": "signature-washed-canvas-cloth-short",
+        "geltabUrl": "\u0026$SigNewOverlay$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Signature - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eSoft cotton canvas looks like it was weathered outdoors, broken in with a heavy garment-wash and handsanded detailing\u003c/li\u003e \u003cli\u003eOffered in an assortment of rugged, sun-faded colors\u003c/li\u003e \u003cli\u003eStandard Fit: Sits below the natural waist and is straight through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eSoft cotton canvas looks like it was weathered outdoors, broken in with a heavy garment-wash and handsanded detailing\u003c/li\u003e \u003cli\u003eOffered in an assortment of rugged, sun-faded colors\u003c/li\u003e \u003cli\u003eStandard Fit: Sits below the natural waist and is straight through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$59.99\u003cspan\u003e-$69\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85882\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$59.99\u003cspan\u003e-$69\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 13%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Light Khaki",
+            "id": "293602_145_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Light Saddle",
+            "id": "293602_147_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Garnet Red",
+            "id": "293602_41210_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Atlantic Blue",
+            "id": "293602_8_43",
+            "selected": false
+          }
+        ],
+        "img": "293602_8_42",
+        "attr_arry": [
+          {
+            "key": "110687",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "110688",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "145",
+            "val": "69.00"
+          },
+          {
+            "key": "147",
+            "val": "69.00"
+          },
+          {
+            "key": "41210",
+            "val": "59.99"
+          },
+          {
+            "key": "8",
+            "val": "59.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1439995",
+            "id": "293602",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "77280",
+        "pos": 39,
+        "name": "Technical Fishing Shorts",
+        "seoName": "technical-fishing-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eUpdated with new quick-adjusting belt that won\u0027t snag fly line\u003c/li\u003e \u003cli\u003eMade with quick-drying material that provides UPF 40+ sun protection\u003c/li\u003e \u003cli\u003eCargo pockets for gear and accessories\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eUpdated with new quick-adjusting belt that won\u0027t snag fly line\u003c/li\u003e \u003cli\u003eMade with quick-drying material that provides UPF 40+ sun protection\u003c/li\u003e \u003cli\u003eCargo pockets for gear and accessories\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$69\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "12",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d77280\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$69\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Tan",
+            "name": "Putty",
+            "id": "281654_161_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Graphite",
+            "id": "281654_185_43",
+            "selected": false
+          }
+        ],
+        "img": "281654_185_42",
+        "attr_arry": [
+          {
+            "key": "96332",
+            "val": "ECOM_WAIST"
+          },
+          {
+            "key": "96331",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "161",
+            "val": "69.00"
+          },
+          {
+            "key": "185",
+            "val": "69.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1275340",
+            "id": "281654",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "68807",
+        "pos": 40,
+        "name": "Double L Chino Shorts, Classic Fit Pleated 6\u0026#34; Inseam",
+        "seoName": "double-l-chino-shorts-classic-fit-pleated-6-inseam",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eAll the soft comfort of cotton, none of the wrinkles\u003c/li\u003e \u003cli\u003eResist shrinking for years of wear \u003c/li\u003e \u003cLI\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/LI\u003e\u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eAll the soft comfort of cotton, none of the wrinkles\u003c/li\u003e \u003cli\u003eResist shrinking for years of wear \u003c/li\u003e \u003cLI\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/LI\u003e\u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "3.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d68807\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "267790_74_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Khaki",
+            "id": "267790_1165_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "267790_1458_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Breton Red",
+            "id": "267790_1220_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bottle Blue",
+            "id": "267790_19_43",
+            "selected": false
+          }
+        ],
+        "img": "267790_1458_42",
+        "attr_arry": [
+          {
+            "key": "83812",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "83813",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1165",
+            "val": "34.95"
+          },
+          {
+            "key": "1458",
+            "val": "34.95"
+          },
+          {
+            "key": "1220",
+            "val": "34.95"
+          },
+          {
+            "key": "19",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1139356",
+            "id": "267790",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85878",
+        "pos": 41,
+        "name": "Signature Washed Chino Shorts",
+        "seoName": "signature-washed-chino-shorts",
+        "geltabUrl": "\u0026$SigNewOverlay$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Signature - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eSubstantial cotton twill is built to hold up season after season\u003c/li\u003e \u003cli\u003eWashed and weathered for exceptional softness and a lived-in look\u003c/li\u003e \u003cli\u003eSlim Straight: Our slimmest shorts sit below the natural waist and are fitted through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eSubstantial cotton twill is built to hold up season after season\u003c/li\u003e \u003cli\u003eWashed and weathered for exceptional softness and a lived-in look\u003c/li\u003e \u003cli\u003eSlim Straight: Our slimmest shorts sit below the natural waist and are fitted through the hips and thighs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$49.99\u003cspan\u003e-$59\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85878\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$49.99\u003cspan\u003e-$59\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 15%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Heritage Blue",
+            "id": "293613_41323_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Light Teal",
+            "id": "293613_256_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Tangerine",
+            "id": "293613_326_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "293613_129_43",
+            "selected": false
+          }
+        ],
+        "img": "293613_326_42",
+        "attr_arry": [
+          {
+            "key": "110699",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "110700",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41323",
+            "val": "49.99"
+          },
+          {
+            "key": "256",
+            "val": "49.99"
+          },
+          {
+            "key": "326",
+            "val": "49.99"
+          },
+          {
+            "key": "129",
+            "val": "59.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1440341",
+            "id": "293613",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87829",
+        "pos": 42,
+        "name": "Approach Hybrid Shorts",
+        "seoName": "approach-hybrid-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003ePerfect shorts for the water or on the mountain\u003c/li\u003e \u003cli\u003eFast drying and water repellent, with an exclusive stretch\u003c/li\u003e \u003cli\u003eInterior diamond texture prevents shorts from sticking to your skin\u003c/li\u003e \u003cli\u003eUPF 50+ sun protection for long days on the water\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003ePerfect shorts for the water or on the mountain\u003c/li\u003e \u003cli\u003eFast drying and water repellent, with an exclusive stretch\u003c/li\u003e \u003cli\u003eInterior diamond texture prevents shorts from sticking to your skin\u003c/li\u003e \u003cli\u003eUPF 50+ sun protection for long days on the water\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$54\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "5.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87829\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$54\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Granite Crosshatch",
+            "id": "295081_41880_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Loden Camo",
+            "id": "295081_32015_43",
+            "selected": false
+          }
+        ],
+        "img": "295081_41880_42",
+        "attr_arry": [
+          {
+            "key": "113081",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "113082",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41880",
+            "val": "54.00"
+          },
+          {
+            "key": "32015",
+            "val": "54.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1468859",
+            "id": "295081",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87147",
+        "pos": 43,
+        "name": "Zoic Ether Mountain Bike Shorts",
+        "seoName": "zoic-ether-mountain-bike-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eRugged shorts built for the demands of mountain biking\u003c/li\u003e \u003cli\u003eNew DuraStretch fabric features a touch of spandex so the shorts stretch with you on vigorous single track\u003c/li\u003e \u003cli\u003eSix pockets for all your essential riding gear \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eRugged shorts built for the demands of mountain biking\u003c/li\u003e \u003cli\u003eNew DuraStretch fabric features a touch of spandex so the shorts stretch with you on vigorous single track\u003c/li\u003e \u003cli\u003eSix pockets for all your essential riding gear \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$80\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87147\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$80\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "294572_1_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Shadow",
+            "id": "294572_7072_43",
+            "selected": false
+          }
+        ],
+        "img": "294572_7072_42",
+        "attr_arry": [
+          {
+            "key": "112282",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112283",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "80.00"
+          },
+          {
+            "key": "7072",
+            "val": "80.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1461434",
+            "id": "294572",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85879",
+        "pos": 44,
+        "name": "Signature Ripstop Cargo Shorts",
+        "seoName": "signature-ripstop-cargo-shorts",
+        "geltabUrl": "\u0026$SigNewOverlay$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Signature - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eCombines vintage military style and rugged details from our archives\u003c/li\u003e \u003cli\u003e6.6 oz. ripstop fabric is resistant to abrasion and tears, yet washed soft for a broken-in feel\u003c/li\u003e \u003cli\u003eStandard Fit: Sits below the natural waist and is straight through the hips and thighs.\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eCombines vintage military style and rugged details from our archives\u003c/li\u003e \u003cli\u003e6.6 oz. ripstop fabric is resistant to abrasion and tears, yet washed soft for a broken-in feel\u003c/li\u003e \u003cli\u003eStandard Fit: Sits below the natural waist and is straight through the hips and thighs.\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$69\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85879\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$69\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Dark Khaki",
+            "id": "293607_129_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Ivy",
+            "id": "293607_7454_43",
+            "selected": false
+          }
+        ],
+        "img": "293607_7454_42",
+        "attr_arry": [
+          {
+            "key": "110694",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "110695",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "129",
+            "val": "69.00"
+          },
+          {
+            "key": "7454",
+            "val": "69.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1440290",
+            "id": "293607",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87605",
+        "pos": 45,
+        "name": "Under Armour Chesapeake Fishing Shorts",
+        "seoName": "under-armour-chesapeake-fishing-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eRipstop nylon is ultra-durable for hard use during fishing \u003c/li\u003e \u003cli\u003e50+ UPF sun protection blocks UV rays\u003c/li\u003e \u003cli\u003eQuick-dry, moisture-wicking fabric keeps you cool on warm days\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eRipstop nylon is ultra-durable for hard use during fishing \u003c/li\u003e \u003cli\u003e50+ UPF sun protection blocks UV rays\u003c/li\u003e \u003cli\u003eQuick-dry, moisture-wicking fabric keeps you cool on warm days\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$59.99\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87605\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$59.99\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Graphite/Storm",
+            "id": "294926_41860_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Deer Hide/Bark",
+            "id": "294926_41868_43",
+            "selected": false
+          }
+        ],
+        "img": "294926_41868_42",
+        "attr_arry": [
+          {
+            "key": "112884",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112885",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41860",
+            "val": "59.99"
+          },
+          {
+            "key": "41868",
+            "val": "59.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1466884",
+            "id": "294926",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87706",
+        "pos": 46,
+        "name": "Essential Chino Shorts",
+        "seoName": "essential-chino-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA great basic, offered at a great price\u003c/li\u003e \u003cli\u003eCotton fabric is washed for softness from the first wearing\u003c/li\u003e \u003cli\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA great basic, offered at a great price\u003c/li\u003e \u003cli\u003eCotton fabric is washed for softness from the first wearing\u003c/li\u003e \u003cli\u003eClassic Fit sits at the natural waist and is trim with straight legs\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87706\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "294863_74_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Faded Slate",
+            "id": "294863_41840_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Tan",
+            "id": "294863_170_43",
+            "selected": false
+          }
+        ],
+        "img": "294863_41840_42",
+        "attr_arry": [
+          {
+            "key": "112965",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112966",
+            "val": "ECOM_WAIST"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "29.95"
+          },
+          {
+            "key": "41840",
+            "val": "29.95"
+          },
+          {
+            "key": "170",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1467928",
+            "id": "294863",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "87987",
+        "pos": 47,
+        "name": "Men\u0027s Canari Atlas Gel Cycling Shorts",
+        "seoName": "men-s-canari-atlas-gel-cycling-shorts",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eComfortable bike shorts that feature a baggy outer shell with a removable liner\u003c/li\u003e \u003cli\u003eGreat for mountain biking or mellow weekend road rides\u003c/li\u003e \u003cli\u003eLiner is equipped with a Canari gel pad for comfort \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eComfortable bike shorts that feature a baggy outer shell with a removable liner\u003c/li\u003e \u003cli\u003eGreat for mountain biking or mellow weekend road rides\u003c/li\u003e \u003cli\u003eLiner is equipped with a Canari gel pad for comfort \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$60\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "1.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d87987\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$60\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "295437_1_43",
+            "selected": true
+          }
+        ],
+        "img": "295437_1_42",
+        "attr_arry": [
+          {
+            "key": "113258",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "113259",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "60.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1470165",
+            "id": "295437",
+            "name": "",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82281",
+        "pos": 48,
+        "name": "Circuit Running Shorts",
+        "seoName": "circuit-running-shorts",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eLightweight, quick-drying fabric keeps you cool and comfortable on long runs, and has a touch of stretch to move with you\u003c/li\u003e \u003cli\u003eBuilt-in UPF 50+ sun protection\u003c/li\u003e \u003cli\u003eSpecial wrap-over waistband eliminates seams and reduces chafing \u003c/li\u003e \u003cli\u003e7\" inseam\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eLightweight, quick-drying fabric keeps you cool and comfortable on long runs, and has a touch of stretch to move with you\u003c/li\u003e \u003cli\u003eBuilt-in UPF 50+ sun protection\u003c/li\u003e \u003cli\u003eSpecial wrap-over waistband eliminates seams and reduces chafing \u003c/li\u003e \u003cli\u003e7\" inseam\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$44.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$39.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82281\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$44.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$39.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 11%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Classic Black/Classic Black",
+            "id": "289048_40244_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Gunmetal Gray/Vibrant Blue",
+            "id": "289048_40245_43",
+            "selected": false
+          }
+        ],
+        "img": "289048_40244_42",
+        "attr_arry": [
+          {
+            "key": "105262",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "105263",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "40244",
+            "val": "39.99"
+          },
+          {
+            "key": "40245",
+            "val": "39.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1372780",
+            "id": "289048",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      }
+    ],
+    "serialVersionUID": 0,
+    "canonicalURL": "http://www.llbean.com/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d908\u0026page\u003dmens-shorts",
+    "pageParam": "mens-shorts",
+    "rrPageIds": "78292,40603,58488,58527,68812,36415,37360,62570,40596,49334,68810,82265,49352,36414,82278",
+    "partialResult": false
+  }
+]

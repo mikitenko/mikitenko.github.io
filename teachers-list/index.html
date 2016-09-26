@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        div.main-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        div.main-container div.item {
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+
+        div.main-container .item .side-image,
+        div.main-container .item .side-description {
+            float: left;
+        }
+
+        div.main-container .item .side-image {
+            width: 30%;
+        }
+
+        div.main-container .item .side-image .main-image {
+            width: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            display: block;
+            border: none;
+            margin-bottom: 15px;
+        }
+
+        a.call-button {
+            display: block;
+            background: #FF6600;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            min-height: 40px;
+        }
+
+        div.main-container .item .side-description {
+            width: 65%;
+            padding-left: 5%;
+        }
+
+        div.main-container .item .side-description .header-description {
+            overflow: hidden;
+            margin-bottom: 10px;
+            color: #404040;
+        }
+
+        div.main-container .item .side-description .header-description span.name {
+            float: left;
+            font-size: 40px;
+        }
+
+        div.main-container .item .side-description .header-description span.price {
+            float: right;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        div.main-container .courses,
+        div.main-container .about {
+            overflow: hidden;
+            margin-bottom: 10px;
+            color: #404040;
+        }
+
+        div.main-container .courses span,
+        div.main-container .about span {
+            font-size: 24px;
+            line-height: 24px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        div.main-container .courses ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.main-container .courses ul li {
+            display: inline-block;
+            padding: 0 5px;
+            line-height: 20px;
+            margin: 4px 0 0 0;
+        }
+
+        div.main-container .about p {
+            margin: 0;
+            font-size: 20px;
+            line-height: 24px;
+            font-style: italic;
+        }
+
+        div.experience ul {
+            list-style: none;
+            margin: 0;
+            padding: 5px;
+            background: #1B3E82;
+            color: white;
+            font-weight: bold;
+        }
+
+        div.experience ul li {
+            display: inline-block;
+            border-left: 2px solid white;
+            text-align: center;
+            width: 32%;
+        }
+
+        div.experience ul li:first-child {
+            display: inline-block;
+            border-left: none;
+        }
+
+        audio {
+            margin-bottom: 15px;
+        }
+
+        .green {
+            background: #046A39;
+            color: white;
+        }
+
+        .yellow {
+            background: #FEC60F;
+            color: #404040;
+        }
+
+        .red {
+            background: #C52C26;
+            color: white;
+        }
+
+        .blue {
+            background: #1B3E82;
+            color: white;
+        }
+
+        .pagination {
+            list-style: none;
+            margin: 0;
+            margin-bottom: 19px;
+            padding: 0;
+            display: inline-block;
+            float: right;
+            overflow: hidden;
+        }
+
+        .pagination li,
+        .pagination a {
+            padding: 5px;
+        }
+
+        .pagination li {
+            float: left;
+            border: 1px solid #1B3E82;
+            color: #999;
+            margin-left: 5px;
+            margin-bottom: 5px;
+
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+        }
+
+        .pagination li:first-child {
+            margin-left: 0;
+        }
+
+        .pagination a {
+            display: block;
+            margin: -5px;
+            text-decoration: none;
+            color: #1B3E82;
+        }
+
+        .pagination a:hover,
+        .pagination .current a {
+            color: #fff;
+            background-color: #1B3E82;
+        }
+
+        .pagination .current {
+            border-color: #1B3E82;
+        }
+
+        .pagination .current a {
+            font-weight: bold;
+            cursor: text;
+        }
+
+        .first a:before {
+            content: "« ";
+        }
+
+        .last a:after {
+            content: " »";
+        }
+
+        .modalDialog {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 99999;
+            opacity: 0;
+            -webkit-transition: opacity 400ms ease-in;
+            -moz-transition: opacity 400ms ease-in;
+            transition: opacity 400ms ease-in;
+            pointer-events: none;
+        }
+
+        .modalDialog.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modalDialog > div {
+            width: 400px;
+            position: relative;
+            margin: 10% auto;
+            padding: 5px 20px 13px 20px;
+            border-radius: 10px;
+            background: #fff;
+            background: -moz-linear-gradient(#fff, #999);
+            background: -webkit-linear-gradient(#fff, #999);
+            background: -o-linear-gradient(#fff, #999);
+        }
+
+        .close {
+            background: #606061;
+            color: #FFFFFF;
+            line-height: 25px;
+            position: absolute;
+            right: -12px;
+            text-align: center;
+            top: -10px;
+            width: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            -moz-box-shadow: 1px 1px 3px #000;
+            -webkit-box-shadow: 1px 1px 3px #000;
+            box-shadow: 1px 1px 3px #000;
+        }
+
+        .close:hover {
+            background: #1B3E82;
+        }
+
+        @media (max-width: 570px) {
+            div.main-container {
+                margin: 0 10px;
+            }
+
+            div.main-container .item .side-image {
+                width: 100%;
+            }
+
+            div.main-container .item .side-description {
+                width: 100%;
+                padding-left: 0;
+            }
+        }
+
+        @media (max-width: 415px) {
+            div.main-container .item .side-description .header-description span.name,
+            div.main-container .item .side-description .header-description span.price {
+                width: 100%;
+                text-align: center;
+            }
+
+            div.experience ul li {
+                width: 100%;
+                border-left: none;
+                border-top: 2px solid white;
+            }
+
+            div.experience ul li:first-child {
+                border-top: none;
+            }
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script>
+        $(document).on('click', 'a.call-button, a.close', function (event) {
+            $('#openModal').toggleClass('open');
+        });
+    </script>
+</head>
+<body>
+<div class="main-container">
+    <div class="item">
+        <div class="side-image">
+            <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
+            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+        </div>
+        <div class="side-description">
+            <div class="header-description">
+                <span class="name">Михаил</span>
+                <span class="price">от 600 р.</span>
+            </div>
+            <div class="courses">
+                <span>Курсы:</span>
+                <ul>
+                    <li class="green">общий</li>
+                    <li class="yellow">разговорный</li>
+                    <li class="red">ПМЖ</li>
+                    <li class="blue">бизнес</li>
+                </ul>
+            </div>
+            <div class="about">
+                <span>О себе:</span>
+
+                <p>Репетитор по немецкому языку.
+                    Образование: Российский государственный университет им. И. Канта (РГУ), юридический факультет,
+                    специальность – юрист (2002 г.); Литературный институт им. Горького, специальность – литературное
+                    мастерство, проза (2009 г.).
+                    Курс обучения в университете Германии (юридический).
+                    Стажировка в адвокатском бюро (Берлин).
+                    Опыт репетиторства – с 2010 года.
+                </p>
+            </div>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="experience">
+                <ul>
+                    <li>Опыт: 10 лет</li>
+                    <li>Skype: 7 лет</li>
+                    <li>Уроков: 985</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="side-image">
+            <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
+            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+        </div>
+        <div class="side-description">
+            <div class="header-description">
+                <span class="name">Михаил</span>
+                <span class="price">от 600 р.</span>
+            </div>
+            <div class="courses">
+                <span>Курсы:</span>
+                <ul>
+                    <li class="green">общий</li>
+                    <li class="yellow">разговорный</li>
+                    <li class="red">ПМЖ</li>
+                    <li class="blue">бизнес</li>
+                </ul>
+            </div>
+            <div class="about">
+                <span>О себе:</span>
+
+                <p>Репетитор по немецкому языку.
+                    Образование: Российский государственный университет им. И. Канта (РГУ), юридический факультет,
+                    специальность – юрист (2002 г.); Литературный институт им. Горького, специальность – литературное
+                    мастерство, проза (2009 г.).
+                    Курс обучения в университете Германии (юридический).
+                    Стажировка в адвокатском бюро (Берлин).
+                    Опыт репетиторства – с 2010 года.
+                </p>
+            </div>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="experience">
+                <ul>
+                    <li>Опыт: 10 лет</li>
+                    <li>Skype: 7 лет</li>
+                    <li>Уроков: 985</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="side-image">
+            <img class="main-image" src="https://www.de-online.ru/_nw/6/58327489.jpg" alt=""/>
+            <a href="javascript:void(0)" class="call-button" title="связаться">связаться</a>
+        </div>
+        <div class="side-description">
+            <div class="header-description">
+                <span class="name">Михаил</span>
+                <span class="price">от 600 р.</span>
+            </div>
+            <div class="courses">
+                <span>Курсы:</span>
+                <ul>
+                    <li class="green">общий</li>
+                    <li class="yellow">разговорный</li>
+                    <li class="red">ПМЖ</li>
+                    <li class="blue">бизнес</li>
+                </ul>
+            </div>
+            <div class="about">
+                <span>О себе:</span>
+
+                <p>Репетитор по немецкому языку.
+                    Образование: Российский государственный университет им. И. Канта (РГУ), юридический факультет,
+                    специальность – юрист (2002 г.); Литературный институт им. Горького, специальность – литературное
+                    мастерство, проза (2009 г.).
+                    Курс обучения в университете Германии (юридический).
+                    Стажировка в адвокатском бюро (Берлин).
+                    Опыт репетиторства – с 2010 года.
+                </p>
+            </div>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="experience">
+                <ul>
+                    <li>Опыт: 10 лет</li>
+                    <li>Skype: 7 лет</li>
+                    <li>Уроков: 985</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <ol class=pagination>
+        <li class=first><a href=#></a></li>
+        <li><a href=#>1</a></li>
+        <li><a href=#>2</a></li>
+        <li><a href=#>3</a></li>
+        <li class=current><a href=#>4</a></li>
+        <li><a href=#>5</a></li>
+        <li><a href=#>6</a></li>
+        <li class=last><a href=#></a></li>
+    </ol>
+
+
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="javascript:void(0)" title="Close" class="close">X</a>
+
+            <h2>EXAMPLE</h2>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

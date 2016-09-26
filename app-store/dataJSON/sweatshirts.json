@@ -1,0 +1,3166 @@
+[
+  {
+    "apiHeader": {
+      "status": "success",
+      "response": {
+        "code": "200",
+        "msg": "",
+        "to": ""
+      }
+    },
+    "prof": {
+      "semaResponse": 96,
+      "ecomProcessing": 63,
+      "jsonConversion": 0,
+      "totalCategoryProcessing": 39,
+      "filterNotRequiredCategory": 36,
+      "processHeaderCheck": 0,
+      "filterProcessing": 0,
+      "productProcessing": 15,
+      "processBreadCrumb": 0,
+      "processRefineOps": 0
+    },
+    "isEcm": false,
+    "cgyLevelIndex": "3",
+    "limit": "200",
+    "resultTask": "http://ecsolrp02.llbean.com:8080/solr/product/select?fq\u003dall_cats%3A907+\u0026mm\u003d2%3C-1+7%3C-10%25\u0026qf\u003dpage_id_searchable%5E10+all_cats%5E10+title%5E1.4+cat_keywords%5E1.4+title_synonyms%5E1.3+tokenized_categories%5E1.3+keywords%5E1.3+cat_keywords_synonyms%5E1.3+tokenized_categories_synonyms%5E1.2+keywords_synonyms%5E1.2+attr_lvl_1%5E1.0+attr_lvl_1_synonyms%5E1.0+short_desc%5E1.0+short_desc_synonyms%5E1.0+sku_color_names%5E1.0\u0026pf2\u003dtitle%5E1.5+cat_keywords%5E1.5+title_synonyms%5E1.4+tokenized_categories%5E1.4+keywords%5E1.4+cat_keywords_synonyms%5E1.4+tokenized_categories_synonyms%5E1.3+keywords_synonyms%5E1.3+attr_lvl_1%5E1.1+attr_lvl_1_synonyms%5E1.1+short_desc%5E1.1+short_desc_synonyms%5E1.1+sku_color_names%5E1.2\u0026pf3\u003dtitle%5E1.5+cat_keywords%5E1.5+title_synonyms%5E1.4+tokenized_categories%5E1.4+keywords%5E1.4+cat_keywords_synonyms%5E1.4+tokenized_categories_synonyms%5E1.3+keywords_synonyms%5E1.3+attr_lvl_1%5E1.1+attr_lvl_1_synonyms%5E1.1+short_desc%5E1.1+short_desc_synonyms%5E1.1+sku_color_names%5E1.2\u0026q\u003d*%3A*\u0026facet\u003dtrue\u0026facet.mincount\u003d1\u0026facet.field\u003drefine_attr_COLLECT\u0026facet.field\u003drefine_attr_SIZE_PROPORTION\u0026facet.field\u003drefine_attr_FTRS\u0026facet.field\u003drefine_attr_STYLE\u0026facet.field\u003drefine_attr_FIT\u0026facet.field\u003drefine_attr_COLOR_FAMILY\u0026facet.field\u003drefine_attr_REVIEW_RATING\u0026facet.field\u003drefine_attr_MATERIAL\u0026facet.field\u003drefine_attr_LNNG_MTRL\u0026facet.field\u003drefine_attr_SWTR_WGHT\u0026facet.field\u003d%7B%21ex%3Ddt%7Dcat_hierarchies\u0026bf\u003dsum%280.05%2Cproduct%280.95%2Csum%28product%28100.0%2Cfield%28srch_attr_revenue_log10%29%29%29%29%29\u0026qt\u003d%2Fllsearch\u0026facet.sort\u003dindex\u0026facet.limit\u003d-1\u0026rows\u003d48\u0026start\u003d0",
+    "semaURL": "http://ecsolrp-slave-blue/SearchManager/searchManagerServlet?categoryId\u003d907\u0026subrnd\u003d0\u0026childCatIds\u003d506775\u0026num\u003d48\u0026SS\u003dA\u0026LLBVAT\u003dVISITOR_ID:9:false:true:3:17:0:true:9:4:0:9:0:0:0:0:0:-1:0:0:-1:-1:1433840400000:1433769926444:75\u0026wt\u003dhtml\u0026si\u003dtrue",
+    "gnajax": "/llb/gnajax/2",
+    "gnshop": "/llb/shop/2",
+    "gnsearch": "/llb/search/2",
+    "gnlander": "/llb/lander/2",
+    "moe": "S3",
+    "startPage": 0,
+    "endPage": 0,
+    "currentPage": 1,
+    "totalPages": 0,
+    "productsPerPage": 48,
+    "pageStartPosition": 1,
+    "pageFoundSize": 29,
+    "socDsplFlg": false,
+    "categoryId": "907",
+    "genTS": "150609-06:07:42",
+    "thumbnailType": 0,
+    "pageType": 1,
+    "viewType": "fourUp",
+    "crt": "",
+    "gnLevel": "GN1",
+    "gnFeat": "907-GN1",
+    "gnThumbType": 0,
+    "gnSortField": "Relevance",
+    "gnRefine": "",
+    "gnPosition": 0,
+    "gnBreadcrumb": "^26*Men\u0027s^907*Sweatshirts",
+    "gnAttr": "",
+    "gnFreeText": "",
+    "metricPath": "Men\u0027s:Sweatshirts:",
+    "metricDeptName": "Men\u0027s",
+    "metricDeptId": 26,
+    "metricSubDeptName": "Sweatshirts",
+    "metricSubDeptId": 907,
+    "metricSub2DeptName": "",
+    "metricSub2DeptId": -1,
+    "metricSub3DeptName": "",
+    "metricSub3DeptId": -1,
+    "subrnd": "0",
+    "secondaryPageCount": 0,
+    "alternateSearch": "",
+    "pageTitle": "Men\u0027s Sweatshirts and Sweat Pants | Free Shipping at L.L.Bean",
+    "breadcrumb": "\u003ca href\u003dhttp://www.llbean.com\u003eL.L.Bean\u003c/a\u003e\u003cspan\u003e\u0026gt;\u003c/span\u003e\u003ca display\u003d\u0027guidednav.jsp\u0027 href\u003d\u0027/llb/shop/26\u0027\u003eMen\u0027s\u003c/a\u003e\u003cspan\u003e\u0026gt;\u003c/span\u003e\u003cspan class\u003d\u0027final-breadcrumb\u0027\u003eSweatshirts\u003c/span\u003e",
+    "header": "Men\u0027s Sweatshirts\u003cspan class\u003d\u0027qty\u0027\u003e(29)\u003c/span\u003e",
+    "seoPageInfo": {
+      "titleMetaCustHtml": [],
+      "seoCopyCustHtml": [],
+      "browserTitle": "\u003ctitle\u003eMen\u0027s Sweatshirts \u0026 Sweat Pants | Free Shipping at L.L.Bean\u003c/title\u003e",
+      "header1": "Men\u0027s Sweatshirts",
+      "metaDescription": "\u003cmeta name\u003d\"description\" content\u003d\"Free Shipping. Discover the features of our Men\u0027s Sweatshirts Fleece \u0026 Sweatpants at L.L.Bean. Our high quality men\u0027s clothing are backed by a 100% satisfaction guarantee.\" /\u003e",
+      "metaKeywords": "\u003cmeta name\u003d\"keywords\" content\u003d\"Men\u0027s sweatshirts, hooded sweatshirt, fleece sweatshirt, zip sweatshirt\" /\u003e",
+      "keywordPrefix": "Sweatshirts, Men\u0027s"
+    },
+    "sortOptions": [
+      {
+        "name": "Recommended",
+        "value": "Relevance",
+        "selected": true,
+        "title": "Sort by Recommended"
+      },
+      {
+        "name": "Price",
+        "value": "Price (Ascending)",
+        "selected": false,
+        "title": "Sort by Price (lowest to highest)"
+      },
+      {
+        "name": "Price",
+        "value": "Price (Descending)",
+        "selected": false,
+        "title": "Sort by Price (highest to lowest)"
+      },
+      {
+        "name": "Bestselling",
+        "value": "Num_Of_Orders",
+        "selected": false,
+        "title": "Sort by Bestselling"
+      },
+      {
+        "name": "Newest",
+        "value": "SRCH_ATTR_RECENCY (Descending)",
+        "selected": false,
+        "title": "Sort by Newest"
+      },
+      {
+        "name": "Customer Rating",
+        "value": "Grade (Descending)",
+        "selected": false,
+        "title": "Sort by Customer Rating"
+      },
+      {
+        "name": "A-Z",
+        "value": "Name (Ascending)",
+        "selected": false,
+        "title": "Sort by A-Z"
+      }
+    ],
+    "viewOptions": [
+      "fourUp",
+      "groupView"
+    ],
+    "viewTemplates": [
+      {
+        "view": "fourUp",
+        "id": 0,
+        "spriteName": "fourUp_link",
+        "desc": "Grid (medium images)",
+        "pubFlg": true,
+        "selected": true,
+        "prodPerPage": 48,
+        "sequence": 1
+      },
+      {
+        "view": "groupView",
+        "id": 10,
+        "spriteName": "group_link",
+        "desc": "Categories",
+        "pubFlg": true,
+        "selected": false,
+        "prodPerPage": 8,
+        "sequence": 5
+      }
+    ],
+    "refineOpts": [
+      {
+        "name": "Collection",
+        "value": "COLLECT",
+        "refineVals": [
+          {
+            "name": "Athletic Sweats",
+            "count": 6,
+            "value": "Athletic Sweats",
+            "selected": false,
+            "parm": "1*COLLECT*Athletic Sweats"
+          },
+          {
+            "name": "Katahdin Iron Works",
+            "count": 5,
+            "value": "Katahdin Iron Works",
+            "selected": false,
+            "parm": "1*COLLECT*Katahdin Iron Works"
+          },
+          {
+            "name": "Signature",
+            "count": 3,
+            "value": "Signature",
+            "selected": false,
+            "parm": "1*COLLECT*Signature"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Size Range",
+        "value": "SIZE_PROPORTION",
+        "refineVals": [
+          {
+            "name": "Regular",
+            "count": 28,
+            "value": "Regular",
+            "selected": false,
+            "parm": "1*SIZE_PROPORTION*Regular"
+          },
+          {
+            "name": "Tall",
+            "count": 19,
+            "value": "Tall",
+            "selected": false,
+            "parm": "1*SIZE_PROPORTION*Tall"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Features",
+        "value": "FTRS",
+        "refineVals": [
+          {
+            "name": "Fade-Resistant",
+            "count": 6,
+            "value": "Fade-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Fade-Resistant"
+          },
+          {
+            "name": "Hooded",
+            "count": 6,
+            "value": "Hooded",
+            "selected": false,
+            "parm": "1*FTRS*Hooded"
+          },
+          {
+            "name": "Lined",
+            "count": 7,
+            "value": "Lined",
+            "selected": false,
+            "parm": "1*FTRS*Lined"
+          },
+          {
+            "name": "Quick-Dry",
+            "count": 3,
+            "value": "Quick-Dry",
+            "selected": false,
+            "parm": "1*FTRS*Quick-Dry"
+          },
+          {
+            "name": "Shrink-Resistant",
+            "count": 8,
+            "value": "Shrink-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Shrink-Resistant"
+          },
+          {
+            "name": "Water-Resistant",
+            "count": 1,
+            "value": "Water-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Water-Resistant"
+          },
+          {
+            "name": "Wind-Resistant",
+            "count": 1,
+            "value": "Wind-Resistant",
+            "selected": false,
+            "parm": "1*FTRS*Wind-Resistant"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Style",
+        "value": "STYLE",
+        "refineVals": [
+          {
+            "name": "Crewneck",
+            "count": 3,
+            "value": "Crewneck",
+            "selected": false,
+            "parm": "1*STYLE*Crewneck"
+          },
+          {
+            "name": "Full-Zip",
+            "count": 10,
+            "value": "Full-Zip",
+            "selected": false,
+            "parm": "1*STYLE*Full-Zip"
+          },
+          {
+            "name": "Henley",
+            "count": 1,
+            "value": "Henley",
+            "selected": false,
+            "parm": "1*STYLE*Henley"
+          },
+          {
+            "name": "Hooded",
+            "count": 1,
+            "value": "Hooded",
+            "selected": false,
+            "parm": "1*STYLE*Hooded"
+          },
+          {
+            "name": "Pullover",
+            "count": 1,
+            "value": "Pullover",
+            "selected": false,
+            "parm": "1*STYLE*Pullover"
+          },
+          {
+            "name": "Quarter-Zip",
+            "count": 5,
+            "value": "Quarter-Zip",
+            "selected": false,
+            "parm": "1*STYLE*Quarter-Zip"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Fit",
+        "value": "FIT",
+        "refineVals": [
+          {
+            "name": "Traditional",
+            "count": 16,
+            "value": "Traditional",
+            "selected": false,
+            "parm": "1*FIT*Traditional"
+          },
+          {
+            "name": "Slightly Fitted",
+            "count": 6,
+            "value": "Slightly Fitted",
+            "selected": false,
+            "parm": "1*FIT*Slightly Fitted"
+          },
+          {
+            "name": "Slim",
+            "count": 2,
+            "value": "Slim",
+            "selected": false,
+            "parm": "1*FIT*Slim"
+          },
+          {
+            "name": "Signature",
+            "count": 2,
+            "value": "Signature",
+            "selected": false,
+            "parm": "1*FIT*Signature"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Color",
+        "value": "COLOR_FAMILY",
+        "refineVals": [
+          {
+            "name": "Brown",
+            "count": 3,
+            "value": "Brown",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Brown"
+          },
+          {
+            "name": "Gray",
+            "count": 15,
+            "value": "Gray",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Gray"
+          },
+          {
+            "name": "Green",
+            "count": 8,
+            "value": "Green",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Green"
+          },
+          {
+            "name": "Orange",
+            "count": 2,
+            "value": "Orange",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Orange"
+          },
+          {
+            "name": "Red",
+            "count": 6,
+            "value": "Red",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Red"
+          },
+          {
+            "name": "Tan",
+            "count": 3,
+            "value": "Tan",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Tan"
+          },
+          {
+            "name": "Black",
+            "count": 5,
+            "value": "Black",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Black"
+          },
+          {
+            "name": "Blue",
+            "count": 19,
+            "value": "Blue",
+            "selected": false,
+            "parm": "1*COLOR_FAMILY*Blue"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Customer Rating",
+        "value": "REVIEW_RATING",
+        "refineVals": [
+          {
+            "name": "4",
+            "count": 24,
+            "value": "4",
+            "selected": false,
+            "parm": "1*REVIEW_RATING*4"
+          },
+          {
+            "name": "3",
+            "count": 24,
+            "value": "3",
+            "selected": false,
+            "parm": "1*REVIEW_RATING*3"
+          },
+          {
+            "name": "2",
+            "count": 25,
+            "value": "2",
+            "selected": false,
+            "parm": "1*REVIEW_RATING*2"
+          },
+          {
+            "name": "1",
+            "count": 25,
+            "value": "1",
+            "selected": false,
+            "parm": "1*REVIEW_RATING*1"
+          },
+          {
+            "name": "0",
+            "count": 4,
+            "value": "0",
+            "selected": false,
+            "parm": "1*REVIEW_RATING*0"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Fabric",
+        "value": "MATERIAL",
+        "refineVals": [
+          {
+            "name": "Cotton",
+            "count": 14,
+            "value": "Cotton",
+            "selected": false,
+            "parm": "1*MATERIAL*Cotton"
+          },
+          {
+            "name": "Cotton Blend",
+            "count": 5,
+            "value": "Cotton Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Cotton Blend"
+          },
+          {
+            "name": "Fleece",
+            "count": 3,
+            "value": "Fleece",
+            "selected": false,
+            "parm": "1*MATERIAL*Fleece"
+          },
+          {
+            "name": "Nylon Blend",
+            "count": 1,
+            "value": "Nylon Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Nylon Blend"
+          },
+          {
+            "name": "Polyester",
+            "count": 1,
+            "value": "Polyester",
+            "selected": false,
+            "parm": "1*MATERIAL*Polyester"
+          },
+          {
+            "name": "Polyester Blend",
+            "count": 2,
+            "value": "Polyester Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Polyester Blend"
+          },
+          {
+            "name": "Synthetic",
+            "count": 2,
+            "value": "Synthetic",
+            "selected": false,
+            "parm": "1*MATERIAL*Synthetic"
+          },
+          {
+            "name": "Wool",
+            "count": 1,
+            "value": "Wool",
+            "selected": false,
+            "parm": "1*MATERIAL*Wool"
+          },
+          {
+            "name": "Wool Blend",
+            "count": 1,
+            "value": "Wool Blend",
+            "selected": false,
+            "parm": "1*MATERIAL*Wool Blend"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Lining Material",
+        "value": "LNNG_MTRL",
+        "refineVals": [
+          {
+            "name": "Fleece",
+            "count": 6,
+            "value": "Fleece",
+            "selected": false,
+            "parm": "1*LNNG_MTRL*Fleece"
+          },
+          {
+            "name": "Microfleece",
+            "count": 1,
+            "value": "Microfleece",
+            "selected": false,
+            "parm": "1*LNNG_MTRL*Microfleece"
+          }
+        ],
+        "selected": false
+      },
+      {
+        "name": "Sweater Weight",
+        "value": "SWTR_WGHT",
+        "refineVals": [
+          {
+            "name": "Midweight",
+            "count": 2,
+            "value": "Midweight",
+            "selected": false,
+            "parm": "1*SWTR_WGHT*Midweight"
+          }
+        ],
+        "selected": false
+      }
+    ],
+    "topBanners": [
+      {
+        "bannerHtml": "\u003cimg src\u003d\"/dept_resources/mens/promo_images/141226_MensSweatshirtBanner_slice.jpg\" alt\u003d\"Unbeatable Comfort In styles designed to keep you warm.\" title\u003d\"\" border\u003d\"0\" width\u003d\"785\" height\u003d\"200\"\u003e"
+      }
+    ],
+    "bottomBanners": [
+      {
+        "bannerHtml": "\u003ch2\u003eMen\u0027s Sweatshirts. \u003c/h2\u003eShop L.L.Bean for the unbeatable comfort of our Men\u0027s sweatshirts. Our men\u0027s sweatshirts are designed to keep you warm and comfortable in any weather. Shop our hooded sweatshirt options in heavyweight or midweight cottons or merino wool. Our zip sweatshirts are perfect for running errands or wearing to work. Choose our fleece sweatshirts for a soft and versatile layer at a comfortable price. L.L.Bean sweatshirts are made to fit your style and your budget, and as always, are shipped free and guaranteed to last."
+      }
+    ],
+    "sideBanners": [
+      {
+        "pos": "11",
+        "viewType": "fourUp",
+        "bannerHtml": "\r\n\u003ca href\u003d\"#\" class\u003d\"fsTriggerS2013\" title\u003d\"Details\"\u003e\u003cimg src\u003d\"/dept_resources/shared/promo_images/141226_FS_THUMB4.png\" height\u003d\"375\" width\u003d\"190\" alt\u003d\"Free Shipping. No minimum order. No end date.\"\u003e\u003c/a\u003e "
+      }
+    ],
+    "dept": [
+      {
+        "level": 0,
+        "name": "Men\u0027s",
+        "categoryId": 26,
+        "categoryIdParent": 2,
+        "count": 1134,
+        "href": "",
+        "display": "wcmdepartment.jsp",
+        "skipLevel": 0,
+        "miniThumbImg": "",
+        "navexp": 0,
+        "leftNavExpandFlg": 0,
+        "pagePathVisible": 0,
+        "localNavVisible": 1,
+        "groupedDisplay": 0,
+        "maxRowsInGrp": 0,
+        "refineOptToShow": 0,
+        "sortAttrBy": 0,
+        "maxAttrVals": 0,
+        "sortAttrValsBy": 0,
+        "sortNestedAttrValsBy": 0,
+        "socDsplFlg": 0,
+        "tmplViewId": 0,
+        "topnavColumn": 0,
+        "topnavSequence": 0,
+        "selected": true,
+        "bannerg1": "",
+        "bannergu": [],
+        "bannergd": [],
+        "bannerg2": [],
+        "dept": [
+          {
+            "level": 1,
+            "name": "Sweatshirts",
+            "categoryId": 907,
+            "categoryIdParent": 26,
+            "count": 29,
+            "href": "",
+            "display": "guidednav.jsp",
+            "skipLevel": 0,
+            "miniThumbImg": "http://cdni.llbean.com/is/image/wim/285365_1473_41",
+            "navexp": 0,
+            "leftNavExpandFlg": 0,
+            "pagePathVisible": 0,
+            "localNavVisible": 1,
+            "groupedDisplay": 0,
+            "maxRowsInGrp": 0,
+            "refineOptToShow": 0,
+            "sortAttrBy": 0,
+            "maxAttrVals": 0,
+            "sortAttrValsBy": 0,
+            "sortNestedAttrValsBy": 0,
+            "socDsplFlg": 0,
+            "tmplViewId": 0,
+            "topnavColumn": 0,
+            "topnavSequence": 0,
+            "selected": true,
+            "bannerg1": "",
+            "bannergu": [],
+            "bannergd": [],
+            "bannerg2": [],
+            "dept": [
+              {
+                "level": 2,
+                "name": "Sweatshirts",
+                "categoryId": 506775,
+                "categoryIdParent": 907,
+                "count": 29,
+                "href": "",
+                "display": "guidednav.jsp",
+                "skipLevel": 0,
+                "miniThumbImg": "",
+                "navexp": 0,
+                "leftNavExpandFlg": 0,
+                "pagePathVisible": 0,
+                "localNavVisible": 0,
+                "groupedDisplay": 0,
+                "maxRowsInGrp": 0,
+                "refineOptToShow": 0,
+                "sortAttrBy": 0,
+                "maxAttrVals": 0,
+                "sortAttrValsBy": 0,
+                "sortNestedAttrValsBy": 0,
+                "socDsplFlg": 0,
+                "tmplViewId": 0,
+                "topnavColumn": 0,
+                "topnavSequence": 0,
+                "selected": false,
+                "bannerg1": "",
+                "bannergu": [],
+                "bannergd": [],
+                "bannerg2": [],
+                "dept": []
+              }
+            ],
+            "bannerld": "\u003clink rel\u003d\"stylesheet\" href\u003d\"/includes/css/banner_pg27_html17506.css\" type\u003d\"text/css\"\u003e\r\n    \r\n    \r\n\u003c!-- Women Dept - PAGE ID: 27 - HTML ID: 17506 --\u003e\r\n \r\n\r\n\u003cdiv class\u003d\"clearBoth\"\u003e\u003c/div\u003e\r\n \r\n\u003cdiv class\u003d\"eaform\"\u003e\r\n    \u003cform title\u003d\"Sign up\" class\u003d\"LNnewsletterForm2\" id\u003d\"newsletter-form2\" name\u003d\"llbNewsLetter2\" action\u003d\"/webapp/wcs/stores/servlet/LLBProcessPromoEmailCmd\" method\u003d\"post\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"1\" name\u003d\"storeId\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"1\" name\u003d\"catalogId\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"-1\" name\u003d\"langId\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"emailacq-27\" name\u003d\"nav\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"0\" name\u003d\"subrnd\"\u003e\r\n        \u003cinput type\u003d\"hidden\" value\u003d\"https://www.llbean.com\" name\u003d\"moe_url\"\u003e\r\n        \u003cinput class\u003d\"email-address\" name\u003d\"emailaddress\" title\u003d\"Exclusive offers and updates - Enter email address\" value\u003d\"Enter email address\" maxlength\u003d\"70\" size\u003d\"20\"\u003e\r\n        \u003cinput class\u003d\"imgMar\" type\u003d\"image\" title\u003d\"Sign up\" alt\u003d\"Be the First to Know about exclusive sales, special offers and more.\" src\u003d\"/dept_resources/shared/promo_images/130422_email_ac_submit.jpg\" align\u003d\"middle\"\u003e\r\n    \u003c/form\u003e\r\n\u003c/div\u003e"
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "58519",
+        "pos": 1,
+        "name": "Athletic Sweats, Traditional Fit Full-Zip",
+        "seoName": "athletic-sweats-traditional-fit-full-zip",
+        "geltabUrl": "",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cLI\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/LI\u003e\u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cLI\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/LI\u003e\u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$44.99\u003cspan\u003e-$54.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.6",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "360",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58519\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$44.99\u003cspan\u003e-$54.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 10%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "254675_74_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Light Gray Heather",
+            "id": "254675_1473_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "254675_1704_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Deep Ocean Heather",
+            "id": "254675_41565_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Red",
+            "id": "254675_638_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Peacock Blue",
+            "id": "254675_82_43",
+            "selected": false
+          }
+        ],
+        "img": "254675_1473_42",
+        "attr_arry": [
+          {
+            "key": "65029",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65030",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "65027",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65028",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1704",
+            "val": "54.95"
+          },
+          {
+            "key": "74",
+            "val": "54.95"
+          },
+          {
+            "key": "1473",
+            "val": "49.95"
+          },
+          {
+            "key": "41565",
+            "val": "49.95"
+          },
+          {
+            "key": "638",
+            "val": "49.95"
+          },
+          {
+            "key": "82",
+            "val": "44.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "967807",
+            "id": "254675",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "22786",
+        "pos": 2,
+        "name": "Athletic Sweats, Crewneck",
+        "seoName": "athletic-sweats-crewneck",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95-$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "602",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d22786\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95-$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Light Gray Heather",
+            "id": "187257_1473_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "187257_74_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Red",
+            "id": "187257_638_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "187257_1704_43",
+            "selected": false
+          }
+        ],
+        "img": "187257_638_42",
+        "attr_arry": [
+          {
+            "key": "10458",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "10459",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "10461",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "10460",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1473",
+            "val": "34.95"
+          },
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "638",
+            "val": "34.95"
+          },
+          {
+            "key": "1704",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "291341",
+            "id": "187257",
+            "name": "Regular",
+            "catId": "",
+            "stock": "August 5"
+          }
+        ],
+        "backOrderDate": "August 5",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "58518",
+        "pos": 3,
+        "name": "Athletic Sweats, Traditional Fit Hooded Full-Zip",
+        "seoName": "athletic-sweats-traditional-fit-hooded-full-zip",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eKnit extra thick and brushed for exceptional softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cLI\u003eTraditional Fit is relaxed through the chest, sleeves and waist.\u003c/LI\u003e\u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eKnit extra thick and brushed for exceptional softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cLI\u003eTraditional Fit is relaxed through the chest, sleeves and waist.\u003c/LI\u003e\u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$54.95-$59.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "202",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58518\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$54.95-$59.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Light Gray Heather",
+            "id": "254677_1473_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "254677_1704_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "254677_74_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Red",
+            "id": "254677_638_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Deep Ocean Heather",
+            "id": "254677_41565_43",
+            "selected": false
+          }
+        ],
+        "img": "254677_638_42",
+        "attr_arry": [
+          {
+            "key": "65032",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "65031",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "67698",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "67699",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1473",
+            "val": "54.95"
+          },
+          {
+            "key": "1704",
+            "val": "54.95"
+          },
+          {
+            "key": "74",
+            "val": "54.95"
+          },
+          {
+            "key": "638",
+            "val": "54.95"
+          },
+          {
+            "key": "41565",
+            "val": "54.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "991933",
+            "id": "254678",
+            "name": "Tall",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "58517",
+        "pos": 4,
+        "name": "Athletic Sweats, Plain-Front Pants",
+        "seoName": "athletic-sweats-plain-front-pants",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eMuch more substantial than run-of-the-mill sweats\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on them for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eMuch more substantial than run-of-the-mill sweats\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on them for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$34.95-$39.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.3",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "527",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58517\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$34.95-$39.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "254669_74_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "254669_1704_43",
+            "selected": false
+          }
+        ],
+        "img": "254669_0_49",
+        "attr_arry": [
+          {
+            "key": "65015",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65016",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "65017",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65018",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "34.95"
+          },
+          {
+            "key": "1704",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "967707",
+            "id": "254669",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "58520",
+        "pos": 5,
+        "name": "Athletic Sweats, Traditional Fit Quarter-Zip",
+        "seoName": "athletic-sweats-traditional-fit-quarter-zip",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cLI\u003eTraditional Fit is relaxed through the chest, sleeves and waist.\u003c/LI\u003e\u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite softness and exceptional warmth\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cLI\u003eTraditional Fit is relaxed through the chest, sleeves and waist.\u003c/LI\u003e\u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$49.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.5",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "457",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58520\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$39.99\u003cspan\u003e-$49.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 11%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Light Gray Heather",
+            "id": "254673_1473_43",
+            "selected": false
+          },
+          {
+            "family": "Red",
+            "name": "Deep Red",
+            "id": "254673_638_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "254673_1704_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "254673_74_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Peacock Blue",
+            "id": "254673_82_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Deep Ocean Heather",
+            "id": "254673_41565_43",
+            "selected": false
+          }
+        ],
+        "img": "254673_1704_42",
+        "attr_arry": [
+          {
+            "key": "65024",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "65025",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65026",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "65023",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1473",
+            "val": "49.95"
+          },
+          {
+            "key": "638",
+            "val": "44.95"
+          },
+          {
+            "key": "1704",
+            "val": "44.95"
+          },
+          {
+            "key": "74",
+            "val": "44.95"
+          },
+          {
+            "key": "82",
+            "val": "39.99"
+          },
+          {
+            "key": "41565",
+            "val": "49.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "967759",
+            "id": "254673",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "ship_info": [
+          {
+            "id": "967759",
+            "price": "",
+            "msg": "Approx. delivery time 2-5 business days. Delivery time may vary by destination.",
+            "rstrc": ""
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "58516",
+        "pos": 6,
+        "name": "Athletic Sweats, Fly-Front Pants",
+        "seoName": "athletic-sweats-fly-front-pants",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite warmth and softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on them for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eBrushed for old-favorite warmth and softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on them for years of wear\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95-$44.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "542",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d58516\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95-$44.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "254671_1704_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "254671_74_43",
+            "selected": false
+          }
+        ],
+        "img": "254671_0_49",
+        "attr_arry": [
+          {
+            "key": "65019",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65020",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "65021",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "65022",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1704",
+            "val": "39.95"
+          },
+          {
+            "key": "74",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "967733",
+            "id": "254671",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85422",
+        "pos": 7,
+        "name": "Fitness Fleece, Full-Zip",
+        "seoName": "fitness-fleece-full-zip",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eMidweight warmth for all-season comfort\u003c/li\u003e \u003cli\u003eUnbeatably soft and remarkably well priced\u003c/li\u003e \u003cli\u003ePill-resistant fabric stays smooth through repeated washings\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eMidweight warmth for all-season comfort\u003c/li\u003e \u003cli\u003eUnbeatably soft and remarkably well priced\u003c/li\u003e \u003cli\u003ePill-resistant fabric stays smooth through repeated washings\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$39.95-$44.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "72",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85422\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$39.95-$44.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Jet Black",
+            "id": "291724_40155_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bright Navy",
+            "id": "291724_22_43",
+            "selected": false
+          }
+        ],
+        "img": "291724_40155_42",
+        "attr_arry": [
+          {
+            "key": "108865",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "108866",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "108867",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "108868",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "40155",
+            "val": "39.95"
+          },
+          {
+            "key": "22",
+            "val": "39.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1416200",
+            "id": "291724",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "80658",
+        "pos": 8,
+        "name": "Katahdin Iron Works Heavyweight Hooded Sweatshirt, Traditional Fit",
+        "seoName": "katahdin-iron-works-heavyweight-hooded-sweatshirt-traditional-fit",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/li\u003e \u003cli\u003eCotton jersey fabric with a soft berber fleece lining\u003c/li\u003e \u003cli\u003eFront kangaroo pocket has a hidden security pocket inside\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/li\u003e \u003cli\u003eCotton jersey fabric with a soft berber fleece lining\u003c/li\u003e \u003cli\u003eFront kangaroo pocket has a hidden security pocket inside\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$59.99\u003cspan\u003e-$74\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1201",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d80658\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$59.99\u003cspan\u003e-$74\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 13%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Green",
+            "name": "Deep Balsam/Dark Khaki",
+            "id": "285369_39206_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Ink Black/Dark Khaki",
+            "id": "285369_41140_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Indigo Ink/Navy",
+            "id": "285369_41139_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Black Cherry/Navy",
+            "id": "285369_41138_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Apple Cinnamon/Dark Khaki",
+            "id": "285369_41137_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Chestnut/Dark Khaki",
+            "id": "285369_41542_43",
+            "selected": false
+          }
+        ],
+        "img": "285369_39206_42",
+        "attr_arry": [
+          {
+            "key": "100440",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "100439",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100441",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100442",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "39206",
+            "val": "69.00"
+          },
+          {
+            "key": "41140",
+            "val": "69.00"
+          },
+          {
+            "key": "41139",
+            "val": "59.99"
+          },
+          {
+            "key": "41138",
+            "val": "59.99"
+          },
+          {
+            "key": "41137",
+            "val": "59.99"
+          },
+          {
+            "key": "41542",
+            "val": "69.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1323514",
+            "id": "285369",
+            "name": "Regular",
+            "catId": "",
+            "stock": "August 24"
+          }
+        ],
+        "backOrderDate": "August 24",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "76761",
+        "pos": 9,
+        "name": "Fitness Fleece, Quarter Zip",
+        "seoName": "fitness-fleece-quarter-zip",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eMidweight warmth for all-season comfort\u003c/li\u003e \u003cli\u003eUnbeatably soft and remarkably well priced\u003c/li\u003e \u003cli\u003ePill-resistant fabric stays smooth through repeated washings\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eMidweight warmth for all-season comfort\u003c/li\u003e \u003cli\u003eUnbeatably soft and remarkably well priced\u003c/li\u003e \u003cli\u003ePill-resistant fabric stays smooth through repeated washings\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$29.95-$34.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "88",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d76761\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$29.95-$34.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Green",
+            "name": "Black Forest Green",
+            "id": "280962_40157_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bright Navy",
+            "id": "280962_22_43",
+            "selected": false
+          }
+        ],
+        "img": "280962_22_42",
+        "attr_arry": [
+          {
+            "key": "95317",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "95318",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "95319",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "95320",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "40157",
+            "val": "29.95"
+          },
+          {
+            "key": "22",
+            "val": "29.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1262683",
+            "id": "280962",
+            "name": "Regular",
+            "catId": "",
+            "stock": "June 19"
+          }
+        ],
+        "backOrderDate": "June 19",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "84817",
+        "pos": 10,
+        "name": "Polartec Microgrid Fleece Jacket",
+        "seoName": "polartec-microgrid-fleece-jacket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eOur best active fleece for year-round, high-energy activities\u003c/li\u003e \u003cli\u003eMoisture-wicking fabrics help maintain a comfortable temperature\u003c/li\u003e \u003cli\u003eFunctional comfort features include a zipper garage and an oversized zipper pull\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eOur best active fleece for year-round, high-energy activities\u003c/li\u003e \u003cli\u003eMoisture-wicking fabrics help maintain a comfortable temperature\u003c/li\u003e \u003cli\u003eFunctional comfort features include a zipper garage and an oversized zipper pull\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$79-$84\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "5",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d84817\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$79-$84\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Classic Black",
+            "id": "291669_23161_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Royal Blue",
+            "id": "291669_90_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Beechnut",
+            "id": "291669_34636_43",
+            "selected": false
+          }
+        ],
+        "img": "291669_90_42",
+        "attr_arry": [
+          {
+            "key": "108532",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "108533",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "109234",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "109235",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "23161",
+            "val": "79.00"
+          },
+          {
+            "key": "90",
+            "val": "79.00"
+          },
+          {
+            "key": "34636",
+            "val": "79.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1411027",
+            "id": "291669",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "79863",
+        "pos": 11,
+        "name": "Wool Tek Hooded Jacket",
+        "seoName": "wool-tek-hooded-jacket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eTechnical wool-blend rib-knit exterior is durable and warm, with a soft microfleece interior\u003c/li\u003e \u003cli\u003eBonded layers create warmth without bulk for great ease of motion\u003c/li\u003e \u003cli\u003eHandsome heathered exterior suits mountain or town settings\u003c/li\u003e \u003cli\u003eHood is pieced together for a true fit and fully adjustable for weather protection\u003c/li\u003e \u003cli\u003eSlightly Fitted (formerly known as Trim Fit) is relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eTechnical wool-blend rib-knit exterior is durable and warm, with a soft microfleece interior\u003c/li\u003e \u003cli\u003eBonded layers create warmth without bulk for great ease of motion\u003c/li\u003e \u003cli\u003eHandsome heathered exterior suits mountain or town settings\u003c/li\u003e \u003cli\u003eHood is pieced together for a true fit and fully adjustable for weather protection\u003c/li\u003e \u003cli\u003eSlightly Fitted (formerly known as Trim Fit) is relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$109-$114\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "20",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d79863\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$109-$114\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Granite",
+            "id": "285671_184_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Pacific Blue",
+            "id": "285671_27806_43",
+            "selected": false
+          }
+        ],
+        "img": "285671_184_42",
+        "attr_arry": [
+          {
+            "key": "109243",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "109242",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "101083",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "101084",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "184",
+            "val": "114.00"
+          },
+          {
+            "key": "27806",
+            "val": "109.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1330115",
+            "id": "285671",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "86692",
+        "pos": 12,
+        "name": "Northport Quarter Zip Pullover",
+        "seoName": "northport-quarter-zip-pullover",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eThe comfort of a sweatshirt with the refined good looks of a sweater\u003c/li\u003e \u003cli\u003eEasily dresses up or down\u0026nbsp;\u0026#150; wear it with a classic sport shirt or a casual tee \u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eThe comfort of a sweatshirt with the refined good looks of a sweater\u003c/li\u003e \u003cli\u003eEasily dresses up or down\u0026nbsp;\u0026#150; wear it with a classic sport shirt or a casual tee \u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$59\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$49.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d86692\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$59\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$49.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 15%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Admiral Navy",
+            "id": "294301_38375_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Light Indigo Heather",
+            "id": "294301_29248_43",
+            "selected": false
+          }
+        ],
+        "img": "294301_38375_42",
+        "attr_arry": [
+          {
+            "key": "111870",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "111869",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "38375",
+            "val": "49.99"
+          },
+          {
+            "key": "29248",
+            "val": "49.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1456720",
+            "id": "294301",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "65613",
+        "pos": 13,
+        "name": "Katahdin Iron Works Heavyweight Sweatshirt, Traditional Fit Jacket",
+        "seoName": "katahdin-iron-works-heavyweight-sweatshirt-traditional-fit-jacket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/li\u003e \u003cli\u003eCotton jersey fabric with a soft berber fleece lining\u003c/li\u003e \u003cli\u003eTwo on-seam front pockets \u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/li\u003e \u003cli\u003eCotton jersey fabric with a soft berber fleece lining\u003c/li\u003e \u003cli\u003eTwo on-seam front pockets \u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$64-$69\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "86",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d65613\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$64-$69\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "265508_74_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "265508_1704_43",
+            "selected": false
+          }
+        ],
+        "img": "265508_1704_42",
+        "attr_arry": [
+          {
+            "key": "79427",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "79428",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "79429",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "79430",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "64.00"
+          },
+          {
+            "key": "1704",
+            "val": "64.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1087162",
+            "id": "265508",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "51722",
+        "pos": 14,
+        "name": "Katahdin Iron Works Heavyweight Sweatshirt, Traditional Fit Hooded",
+        "seoName": "katahdin-iron-works-heavyweight-sweatshirt-traditional-fit-hooded",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cUL\u003e \u003cLI\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/LI\u003e \u003cLI\u003eCotton jersey fabric with a soft berber fleece lining\u003c/LI\u003e \u003cLI\u003eFront kangaroo pocket has a hidden security pocket inside \u003c/LI\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/UL\u003e",
+        "qrtxt1": "\u003cUL\u003e \u003cLI\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/LI\u003e \u003cLI\u003eCotton jersey fabric with a soft berber fleece lining\u003c/LI\u003e \u003cLI\u003eFront kangaroo pocket has a hidden security pocket inside \u003c/LI\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/UL\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$69-$74\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1201",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d51722\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$69-$74\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Navy",
+            "id": "244926_74_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Charcoal Heather",
+            "id": "244926_1704_43",
+            "selected": false
+          },
+          {
+            "family": "Tan",
+            "name": "Burlap Heather",
+            "id": "244926_41544_43",
+            "selected": false
+          }
+        ],
+        "img": "244926_74_42",
+        "attr_arry": [
+          {
+            "key": "55301",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "55302",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "55303",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "55304",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "74",
+            "val": "69.00"
+          },
+          {
+            "key": "1704",
+            "val": "74.00"
+          },
+          {
+            "key": "41544",
+            "val": "69.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "874067",
+            "id": "244926",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "84819",
+        "pos": 15,
+        "name": "Bean\u0027s Sweater Fleece Full-Zip Jacket",
+        "seoName": "bean-s-sweater-fleece-full-zip-jacket",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eGreat for everyday layering, whether you\u0027re heading up the trail or downtown\u003c/li\u003e \u003cli\u003eDouble-faced stretch fabric breathes well, dries quickly and provides maximum warmth without weight \u003c/li\u003e \u003cli\u003eSmooth and rugged on the outside, soft fleecency on the inside\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eGreat for everyday layering, whether you\u0027re heading up the trail or downtown\u003c/li\u003e \u003cli\u003eDouble-faced stretch fabric breathes well, dries quickly and provides maximum warmth without weight \u003c/li\u003e \u003cli\u003eSmooth and rugged on the outside, soft fleecency on the inside\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$79-$84\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "20",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d84819\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$79-$84\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Cayenne",
+            "id": "291673_27731_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Grey Heather",
+            "id": "291673_30791_43",
+            "selected": false
+          },
+          {
+            "family": "Gray",
+            "name": "Light Gray Heather",
+            "id": "291673_1473_43",
+            "selected": false
+          },
+          {
+            "family": "Black",
+            "name": "Dark Cinder",
+            "id": "291673_125_43",
+            "selected": false
+          },
+          {
+            "family": "Green",
+            "name": "Dark Sage",
+            "id": "291673_1161_43",
+            "selected": false
+          }
+        ],
+        "img": "291673_1473_42",
+        "attr_arry": [
+          {
+            "key": "108542",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "108543",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "109231",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "109232",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "27731",
+            "val": "79.00"
+          },
+          {
+            "key": "30791",
+            "val": "84.00"
+          },
+          {
+            "key": "1473",
+            "val": "79.00"
+          },
+          {
+            "key": "125",
+            "val": "79.00"
+          },
+          {
+            "key": "1161",
+            "val": "79.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1411124",
+            "id": "291673",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "83151",
+        "pos": 16,
+        "name": "Athletic Sweats, Logo Crew",
+        "seoName": "athletic-sweats-logo-crew",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eKnit extra thick and brushed for exceptional softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist. \u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eKnit extra thick and brushed for exceptional softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist. \u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$44.95-$49.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$39.99-$44.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "195",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d83151\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$44.95-$49.95\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$39.99-$44.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 11%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Light Gray Heather/Shale Gray",
+            "id": "290323_41566_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Navy/Chalk Blue",
+            "id": "290323_37467_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Deep Red/Navy",
+            "id": "290323_28041_43",
+            "selected": false
+          }
+        ],
+        "img": "290323_41566_42",
+        "attr_arry": [
+          {
+            "key": "106320",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "106319",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "106323",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "106324",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41566",
+            "val": "39.99"
+          },
+          {
+            "key": "37467",
+            "val": "39.99"
+          },
+          {
+            "key": "28041",
+            "val": "39.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1383502",
+            "id": "290323",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "80641",
+        "pos": 17,
+        "name": "Katahdin Iron Works Heavyweight Sweatshirt, Traditional Fit Full Zip",
+        "seoName": "katahdin-iron-works-heavyweight-sweatshirt-traditional-fit-full-zip",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/li\u003e \u003cli\u003eCotton jersey fabric with a soft berber fleece lining\u003c/li\u003e \u003cli\u003eTwo on-seam front pockets\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA heavyweight sweatshirt built to stand up to years of hard use\u003c/li\u003e \u003cli\u003eCotton jersey fabric with a soft berber fleece lining\u003c/li\u003e \u003cli\u003eTwo on-seam front pockets\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$64-$69\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "36",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d80641\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$64-$69\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Ink Black/Dark Khaki",
+            "id": "285372_41140_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Rustic Blue Heather/Navy",
+            "id": "285372_41543_43",
+            "selected": false
+          }
+        ],
+        "img": "285372_41140_42",
+        "attr_arry": [
+          {
+            "key": "100457",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100458",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "100459",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100460",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41140",
+            "val": "69.00"
+          },
+          {
+            "key": "41543",
+            "val": "69.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1323869",
+            "id": "285371",
+            "name": "Tall",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "83128",
+        "pos": 18,
+        "name": "Athletic Sweats, Logo Full Zip Hooded",
+        "seoName": "athletic-sweats-logo-full-zip-hooded",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eKnit extra thick and brushed for exceptional softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cli\u003eClassic L.L.Bean logo is twill appliqu\u0026#233;\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eKnit extra thick and brushed for exceptional softness\u003c/li\u003e \u003cli\u003eSubstantial cotton/polyester blend can take on the gym, outdoor chores and more\u003c/li\u003e \u003cli\u003ePrewashed to minimize shrinkage, so you can count on it for years of wear\u003c/li\u003e \u003cli\u003eClassic L.L.Bean logo is twill appliqu\u0026#233;\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$59.95-$64.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.9",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "13",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d83128\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$59.95-$64.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Navy/Shell Khaki",
+            "id": "290304_40531_43",
+            "selected": true
+          }
+        ],
+        "img": "290304_40531_42",
+        "attr_arry": [
+          {
+            "key": "106317",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "106318",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "106321",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "106322",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "40531",
+            "val": "59.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1383496",
+            "id": "290304",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85885",
+        "pos": 19,
+        "name": "Signature Raglan Pullover Sweater",
+        "seoName": "signature-raglan-pullover-sweater",
+        "geltabUrl": "\u0026$SigNewOverlay$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Signature - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA lightweight crewneck sweater crafted from soft slub-cotton yarns \u003c/li\u003e \u003cli\u003eUnique stitch interest at the raglan sleeves and above the cuffs and sweep\u003c/li\u003e \u003cli\u003eSlim Fit: Knit slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA lightweight crewneck sweater crafted from soft slub-cotton yarns \u003c/li\u003e \u003cli\u003eUnique stitch interest at the raglan sleeves and above the cuffs and sweep\u003c/li\u003e \u003cli\u003eSlim Fit: Knit slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$64\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$54.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85885\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$64\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$54.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 14%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Red",
+            "name": "Fire",
+            "id": "293599_439_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Moonlight Blue",
+            "id": "293599_69_43",
+            "selected": false
+          }
+        ],
+        "img": "293599_0_49",
+        "attr_arry": [
+          {
+            "key": "110681",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "110682",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "439",
+            "val": "54.99"
+          },
+          {
+            "key": "69",
+            "val": "54.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1439972",
+            "id": "293599",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78253",
+        "pos": 20,
+        "name": "Northwoods Hoodie",
+        "seoName": "northwoods-hoodie",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eHighly wind-, weather- and abrasion resistant nylon soft shell with warm polyester microfleece inside\u003c/li\u003e \u003cli\u003eNaturally stretchy for a comfortable, nonbinding fit\u003c/li\u003e \u003cli\u003eGreat alone or layered\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eHighly wind-, weather- and abrasion resistant nylon soft shell with warm polyester microfleece inside\u003c/li\u003e \u003cli\u003eNaturally stretchy for a comfortable, nonbinding fit\u003c/li\u003e \u003cli\u003eGreat alone or layered\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$59.99\u003cspan\u003e-$74\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.7",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "20",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78253\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$59.99\u003cspan\u003e-$74\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 13%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "283369_1_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Hunter Orange",
+            "id": "283369_846_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Mossy Oak Break Up Infinity",
+            "id": "283369_36139_43",
+            "selected": false
+          },
+          {
+            "family": "Brown",
+            "name": "Ash",
+            "id": "283369_112_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Bright Navy",
+            "id": "283369_22_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Mossy Oak Shadow Grass Blades",
+            "id": "283369_39396_43",
+            "selected": false
+          }
+        ],
+        "img": "283369_846_42",
+        "attr_arry": [
+          {
+            "key": "98174",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "98175",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "98177",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "98176",
+            "val": "ECOM_COLOR_STYLE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "59.99"
+          },
+          {
+            "key": "846",
+            "val": "69.00"
+          },
+          {
+            "key": "36139",
+            "val": "69.00"
+          },
+          {
+            "key": "112",
+            "val": "69.00"
+          },
+          {
+            "key": "22",
+            "val": "69.00"
+          },
+          {
+            "key": "39396",
+            "val": "69.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1292220",
+            "id": "283369",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "86693",
+        "pos": 21,
+        "name": "Northport Quarter Zip Pullover, Stripe",
+        "seoName": "northport-quarter-zip-pullover-stripe",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eThe comfort of a sweatshirt with the refined good looks of a sweater\u003c/li\u003e \u003cli\u003eEasily dresses up or down\u0026nbsp;\u0026#150; wear it with a classic sport shirt or a casual tee \u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eThe comfort of a sweatshirt with the refined good looks of a sweater\u003c/li\u003e \u003cli\u003eEasily dresses up or down\u0026nbsp;\u0026#150; wear it with a classic sport shirt or a casual tee \u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$64\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$54.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "3",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d86693\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$64\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$54.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 14%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Indigo Heather/Warm Red",
+            "id": "294302_41569_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Sailcloth/Raven Blue",
+            "id": "294302_41570_43",
+            "selected": false
+          }
+        ],
+        "img": "294302_0_49",
+        "attr_arry": [
+          {
+            "key": "111871",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "111872",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41569",
+            "val": "54.99"
+          },
+          {
+            "key": "41570",
+            "val": "54.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1456731",
+            "id": "294302",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "86984",
+        "pos": 22,
+        "name": "Bean\u0027s Performance Hoodie",
+        "seoName": "bean-s-performance-hoodie",
+        "geltabUrl": "\u0026$A0203722$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eThe perfect layer for any activity, pursuit or casual wear \u003c/li\u003e \u003cli\u003eWater-resistant exterior fends off inclement weather\u003c/li\u003e \u003cli\u003eMade of 100\u0026#37; polyester with a brushed interior for softness\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eThe perfect layer for any activity, pursuit or casual wear \u003c/li\u003e \u003cli\u003eWater-resistant exterior fends off inclement weather\u003c/li\u003e \u003cli\u003eMade of 100\u0026#37; polyester with a brushed interior for softness\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$69\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$59.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d86984\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$69\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$59.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 13%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Other",
+            "name": "Carbon Navy/Granite",
+            "id": "294349_41588_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Vibrant Red/Granite",
+            "id": "294349_41589_43",
+            "selected": false
+          }
+        ],
+        "img": "294349_41588_42",
+        "attr_arry": [
+          {
+            "key": "112067",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "112068",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41588",
+            "val": "59.99"
+          },
+          {
+            "key": "41589",
+            "val": "59.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1459390",
+            "id": "294349",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "80630",
+        "pos": 23,
+        "name": "Fitness Fleece,Traditional Fit Quarter-Zip Colorblock",
+        "seoName": "fitness-fleece-traditional-fit-quarter-zip-colorblock",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eNew, thicker fleece, same great price\u003c/li\u003e \u003cli\u003eExceptionally soft for all-season comfort\u003c/li\u003e \u003cli\u003ePill-resistant fabric stays smooth through repeated washings\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eNew, thicker fleece, same great price\u003c/li\u003e \u003cli\u003eExceptionally soft for all-season comfort\u003c/li\u003e \u003cli\u003ePill-resistant fabric stays smooth through repeated washings\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$24.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to $4.96\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.1",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "88",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d80630\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e$24.99\u003cspan\u003e-$34.95\u003c/span\u003e\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave up to 17%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Blue",
+            "name": "Glacier Blue/Bright Navy",
+            "id": "283955_41088_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Lapis Slate/Bright Navy",
+            "id": "283955_41567_43",
+            "selected": false
+          },
+          {
+            "family": "Other",
+            "name": "Warm Red/Bright Navy",
+            "id": "283955_41568_43",
+            "selected": false
+          }
+        ],
+        "img": "283955_41567_42",
+        "attr_arry": [
+          {
+            "key": "100513",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100514",
+            "val": "ECOM_SIZE"
+          },
+          {
+            "key": "100515",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100516",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "41088",
+            "val": "24.99"
+          },
+          {
+            "key": "41567",
+            "val": "29.95"
+          },
+          {
+            "key": "41568",
+            "val": "34.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1324723",
+            "id": "283955",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85891",
+        "pos": 24,
+        "name": "Signature Cotton Fleece Hoodie Sweatshirt",
+        "seoName": "signature-cotton-fleece-hoodie-sweatshirt",
+        "geltabUrl": "\u0026$SigNewOverlay$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Signature - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eSoft French terry is washed for a had-it-forever feel\u003c/li\u003e \u003cli\u003eLighter-weight cotton is perfect for cool days\u003c/li\u003e \u003cli\u003eSlim Fit: Cut slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eSoft French terry is washed for a had-it-forever feel\u003c/li\u003e \u003cli\u003eLighter-weight cotton is perfect for cool days\u003c/li\u003e \u003cli\u003eSlim Fit: Cut slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$79\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "2.0",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "1",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85891\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$79\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Gray Heather",
+            "id": "293593_1207_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Slate Teal",
+            "id": "293593_4165_43",
+            "selected": false
+          }
+        ],
+        "img": "293593_1207_42",
+        "attr_arry": [
+          {
+            "key": "110669",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "110670",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1207",
+            "val": "79.00"
+          },
+          {
+            "key": "4165",
+            "val": "79.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1439886",
+            "id": "293593",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "80196",
+        "pos": 25,
+        "name": "Katahdin Iron Works Bonded Waffle Fleece, Traditional Fit",
+        "seoName": "katahdin-iron-works-bonded-waffle-fleece-traditional-fit",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eWe combined our popular waffle-knit cotton with a soft fleece lining for exceptional comfort\u003c/li\u003e \u003cli\u003eBonded construction adds insulation for more warmth\u003c/li\u003e \u003cli\u003eWear it alone or as a versatile layer\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eWe combined our popular waffle-knit cotton with a soft fleece lining for exceptional comfort\u003c/li\u003e \u003cli\u003eBonded construction adds insulation for more warmth\u003c/li\u003e \u003cli\u003eWear it alone or as a versatile layer\u003c/li\u003e \u003cli\u003eTraditional Fit is relaxed through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$59\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.8",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "58",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d80196\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$59\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Green",
+            "name": "Dusty Olive Heather",
+            "id": "285387_5369_43",
+            "selected": true
+          }
+        ],
+        "img": "285387_5369_42",
+        "attr_arry": [
+          {
+            "key": "100769",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "100770",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "5369",
+            "val": "59.00"
+          }
+        ],
+        "sellable": true,
+        "swatchSelected": true,
+        "attr": [
+          {
+            "key": "100770",
+            "val": "X-Large"
+          }
+        ],
+        "item": [
+          {
+            "prodId": "1328050",
+            "id": "285387",
+            "name": "Regular",
+            "catId": "",
+            "stock": "June 9"
+          }
+        ],
+        "backOrderDate": "June 9",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "78834",
+        "pos": 26,
+        "name": "Signature Cotton Fleece Crew Sweatshirt",
+        "seoName": "signature-cotton-fleece-crew-sweatshirt",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eSoft cotton fleece washed for a had-it-forever feel \u003c/li\u003e \u003cli\u003eMedium-weight 9.1 oz. fabric is perfect for cool days\u003c/li\u003e \u003cli\u003eSlim Fit: Cut slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eSoft cotton fleece washed for a had-it-forever feel \u003c/li\u003e \u003cli\u003eMedium-weight 9.1 oz. fabric is perfect for cool days\u003c/li\u003e \u003cli\u003eSlim Fit: Cut slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$69\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$59.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.6",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "9",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d78834\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$69\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$59.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 13%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Gray Heather",
+            "id": "283715_1207_43",
+            "selected": false
+          },
+          {
+            "family": "Blue",
+            "name": "Slate Teal",
+            "id": "283715_4165_43",
+            "selected": false
+          }
+        ],
+        "img": "283715_1207_42",
+        "attr_arry": [
+          {
+            "key": "98719",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "98720",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1207",
+            "val": "59.99"
+          },
+          {
+            "key": "4165",
+            "val": "59.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1302719",
+            "id": "283715",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "82216",
+        "pos": 27,
+        "name": "Mountain Hoodie",
+        "seoName": "mountain-hoodie",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eVersatile weight can be worn alone or layered in colder conditions \u003c/li\u003e \u003cli\u003eSmooth-faced fleece slides easily under a shell, with a brushed inner face that feels warm and soft against your skin\u003c/li\u003e \u003cli\u003eHalf-zipper and hood let you close in warmth or let it out\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eVersatile weight can be worn alone or layered in colder conditions \u003c/li\u003e \u003cli\u003eSmooth-faced fleece slides easily under a shell, with a brushed inner face that feels warm and soft against your skin\u003c/li\u003e \u003cli\u003eHalf-zipper and hood let you close in warmth or let it out\u003c/li\u003e \u003cli\u003eSlightly Fitted; relaxed through the chest and sleeves with a slightly slimmer waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$59\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "4.4",
+        "svcflg": false,
+        "qvflg": true,
+        "bvrw": "23",
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d82216\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$59\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Gray",
+            "name": "Charcoal Gray Heather",
+            "id": "288044_6986_43",
+            "selected": false
+          },
+          {
+            "family": "Orange",
+            "name": "Bright Orange Heather",
+            "id": "288044_41590_43",
+            "selected": false
+          }
+        ],
+        "img": "288044_6986_42",
+        "attr_arry": [
+          {
+            "key": "104016",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "104017",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "6986",
+            "val": "59.00"
+          },
+          {
+            "key": "41590",
+            "val": "59.00"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1361208",
+            "id": "288044",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85884",
+        "pos": 28,
+        "name": "Signature Raglan Pullover Sweater, Stripe",
+        "seoName": "signature-raglan-pullover-sweater-stripe",
+        "geltabUrl": "\u0026$SigNewOverlay$\u0026layer\u003d1000\u0026originN\u003d0.5,-0.5\u0026posN\u003d1,1\u0026text\u003d\\fs00New. - Signature - Core",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eA lightweight crewneck sweater crafted from soft slub-cotton yarns \u003c/li\u003e \u003cli\u003eUnique stitch interest at the raglan sleeves and above the cuffs and sweep\u003c/li\u003e \u003cli\u003eSlim Fit:\u0026nbsp;\u0026nbsp;Knit slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eA lightweight crewneck sweater crafted from soft slub-cotton yarns \u003c/li\u003e \u003cli\u003eUnique stitch interest at the raglan sleeves and above the cuffs and sweep\u003c/li\u003e \u003cli\u003eSlim Fit:\u0026nbsp;\u0026nbsp;Knit slim through the chest, sleeves and waist\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"was\" title\u003d\"\"\u003e$74\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg width\u003d\"1\" height\u003d\"1\" src\u003d\"/images/spacer.gif\" alt\u003d\"now\" title\u003d\"\"\u003e$64.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave $9.01\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85884\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"Sub3_saleRegularPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"was\" src\u003d\"/images/spacer.gif\"/\u003e$74\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleNowPrice\"\u003e\u003cimg height\u003d\"1\" width\u003d\"1\" title\u003d\"\" alt\u003d\"now\" src\u003d\"/images/spacer.gif\"/\u003e$64.99\u003c/span\u003e\u003cspan class\u003d\"Sub3_saleText\"\u003eSave 12%\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Brown",
+            "name": "Kindling",
+            "id": "293600_35079_43",
+            "selected": true
+          }
+        ],
+        "img": "293600_0_49",
+        "attr_arry": [
+          {
+            "key": "110683",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "110684",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "35079",
+            "val": "64.99"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1439983",
+            "id": "293600",
+            "name": "Regular",
+            "catId": "",
+            "stock": "IN"
+          }
+        ],
+        "backOrderDate": "IN",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      },
+      {
+        "id": "85053",
+        "pos": 29,
+        "name": "Men\u0027s Icebreaker Quantum Hoodie, Long-Sleeve",
+        "seoName": "men-s-icebreaker-quantum-hoodie-long-sleeve",
+        "geltabUrl": " ",
+        "qrtxt": "\u003cul\u003e \u003cli\u003eMade with the world\u0027s finest wool for lightweight warmth, even in wet conditions\u003c/li\u003e \u003cli\u003eNaturally wicks away moisture and won\u0027t absorb odors\u003c/li\u003e \u003cli\u003eZippered chest pocket with internal cord port keeps your music player secure\u003c/li\u003e \u003c/ul\u003e",
+        "qrtxt1": "\u003cul\u003e \u003cli\u003eMade with the world\u0027s finest wool for lightweight warmth, even in wet conditions\u003c/li\u003e \u003cli\u003eNaturally wicks away moisture and won\u0027t absorb odors\u003c/li\u003e \u003cli\u003eZippered chest pocket with internal cord port keeps your music player secure\u003c/li\u003e \u003c/ul\u003e",
+        "price": "\u003cspan class\u003d\"ProductPrice\"\u003e\u003cspan class\u003d\"ProductPrice\"\u003e$199.95\u003c/span\u003e\u003c/span\u003e",
+        "compare": "true",
+        "bvrt": "0.0",
+        "svcflg": false,
+        "qvflg": true,
+        "displayUrl": "/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d85053\u0026storeId\u003d1\u0026catalogId\u003d1\u0026langId\u003d-1",
+        "displayPrice": "\u003cspan class\u003d\"ProductPrice\"\u003e$199.95\u003c/span\u003e",
+        "brand": "0",
+        "swatchesEnabledInd": 1,
+        "swatches": [
+          {
+            "family": "Black",
+            "name": "Black",
+            "id": "291970_1_43",
+            "selected": true
+          }
+        ],
+        "img": "291970_1_42",
+        "attr_arry": [
+          {
+            "key": "109017",
+            "val": "ECOM_COLOR_STYLE"
+          },
+          {
+            "key": "109018",
+            "val": "ECOM_SIZE"
+          }
+        ],
+        "swatchPrice": [
+          {
+            "key": "1",
+            "val": "199.95"
+          }
+        ],
+        "sellable": false,
+        "swatchSelected": false,
+        "attr": [],
+        "item": [
+          {
+            "prodId": "1416798",
+            "id": "291970",
+            "name": "",
+            "catId": "",
+            "stock": "August 20"
+          }
+        ],
+        "backOrderDate": "August 20",
+        "catalogId": "",
+        "selectAttributes": {
+          "SKUs": []
+        },
+        "isODSProduct": false
+      }
+    ],
+    "serialVersionUID": 0,
+    "canonicalURL": "http://www.llbean.com/webapp/wcs/stores/servlet/GuidednavDisplay?categoryId\u003d907\u0026page\u003dmens-sweatshirts",
+    "pageParam": "mens-sweatshirts",
+    "rrPageIds": "58519,22786,58518,58517,58520,58516,85422,80658,76761,84817,79863,86692,65613,51722,84819",
+    "partialResult": false
+  }
+]
