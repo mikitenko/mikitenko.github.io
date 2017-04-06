@@ -1,0 +1,59 @@
+.fc-content .fc-time{
+	display:none !important;
+}
+
+.fc-scroller.fc-time-grid-container{
+	height: auto !important;
+}
+
+.fc-content .fc-title{
+	font-size: 18px;
+	margin-top: 25px;
+	color:#000;
+}
+.custom-button{
+	width:60%;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:550px){
+	.fc-agendaWeek-view .fc-time-grid-event .fc-content {
+    overflow: unset !important;
+	}
+	.fc-agendaWeek-view .fc-content .fc-title {
+	    color: #000;
+	    font-size: 11px;
+	    margin-top: 49px;
+	    transform: rotate(268deg);
+	}
+
+	.fc-agendaDay-view .fc-content .fc-title{
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+.fc-day-grid.fc-unselectable{
+	display: none;
+}
+.fc-agendaDay-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right{
+	display: none;
+}
+.fc-agendaWeek-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right{
+	display: none;
+}
+
+.fc-toolbar .fc-right{
+	float: left !important;
+}
+

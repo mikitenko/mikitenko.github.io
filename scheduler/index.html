@@ -1,0 +1,120 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calendar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/bootstrap/dist/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/bootstrap-timepicker.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/fullcalendar.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/fullcalendar.print.css" type="text/css" media="print" />
+    <script type="text/javascript" src="public/js/moment.js"></script>
+    <script type="text/javascript" src="public/js/jquery.js"></script>
+    <script src="public/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="public/js/bootstrap-timepicker.js"></script>
+    <script src="public/js/fullcalendar.min.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal fade" id="addEventModal" tabindex="-1" role="dialog" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">
+                                <h3>Task</h3></label>
+                            <button type="button" class="btn custom-button taskSelectLabel" id="exampleInputEmail1"></button>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-6 col-xs-6 col-md-6">
+                                <label>From</label>
+                                <div class="input-group bootstrap-timepicker timepicker">
+                                    <input id="fromTime" type="text" class="form-control input-small from-time">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-6 col-md-6">
+                                <label>To</label>
+                                <div class="input-group bootstrap-timepicker timepicker">
+                                    <input id="toTime" type="text" class="form-control input-small to-time">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-2 col-xs-2 col-md-2">
+                                <button type="button" class="btn btn-success editEventBtn pull-left">Save</button>
+                            </div>
+                            <div class="col-sm-2 col-xs-2 col-md-2">
+                                <button type="button" class="btn btn-default pull-left cancelBtn" data-dismiss="modal">Cancel</button>
+                            </div>
+                            <div class="col-sm-4 col-xs-4 col-md-4 pull-right">
+                                <button type="button" class="btn btn-danger deleteEventBtn">Delete</button>
+                            </div>
+                        </div>
+                        <hr/>
+                        <p>Select task for list below</p>
+                        <br>
+                        <div class="form-group" id="EditView">
+                            <ul class="bottom-ul list-unstyled">
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" class="Literature" data-task="Literature" data-color="rgb(250,198,114)">&nbsp;
+                                        <span class="btn custom-button" style="background:rgb(250,198,114);width:257px">Literature</span>
+                                    </label>
+                                </li>
+                                <br>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" class="Writing" data-task="Writing" data-color="rgb(127,180,222)">&nbsp;
+                                        <span class="btn custom-button" style="background:rgb(127,180,222);width:257px">Writing</span>
+                                    </label>
+                                </li>
+                                <br>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" class="Physics" data-task="Physics" data-color="rgb(251,115,115)">&nbsp;
+                                        <span class="btn custom-button" style="background:rgb(251,115,115);width:257px">PhysWWWWWWics</span>
+                                    </label>
+                                </li>
+                                <br>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" class="Geographia" data-task="Geographia" data-color="green">&nbsp;
+                                        <span class="btn custom-button" style="background:green;width:257px">Geographia</span>
+                                    </label>
+                                </li>
+                                <br>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" class="Geometry" data-task="Geometry" data-color="pink">&nbsp;
+                                        <span class="btn custom-button" style="background:pink;width:257px">Geometry</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="list-unstyled">
+            <li>
+                <label class="radio-inline" style="line-height:30px">
+                    <input type="radio" name="optradio" class="dayView">&nbsp;Day View&nbsp;&nbsp;
+                </label>
+                <label class="radio-inline" style="line-height:30px">
+                    <input type="radio" name="optradio" class="weekView" checked>&nbsp;Week View
+                </label>
+            </li>
+        </ul>
+        <div id="calendar"></div>
+    </div>
+    <script type="text/javascript" src="public/js/scheduler.js"></script>
+</body>
+<html>
