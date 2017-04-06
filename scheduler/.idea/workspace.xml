@@ -26,11 +26,11 @@
       <file leaf-file-name="scheduler.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/scheduler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="441">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <marker date="1491518312001" expanded="true" signature="1718:1724" ph=" " />
-                <marker date="1491518312001" expanded="true" signature="1763:1795" ph="..." />
+                <marker date="1491518437086" expanded="true" signature="1720:1726" ph=" " />
+                <marker date="1491518437086" expanded="true" signature="1765:1797" ph="..." />
               </folding>
             </state>
           </provider>
@@ -286,15 +286,15 @@
       <option name="presentableId" value="Default" />
       <updated>1491504101151</updated>
       <workItem from="1491512803718" duration="966000" />
-      <workItem from="1491513780654" duration="4534000" />
+      <workItem from="1491513780654" duration="4652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5500000" />
+    <option name="totallyTimeSpent" value="5618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -335,8 +335,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1491518312001" expanded="true" signature="1718:1724" ph=" " />
-            <marker date="1491518312001" expanded="true" signature="1763:1795" ph="..." />
+            <marker date="1491518437086" expanded="true" signature="1720:1726" ph=" " />
+            <marker date="1491518437086" expanded="true" signature="1765:1797" ph="..." />
           </folding>
         </state>
       </provider>
@@ -358,8 +358,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1491518312001" expanded="true" signature="1718:1724" ph=" " />
-            <marker date="1491518312001" expanded="true" signature="1763:1795" ph="..." />
+            <marker date="1491518437086" expanded="true" signature="1720:1726" ph=" " />
+            <marker date="1491518437086" expanded="true" signature="1765:1797" ph="..." />
           </folding>
         </state>
       </provider>
@@ -402,11 +402,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/scheduler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="441">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <marker date="1491518312001" expanded="true" signature="1718:1724" ph=" " />
-            <marker date="1491518312001" expanded="true" signature="1763:1795" ph="..." />
+            <marker date="1491518437086" expanded="true" signature="1720:1726" ph=" " />
+            <marker date="1491518437086" expanded="true" signature="1765:1797" ph="..." />
           </folding>
         </state>
       </provider>

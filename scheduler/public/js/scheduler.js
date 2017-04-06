@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 
 	(function () {
-		var arrColors = ['aqua', 'lightred', 'grey', 'fuchsia', 'green',
+		var arrColors = ['aqua', 'lightcoral', 'grey', 'fuchsia', 'green',
 			'lime', 'maroon', 'navy', 'olive', 'orange', 'purple', 'lightblue',
 			'silver', 'teal', 'yellow'];
 
