@@ -45,8 +45,8 @@ $(document).ready(function () {
 
 
 	(function () {
-		var arrColors = ['aqua', 'lightblue', 'grey', 'fuchsia', 'green',
-			'lime', 'maroon', 'navy', 'olive', 'orange', 'purple', 'red',
+		var arrColors = ['aqua', 'lightred', 'grey', 'fuchsia', 'green',
+			'lime', 'maroon', 'navy', 'olive', 'orange', 'purple', 'lightblue',
 			'silver', 'teal', 'yellow'];
 
 		var templater = function (template, data) {
