@@ -110,7 +110,7 @@ $(document).ready(function () {
 		},
 		navLinks: true,
 		aspectRatio: 1.0,
-		scrollTime: '12:00 PM',
+		scrollTime: '12:00 AM',
 		editable: true,
 		defaultView: 'agendaWeek',
 		eventLimit: true,
