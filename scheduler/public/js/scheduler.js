@@ -135,8 +135,6 @@ $(document).ready(function () {
 							}
 							// $(this).unbind('click');
 							$(this).click(function () {
-								debugger;
-								console.log($(this).data('date'));
 								var f = $('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
 
 								$('#calendar').fullCalendar('gotoDate', new Date($(this).data('date')));
