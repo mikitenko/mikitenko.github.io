@@ -1,19 +1,5 @@
 $(document).ready(function () {
 
-	$('.dayView').click(function () {
-		var f = $('.fc-view.fc-agendaWeek-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
-		$('#calendar').fullCalendar('changeView', 'agendaDay');
-		$('#calendar').fullCalendar('gotoDate', new Date());
-		$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
-		// $('.fc-agendaDay-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right').click();
-		switchView();
-	});
-
-	$('.weekView').click(function () {
-		$('.fc-agendaWeek-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right').click();
-		switchView();
-	});
-
 
 	var scheduleJson = [{
 		id: 1,
@@ -38,10 +24,34 @@ $(document).ready(function () {
 	}, {
 		id: 5,
 		title: 'Geometry',
-		start: '2017-04-06 08:00',
-		end: '2017-04-06 09:00'
+		start: '2017-04-05 08:00',
+		end: '2017-04-05 10:00'
+	}, {
+		id: 6,
+		title: 'Psychology',
+		start: '2017-04-05 03:00',
+		end: '2017-04-05 05:00'
+	}, {
+		id: 7,
+		title: 'Biology',
+		start: '2017-04-05 12:00',
+		end: '2017-04-05 14:00'
+	}, {
+		id: 8,
+		title: 'Astronomy',
+		start: '2017-04-05 02:00',
+		end: '2017-04-05 03:00'
+	}, {
+		id: 9,
+		title: 'Anatomy',
+		start: '2017-04-05 01:00',
+		end: '2017-04-05 03:00'
+	}, {
+		id: 10,
+		title: 'History',
+		start: '2017-04-05 04:00',
+		end: '2017-04-05 06:00'
 	}];
-
 
 
 	(function () {
@@ -50,7 +60,7 @@ $(document).ready(function () {
 		 * @type {string[]}
 		 */
 		var arrColors = ['aqua', 'lightcoral', 'grey', 'fuchsia', 'green',
-			'lime', 'maroon', 'navy', 'olive', 'orange', 'purple', 'lightblue',
+			'lime', 'mediumaquamarine', 'crimson', 'olive', 'orange', 'rebeccapurple', 'lightblue',
 			'silver', 'teal', 'yellow'];
 
 		var templater = function (template, data) {
@@ -69,11 +79,11 @@ $(document).ready(function () {
 		 */
 		var editViewListHtml = '<ul class="bottom-ul list-unstyled">',
 			listItem = '<li>' +
-							'<label class="radio-inline">' +
-								'<input type="radio" name="optradio" class="{{title}}" data-task="{{title}}" data-color="{{color}}">&nbsp;' +
-								'<span class="btn custom-button" style="background:{{color}};width:257px">{{title}}</span>' +
-							'</label>' +
-						'</li><br>';
+				'<label class="radio-inline">' +
+				'<input type="radio" name="optradio" class="{{title}}" data-task="{{title}}" data-color="{{color}}">&nbsp;' +
+				'<span class="btn custom-button" style="background:{{color}};width:257px">{{title}}</span>' +
+				'</label>' +
+				'</li><br>';
 
 		/**
 		 * loop which generate list of task
@@ -82,7 +92,7 @@ $(document).ready(function () {
 			if (scheduleJson.length <= arrColors.length) {
 				scheduleJson[i]['color'] = arrColors[i];
 			} else {
-				scheduleJson[i]['color'] = arrColors[(scheduleJson.length) % (arrColors.length)];
+				scheduleJson[i]['color'] = arrColors[i % (arrColors.length)];
 			}
 			editViewListHtml += templater(listItem, scheduleJson[i]);
 		}
@@ -115,17 +125,29 @@ $(document).ready(function () {
 				if (view.name === 'agendaDay') {
 					$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr th').each(function () {
 						if ($(this).html() != '&nbsp;') {
+
 							var gv = 'fc-' + moment(view.title, 'MMMM DD, YYYY').format('ddd').toLowerCase();
 							$(this).find('a').removeAttr('data-goto');
 							$(this).find('a').attr('style', 'color:#ddd');
 							if ($(this).hasClass(gv)) {
-								$(this).find('a').attr('style', 'color:#000');
+								$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr th').removeClass('day-checked');
+								$(this).addClass('day-checked');
 							}
 							// $(this).unbind('click');
 							$(this).click(function () {
+								debugger;
 								console.log($(this).data('date'));
+								var f = $('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
+
 								$('#calendar').fullCalendar('gotoDate', new Date($(this).data('date')));
-								$('#calendar').fullCalendar('changeView', 'agendaWeek');
+								if($(this).hasClass('day-checked')){
+									$('#calendar').fullCalendar('changeView', 'agendaWeek');
+								} else {
+									$('#calendar').fullCalendar('changeView', 'agendaDay');
+									$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
+								}
+
+
 							});
 						}
 					});
@@ -240,6 +262,7 @@ $(document).ready(function () {
 	 Edit Task
 	 */
 	$('.editEventBtn').click(function (e) {
+
 		e.preventDefault();
 
 		var title = $('#exampleInputEmail1').text();
@@ -287,7 +310,7 @@ $(document).ready(function () {
 		setEvent.title = title;
 		setEvent.start = start;
 		setEvent.end = end;
-		setEvent.color = cr;
+		setEvent.color = (cr) ? cr : setEvent.color;
 
 		$('#calendar').fullCalendar('updateEvent', setEvent);
 
@@ -353,15 +376,35 @@ $(document).ready(function () {
 	});
 
 
+
+
+	$('.dayView').click(function () {
+		var f = $('.fc-view.fc-agendaWeek-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
+		$('#calendar').fullCalendar('changeView', 'agendaDay');
+		$('#calendar').fullCalendar('gotoDate', new Date());
+		$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
+		// $('.fc-agendaDay-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right').click();
+		switchView();
+	});
+
+	$('.weekView').click(function () {
+		$('.fc-agendaWeek-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right').click();
+		switchView();
+	});
+
+
+
 	var switchView = function () {
 		var arrayUIDays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 		for (var m = 0; m < arrayUIDays.length; m++) {
-			var dim = '.fc-day-header.fc-widget-header.fc-' + arrayUIDays[m];
+			var dim = '.fc-day-header.fc-widget-header.fc-' + arrayUIDays[m] + ' a';
+
 			$(dim).click(function () {
 				$('.dayView').prop('checked', true);
 			});
 		}
 	}
+
 
 	switchView();
 
