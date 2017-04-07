@@ -124,8 +124,8 @@ $(document).ready(function () {
 			setTimeout(function () {
 				if (view.name === 'agendaDay') {
 					$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr th').each(function () {
-						if ($(this).html() != '&nbsp;') {
-
+						if ($(this).html().length) {
+debugger;
 							var gv = 'fc-' + moment(view.title, 'MMMM DD, YYYY').format('ddd').toLowerCase();
 							$(this).find('a').removeAttr('data-goto');
 							$(this).find('a').attr('style', 'color:#ddd');
