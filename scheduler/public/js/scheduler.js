@@ -142,9 +142,11 @@ $(document).ready(function () {
 								$('#calendar').fullCalendar('gotoDate', new Date($(this).data('date')));
 								if($(this).hasClass('day-checked')){
 									$('#calendar').fullCalendar('changeView', 'agendaWeek');
+									$('.weekView').prop('checked', true);
 								} else {
 									$('#calendar').fullCalendar('changeView', 'agendaDay');
 									$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
+									$('.dayView').prop('checked', true);
 								}
 
 
@@ -160,6 +162,7 @@ $(document).ready(function () {
 			$('#calendar').fullCalendar('changeView', 'agendaDay');
 			$('#calendar').fullCalendar('gotoDate', date);
 			$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
+			$('.dayView').prop('checked', true);
 		},
 		eventRender: function (event, element) {
 			$('#addEventModal').data('event', event);
@@ -384,6 +387,8 @@ $(document).ready(function () {
 		$('#calendar').fullCalendar('gotoDate', new Date());
 		$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
 		// $('.fc-agendaDay-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right').click();
+		$('.dayView').prop('checked', true);
+
 		switchView();
 	});
 
