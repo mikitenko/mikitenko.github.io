@@ -15,7 +15,7 @@ $(document).ready(function () {
 	});
 
 
-	var newJson = [{
+	var scheduleJson = [{
 		id: 1,
 		title: 'Physics',
 		start: '2017-04-06 00:00',
@@ -45,6 +45,10 @@ $(document).ready(function () {
 
 
 	(function () {
+		/**
+		 * Colors array, you can change or add new colors
+		 * @type {string[]}
+		 */
 		var arrColors = ['aqua', 'lightcoral', 'grey', 'fuchsia', 'green',
 			'lime', 'maroon', 'navy', 'olive', 'orange', 'purple', 'lightblue',
 			'silver', 'teal', 'yellow'];
@@ -58,17 +62,29 @@ $(document).ready(function () {
 			return html;
 		};
 
+
+		/**
+		 * html template for list of task
+		 * @type {string}
+		 */
 		var editViewListHtml = '<ul class="bottom-ul list-unstyled">',
-			listItem = '<li><label class="radio-inline"><input type="radio" name="optradio" class="{{title}}" data-task="{{title}}" data-color="{{color}}">&nbsp;<span class="btn custom-button" style="background:{{color}};width:257px">{{title}}</span></label></li><br>';
+			listItem = '<li>' +
+							'<label class="radio-inline">' +
+								'<input type="radio" name="optradio" class="{{title}}" data-task="{{title}}" data-color="{{color}}">&nbsp;' +
+								'<span class="btn custom-button" style="background:{{color}};width:257px">{{title}}</span>' +
+							'</label>' +
+						'</li><br>';
 
-
-		for (var i = 0; i < newJson.length; i++) {
-			if (newJson.length <= arrColors.length) {
-				newJson[i]['color'] = arrColors[i];
+		/**
+		 * loop which generate list of task
+		 */
+		for (var i = 0; i < scheduleJson.length; i++) {
+			if (scheduleJson.length <= arrColors.length) {
+				scheduleJson[i]['color'] = arrColors[i];
 			} else {
-				newJson[i]['color'] = arrColors[(newJson.length) % (arrColors.length)];
+				scheduleJson[i]['color'] = arrColors[(scheduleJson.length) % (arrColors.length)];
 			}
-			editViewListHtml += templater(listItem, newJson[i]);
+			editViewListHtml += templater(listItem, scheduleJson[i]);
 		}
 
 		editViewListHtml += '</ul>';
@@ -179,25 +195,25 @@ $(document).ready(function () {
 			var addData;
 			// if (title) {
 			addData = {
-				id: newJson.length + 1,
+				id: scheduleJson.length + 1,
 				title: title,
 				start: start,
 				end: end
 			};
 
-			newJson.push(addData);
+			scheduleJson.push(addData);
 			$('#calendar').fullCalendar('renderEvent', addData, true);
 			$('#calendar').fullCalendar('unselect');
 			// }
 			//     // --
 			//     // POST request send in webservice
-			console.log('Add Json Object ', newJson);
+			console.log('Add Json Object ', scheduleJson);
 		},
 		eventDrop: function (event, delta, minuteDelta, allDay, revertFunc) {
 
-			for (var key in newJson) {
-				if (newJson[key].id == event.id) {
-					newJson.splice(key, 1);
+			for (var key in scheduleJson) {
+				if (scheduleJson[key].id == event.id) {
+					scheduleJson.splice(key, 1);
 				}
 			}
 
@@ -208,15 +224,15 @@ $(document).ready(function () {
 			setEvent.end = moment(event.end.format()).format('YYYY-MM-DD HH:mm');
 			setEvent.color = event.color;
 
-			newJson.push(setEvent);
+			scheduleJson.push(setEvent);
 			$('#calendar').fullCalendar('rendarEvent', setEvent);
 
 			// --
 			// Drag and Drop request send in webservice
-			console.log('Drag and Drop ', newJson);
+			console.log('Drag and Drop ', scheduleJson);
 
 		},
-		events: newJson
+		events: scheduleJson
 	});
 
 
@@ -275,18 +291,18 @@ $(document).ready(function () {
 
 		$('#calendar').fullCalendar('updateEvent', setEvent);
 
-		for (var key in newJson) {
-			if (newJson[key].id == setEvent.id) {
-				newJson[key].id = setEvent.id;
-				newJson[key].title = title;
-				newJson[key].start = newJson[key].start;
-				newJson[key].end = newJson[key].end;
+		for (var key in scheduleJson) {
+			if (scheduleJson[key].id == setEvent.id) {
+				scheduleJson[key].id = setEvent.id;
+				scheduleJson[key].title = title;
+				scheduleJson[key].start = scheduleJson[key].start;
+				scheduleJson[key].end = scheduleJson[key].end;
 			}
 		}
 
 		// --
 		// PUT request send in webservice
-		console.log('Update Json Object ', newJson);
+		console.log('Update Json Object ', scheduleJson);
 
 		$('#addEventModal').modal('hide');
 		$('#exampleInputEmail1').text('');
@@ -308,9 +324,9 @@ $(document).ready(function () {
 
 		var deleteEvent = $('#addEventModal').data('event');
 		if ($('#exampleInputEmail1').text() == deleteEvent.title) {
-			for (var key in newJson) {
-				if (newJson[key].id == deleteEvent.id) {
-					newJson.splice(key, 1);
+			for (var key in scheduleJson) {
+				if (scheduleJson[key].id == deleteEvent.id) {
+					scheduleJson.splice(key, 1);
 				}
 			}
 			$('#calendar').fullCalendar('removeEvents', deleteEvent.id);
@@ -327,9 +343,9 @@ $(document).ready(function () {
 
 		var cancelEvent = $('#addEventModal').data('event');
 		if (!cancelEvent.title) {
-			for (var key in newJson) {
-				if (newJson[key].id == cancelEvent.id) {
-					newJson.splice(key, 1);
+			for (var key in scheduleJson) {
+				if (scheduleJson[key].id == cancelEvent.id) {
+					scheduleJson.splice(key, 1);
 				}
 			}
 			$('#calendar').fullCalendar('removeEvents', cancelEvent.id);
