@@ -136,7 +136,10 @@ $(document).ready(function () {
 							$(this).click(function () {
 								var f = $('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
 
-								$('#calendar').fullCalendar('gotoDate', new Date($(this).data('date')));
+								var d = new Date($(this).data('date'));
+								var dateWithTimeZone = d.setTime( d.getTime() + d.getTimezoneOffset()*60*1000 );
+
+								$('#calendar').fullCalendar('gotoDate', new Date(dateWithTimeZone));
 								if($(this).hasClass('day-checked')){
 									$('#calendar').fullCalendar('changeView', 'agendaWeek');
 									$('.weekView').prop('checked', true);
