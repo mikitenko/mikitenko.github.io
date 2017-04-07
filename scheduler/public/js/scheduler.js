@@ -110,7 +110,7 @@ $(document).ready(function () {
 		},
 		navLinks: true,
 		aspectRatio: 1.0,
-		scrollTime: '12:00 AM',
+		scrollTime: '12:00 PM',
 		editable: true,
 		defaultView: 'agendaWeek',
 		eventLimit: true,
@@ -125,7 +125,6 @@ $(document).ready(function () {
 				if (view.name === 'agendaDay') {
 					$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr th').each(function () {
 						if ($(this).html().length) {
-debugger;
 							var gv = 'fc-' + moment(view.title, 'MMMM DD, YYYY').format('ddd').toLowerCase();
 							$(this).find('a').removeAttr('data-goto');
 							$(this).find('a').attr('style', 'color:#ddd');
