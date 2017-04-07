@@ -133,7 +133,7 @@ $(document).ready(function () {
 								$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr th').removeClass('day-checked');
 								$(this).addClass('day-checked');
 							}
-							// $(this).unbind('click');
+							$(this).unbind('click');
 							$(this).click(function () {
 								var f = $('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
 
@@ -146,7 +146,7 @@ $(document).ready(function () {
 									$('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header table thead tr').html(f);
 									$('.dayView').prop('checked', true);
 								}
-								
+
 							});
 						}
 					});
