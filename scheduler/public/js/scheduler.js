@@ -129,11 +129,11 @@ $(document).ready(function () {
 
 		$(document).on('swiperight', function (e) {
 			if($('.fc-agendaDay-view').length){
-				$('.day-checked').next().click();
+				$('.day-checked').prev().click();
 			}
 		}).on('swipeleft', function (e) {
 			if($('.fc-agendaDay-view').length){
-				$('.day-checked').prev().click();
+				$('.day-checked').next().click();
 			}
 		});
 	})();
