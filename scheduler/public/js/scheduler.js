@@ -4,53 +4,53 @@ $(document).ready(function () {
 	var scheduleJson = [{
 		id: 1,
 		title: 'Physics',
-		start: '2017-04-06 00:00',
-		end: '2017-04-06 02:00'
+		start: 'Mon 00:00', //start: '2017-04-06 00:00',
+		end: 'Mon 02:00' //end: '2017-04-06 02:00'
 	}, {
 		id: 2,
 		title: 'Writing',
-		start: '2017-04-06 02:00',
-		end: '2017-04-06 04:00'
+		start: 'Tue 02:00', //start: '2017-04-06 02:00',
+		end: 'Tue 04:00' //end: '2017-04-06 04:00'
 	}, {
 		id: 3,
 		title: 'Literature',
-		start: '2017-04-06 04:00',
-		end: '2017-04-06 06:00'
+		start: 'Wed 04:00', //start: '2017-04-06 04:00',
+		end: 'Wed 06:00' //end: '2017-04-06 06:00'
 	}, {
 		id: 4,
 		title: 'Geographia',
-		start: '2017-04-06 06:00',
-		end: '2017-04-06 08:00'
+		start: 'Thu 06:00', //start: '2017-04-06 06:00',
+		end: 'Thu 08:00' //end: '2017-04-06 08:00'
 	}, {
 		id: 5,
 		title: 'Geometry',
-		start: '2017-04-05 08:00',
-		end: '2017-04-05 10:00'
+		start: 'Fri 08:00', //start: '2017-04-05 08:00',
+		end: 'Fri 10:00' //end: '2017-04-05 10:00'
 	}, {
 		id: 6,
 		title: 'Psychology',
-		start: '2017-04-05 03:00',
-		end: '2017-04-05 05:00'
+		start: 'Sat 03:00', //start: '2017-04-05 03:00',
+		end: 'Sat 05:00' //end: '2017-04-05 05:00'
 	}, {
 		id: 7,
 		title: 'Biology',
-		start: '2017-04-05 12:00',
-		end: '2017-04-05 14:00'
+		start: 'Sun 12:00', //start: '2017-04-05 12:00',
+		end: 'Sun 14:00' //end: '2017-04-05 14:00'
 	}, {
 		id: 8,
 		title: 'Astronomy',
-		start: '2017-04-05 02:00',
-		end: '2017-04-05 03:00'
+		start: 'Fri 02:00',//start: '2017-04-05 02:00',
+		end: 'Fri 03:00' //end: '2017-04-05 03:00'
 	}, {
 		id: 9,
 		title: 'Anatomy',
-		start: '2017-04-05 01:00',
-		end: '2017-04-05 03:00'
+		start: 'Thu 01:00', //start: '2017-04-05 01:00',
+		end: 'Thu 03:00' //end: '2017-04-05 03:00'
 	}, {
 		id: 10,
 		title: 'History',
-		start: '2017-04-05 04:00',
-		end: '2017-04-05 06:00'
+		start: 'Mon 04:00',//start: '2017-04-05 04:00',
+		end: 'Mon 06:00' //end: '2017-04-05 06:00'
 	}];
 
 
@@ -72,6 +72,27 @@ $(document).ready(function () {
 			return html;
 		};
 
+		var generateDate = function (indexDay) {
+
+			var mD = moment().day(indexDay),
+				date = mD.toDate(),
+				values;
+
+			date = date.setTime(date.getTime() + date.getTimezoneOffset() * 60 * 1000);
+
+			date = new Date(date);
+
+			values = [date.getDate(), date.getMonth() + 1];
+			for (var id in values) {
+				values[id] = values[id].toString().replace(/^([0-9])$/, '0$1');
+			}
+
+			return date.getFullYear() + '-' + values[1] + '-' + values[0];
+
+
+		};
+
+		var daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 		/**
 		 * html template for list of task
@@ -89,6 +110,11 @@ $(document).ready(function () {
 		 * loop which generate list of task
 		 */
 		for (var i = 0; i < scheduleJson.length; i++) {
+			if (daysOfWeek.indexOf(scheduleJson[i]['start'].split(' ')[0]) != -1 && daysOfWeek.indexOf(scheduleJson[i]['end'].split(' ')[0]) != -1) {
+				scheduleJson[i]['start'] = generateDate(daysOfWeek.indexOf(scheduleJson[i]['start'].split(' ')[0])) + ' ' + scheduleJson[i]['start'].split(' ')[1];
+				scheduleJson[i]['end'] = generateDate(daysOfWeek.indexOf(scheduleJson[i]['end'].split(' ')[0])) + ' ' + scheduleJson[i]['end'].split(' ')[1];
+			}
+
 			if (scheduleJson.length <= arrColors.length) {
 				scheduleJson[i]['color'] = arrColors[i];
 			} else {
@@ -99,6 +125,17 @@ $(document).ready(function () {
 
 		editViewListHtml += '</ul>';
 		$('#EditView').html(editViewListHtml);
+
+
+		$(document).on('swiperight', function (e) {
+			if($('.fc-agendaDay-view').length){
+				$('.day-checked').next().click();
+			}
+		}).on('swipeleft', function (e) {
+			if($('.fc-agendaDay-view').length){
+				$('.day-checked').prev().click();
+			}
+		});
 	})();
 
 
@@ -137,10 +174,10 @@ $(document).ready(function () {
 								var f = $('.fc-view.fc-agendaDay-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
 
 								var d = new Date($(this).data('date'));
-								var dateWithTimeZone = d.setTime( d.getTime() + d.getTimezoneOffset()*60*1000 );
+								var dateWithTimeZone = d.setTime(d.getTime() + d.getTimezoneOffset() * 60 * 1000);
 
 								$('#calendar').fullCalendar('gotoDate', new Date(dateWithTimeZone));
-								if($(this).hasClass('day-checked')){
+								if ($(this).hasClass('day-checked')) {
 									$('#calendar').fullCalendar('changeView', 'agendaWeek');
 									$('.weekView').prop('checked', true);
 								} else {
@@ -378,8 +415,6 @@ $(document).ready(function () {
 	});
 
 
-
-
 	$('.dayView').click(function () {
 		var f = $('.fc-view.fc-agendaWeek-view.fc-agenda-view .fc-row.fc-widget-header tr').html();
 		$('#calendar').fullCalendar('changeView', 'agendaDay');
@@ -397,7 +432,6 @@ $(document).ready(function () {
 	});
 
 
-
 	var switchView = function () {
 		var arrayUIDays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 		for (var m = 0; m < arrayUIDays.length; m++) {
@@ -412,5 +446,6 @@ $(document).ready(function () {
 
 	switchView();
 
-
+	$("input[type='radio']").checkboxradio();
+	$("input[type='radio']").checkboxradio("refresh");
 });
