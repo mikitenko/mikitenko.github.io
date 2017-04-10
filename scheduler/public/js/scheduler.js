@@ -53,6 +53,23 @@ $(document).ready(function () {
 		end: 'Mon 06:00' //end: '2017-04-05 06:00'
 	}];
 
+	var daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+
+	function updateServer(data) {
+		var newData = [];
+		jQuery.extend(true, newData, data);
+
+		for (var i = 0; i < newData.length; i++) {
+			if(newData[i]['start'].length && newData[i]['end'].length){
+				newData[i]['start'] = daysOfWeek[new Date(newData[i]['start'].split(' ')[0]).getDay()] + ' ' + scheduleJson[i]['start'].split(' ')[1];
+				newData[i]['end'] = daysOfWeek[new Date(newData[i]['end'].split(' ')[0]).getDay()] + ' ' + scheduleJson[i]['end'].split(' ')[1];
+			}
+		}
+
+		return newData;
+	}
+
 
 	(function () {
 		/**
@@ -92,7 +109,6 @@ $(document).ready(function () {
 
 		};
 
-		var daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 		/**
 		 * html template for list of task
@@ -299,8 +315,8 @@ $(document).ready(function () {
 			addData = {
 				id: scheduleJson.length + 1,
 				title: title,
-				start: start,
-				end: end
+				start: moment(start).format('YYYY-MM-DD HH:mm'),
+				end: moment(end).format('YYYY-MM-DD HH:mm')
 			};
 
 			scheduleJson.push(addData);
@@ -309,6 +325,8 @@ $(document).ready(function () {
 			// }
 			//     // --
 			//     // POST request send in webservice
+
+			console.log('Function updateServer Add Json Object ', updateServer(scheduleJson));
 			console.log('Add Json Object ', scheduleJson);
 		},
 		eventDrop: function (event, delta, minuteDelta, allDay, revertFunc) {
@@ -331,6 +349,7 @@ $(document).ready(function () {
 
 			// --
 			// Drag and Drop request send in webservice
+			console.log('Function updateServer Drag and Drop ', updateServer(scheduleJson));
 			console.log('Drag and Drop ', scheduleJson);
 
 		},
@@ -405,6 +424,7 @@ $(document).ready(function () {
 
 		// --
 		// PUT request send in webservice
+		console.log('Function updateServer Update Json Object ', updateServer(scheduleJson));
 		console.log('Update Json Object ', scheduleJson);
 
 		$('#addEventModal').modal('hide');
@@ -486,4 +506,6 @@ $(document).ready(function () {
 
 
 	switchView();
+
+
 });
