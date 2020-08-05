@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Square POS App</title>
+    <%= process.env.VUE_APP_BASE_SQUARE_STATE === 'production' ? '<script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script>' : '' %>
+    <%= process.env.VUE_APP_BASE_SQUARE_STATE === 'development' ? '<script type="text/javascript" src="https://js.squareupsandbox.com/v2/paymentform"></script>' : '' %>
+    <%= process.env.VUE_APP_BASE_SQUARE_STATE === 'staging' ? '<script type="text/javascript" src="https://js.squareupsandbox.com/v2/paymentform"></script>' : '' %>
+    <style>
+        /* TODO create a separate file for this styles */
+        html,
+        body {
+            height: 100%;
+            min-height: 100%;
+        }
+
+        html {
+            background: transparent;
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            position: relative;
+            font-size: 1em;
+            line-height: inherit;
+            background: transparent;
+            overflow: hidden;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+            outline: none;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul {
+            margin: 0;
+        }
+
+        a {
+            color: #40baf3;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but POS App doesn't work properly without JavaScript enabled. Please enable it
+        to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
