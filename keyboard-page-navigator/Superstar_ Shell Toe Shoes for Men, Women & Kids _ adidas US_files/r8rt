@@ -1,0 +1,391 @@
+(function(){
+
+    "use strict";
+    
+    var cache_geo_key = "r8cntgp";
+    var cached_stores = [];
+    var cached_display_types = {};
+    var listeners = {};
+    var useStoresOnly = [];
+    var geo_radius = 100;
+    var geo_expires = 60;
+    
+    var domain = "adidasusa";
+    var domain_url = "https://platform.radius8.com:443";
+    var r8_boot_mode = "platform";
+    var r8_version_tag = "paug10-20-r1";
+    var r8_request_tag = "Qh+Mvge/Pioz7rz4FMU+3X8UwSWUfnf/O4mCzEDqIchjNkQ1qgxlyRMU4ZERmDT267KN3r0KA3dEjfx9UIG9RQ==#Mzc5Njcz";
+    
+    var default_geo_radius = "";
+    var keybase_geo_strategy = "";
+    var default_geo_expires = "";
+    var keybase_features = "";
+    var default_store_codes = "";
+    var client_callback = "";
+    var geo_callback = "";
+    var store_callback = "";
+    var debug = "false";
+    
+    var startup_callback = null;
+    var use_geo_strategy = null;
+    var use_features = null;
+    var use_store_filters = null;
+    
+    function importScript(options)
+    {
+        var headElement = document.getElementsByTagName('head')[0];
+
+        try
+        {
+            var script= document.createElement('script');
+            script.type= 'text/javascript';
+            script.async = true;
+
+            if(options.data)
+            {
+                for(var p in options.data)
+                {
+                    script.setAttribute("data-"+p, options.data[p]);
+                }
+            }
+
+            if(!options.callback)
+                options.callback = function(){  };
+
+                if(script.attachEvent)
+                {
+                    script.attachEvent("onreadystatechange", function(){ if(script.readyState=="loaded"){options.callback({success: true});} });
+                    script.attachEvent("error", function(){ options.callback({success: false}); }, true);
+                }
+                else
+                {
+                    script.onload = function(){ options.callback({success: true}); };
+                    script.addEventListener('error', function(){ options.callback({success: false}); }, true);
+                }
+                
+                if(options.url)
+                    script.src = options.url;
+                else if(options.code)
+                    script.text = options.code;
+
+                headElement.appendChild(script);
+        }
+        catch(e)
+        {
+            console.log("Issue Importing[" + e + "]", e);
+        }
+    }
+
+    function loadConnect()
+    {
+        if(window.R8Connect) // Already Loaded
+        {
+            R8.log("R8 Connect Loaded Already. Only One Instance Can Be Started.");
+            return false;
+        }
+
+        window.R8Connect = {PS:{}};
+        
+        /////preload querystring parameters
+        var selfScript = null;
+        var scripts = document.getElementsByTagName("script");
+        var scriptURL = null;
+        for (var i = 0; i < scripts.length; ++i) 
+        {
+            var testscript = scripts[i];
+            var src = testscript.getAttribute('src');
+            if(src && src.indexOf("sdk/v1/r8rt?") > 0)
+            {
+                scriptURL = testscript.getAttribute('src');
+                break;
+            }
+        }
+        
+        if(scriptURL==null)
+        {
+            console.log("R8Connect Could Not Load Parameters.");
+            return;
+        }
+        else
+        {
+            var queryParams = R8.parseQuery("?" + scriptURL.split("?")[1]);
+            R8.debug("R8 Query Parameters ", queryParams);
+            
+            default_geo_expires = R8.getValue(queryParams["geo_expires"], default_geo_expires);
+            default_geo_radius = R8.getValue(queryParams["geo_radius"], default_geo_radius);
+            keybase_geo_strategy = R8.getValue(queryParams["geo_strategy"], keybase_geo_strategy);
+            
+            default_store_codes = R8.getValue(queryParams["store_codes"], "");
+            client_callback = R8.getValue(queryParams["callback"], "");
+            geo_callback = R8.getValue(queryParams["geo_callback"], "");
+            store_callback = R8.getValue(queryParams["store_callback"], "");
+            keybase_features = R8.getValue(queryParams["features"], "");
+            debug = (R8.getValue(queryParams["__debug"], "")=="_true")+"";
+        }
+        
+        R8Connect.PS.R8_CONNECT_STARTED = "R8_CONNECT_STARTED";
+        
+        if(default_geo_radius=="") default_geo_radius = geo_radius+"";
+        if(default_geo_expires=="") default_geo_expires = geo_expires+"";
+        
+        R8Connect.useStoreCodes = function()
+        {
+            return useStoresOnly;
+        }
+        
+        R8Connect.start = function(options)
+        {
+            options = options ? options : {};
+
+            try
+            {
+                startup_callback = options.callback;
+                
+                if(options.store_codes)
+                {
+                    useStoresOnly = options.store_codes;
+                }
+                else if(useStoresOnly.length==0 && !R8.isBlank(default_store_codes))
+                {
+                    useStoresOnly = default_store_codes.split(",");
+                }
+                
+                if(!R8.isBlank(options.geo_strategy))
+                {
+                    use_geo_strategy = options.geo_strategy.split(",");
+                }
+                else if(!R8.isBlank(keybase_geo_strategy))
+                {
+                    use_geo_strategy = keybase_geo_strategy.split(",");
+                }
+                
+                if(!R8.isBlank(keybase_features))
+                {
+                    use_features = keybase_features.split(",");
+                }
+                
+                if(options.store_filters)
+                {
+                    use_store_filters = options.store_filters;
+                }
+                
+                if(r8_version_tag=="")
+                    r8_version_tag = "ct01";    
+                
+                if(options.geo_radius)
+                    geo_radius = options.geo_radius;
+                else
+                    try{geo_radius=new Number(default_geo_radius);}catch(e){ geo_radius = 100; }
+                
+                if(options.geo_expires)
+                    geo_expires = options.geo_expires;
+                else
+                    try{geo_expires=new Number(default_geo_expires);}catch(e){ geo_expires = 60; }
+                
+                if(!use_geo_strategy)
+                    use_geo_strategy = ["current","cached","geocoding_ip"];
+                
+                if(!use_features)
+                    use_features = ["plugins", "geo","active_store"];
+                
+                if(R8.existsArray(use_features, "guided"))
+                {
+                    use_features = [];
+                }
+                    
+                //var urlParams = R8.getSearchQuery();
+                //var features = [];
+                //var debug = "${r8-platform-debug}";  
+                    
+                R8.init({domain_id: domain, gp_cache: cache_geo_key, geo_expires: geo_expires, debug: (debug=="true"), 
+                    base_url: "https://platform.radius8.com:443", base_cdn_url: "https://d1jtvsnyw30b9e.cloudfront.net/", request_tag: r8_request_tag,
+                    appname: "r8connect", appkey: "r8tcnt_5L87UyVEHyDz5EO4be3IHS", run_mode: "cors", version_tag: r8_version_tag, apikey: "5L87UyVEHyDz5EO4be3IHS"});
+
+                R8.debug("Geo Feature: ", hasFeature("geo"));
+                R8.debug("Plugins Feature: ", hasFeature("plugins"));
+                R8.debug("Store Feature: ", hasFeature("active_store"));
+                
+                if(hasFeature("plugins"))
+                    R8Plugins.createPlugins({onAllPluginsReady: onPluginsReady});
+                else
+                    onPluginsReady();
+            }
+            catch(e)
+            {
+                console.error(e);
+            }
+        }
+       
+        return true;
+    }
+    
+    function hasFeature(feature)
+    {
+        return R8.existsArray(use_features, feature);
+    }
+    
+    function onPluginsReady()
+    {
+        if(hasFeature("geo"))
+            R8.geoLocation({callback: onR8ConnectGeoLocation, strategy: use_geo_strategy});
+    }
+    
+    var _checkready = 0;
+    if(r8_boot_mode=="platform")
+    {
+        _checkready = 1;
+        importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8_platform.min.js?r8tv="+r8_version_tag, callback: checkScriptReady});
+    }
+    else
+    {
+        _checkready = 5;
+        importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8.js?r8tv="+r8_version_tag, callback: function(){
+            importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8_moments.js?r8tv="+r8_version_tag, callback: checkScriptReady})
+            importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8_template.js?r8tv="+r8_version_tag, callback: checkScriptReady})
+            importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8_services.js?r8tv="+r8_version_tag, callback: checkScriptReady})
+            importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8_plugins.js?r8tv="+r8_version_tag, callback: checkScriptReady})
+            importScript({url: "https://d1jtvsnyw30b9e.cloudfront.net/r8/r8_context.js?r8tv="+r8_version_tag, callback: checkScriptReady})
+        }})
+    }
+    
+    function checkScriptReady()
+    {
+        if(_checkready == 0)
+            return ;
+        
+        _checkready--; 
+        
+        if(_checkready == 0) 
+            onScriptReady();
+    }
+
+    
+    function onScriptReady()
+    {
+        if(!loadConnect())
+            return ;
+        
+        if(client_callback!="")
+        {
+            //try{ eval(client_callback+"()"); }catch(e){}
+            _ev({c: client_callback});
+        }
+        else
+        {
+            R8Connect.start({});
+        }
+    }
+
+    function _ev(options)
+    {
+        var callname = options.c;
+        var aa = options.a;
+        
+        try
+        { 
+            if(window[callname])
+            { 
+                if(aa!=undefined && aa!=null)
+                    window[callname](aa);
+                else
+                    window[callname]();
+            }
+            else
+            {
+                console.log("R8Connect Missing Function ["+callname+"]");
+            }
+        }
+        catch(e)
+        {
+            console.log("R8Connect ["+callname+"] ", e);
+        }
+    }
+    
+    function onR8ConnectGeoLocation(response)
+    {
+        if(response.success)
+        {
+            var geo_point = {lat: response.lat, lng: response.lng};
+            if(geo_callback!="")
+            {
+                //try{ eval(geo_callback+"(geo_point)"); }catch(e){}
+                _ev({c: geo_callback, a: geo_point});
+            }
+            
+            R8.PubSub.publishAsync({name: R8Connect.PS.R8_CONNECT_STARTED, success: response.success});
+            
+            changeActiveStore();
+        }
+    }
+
+    function doStartupCallback()
+    {
+        try{ if(startup_callback)startup_callback(); }catch(e){}
+    }
+    
+    function changeActiveStore()
+    {
+        var params = {};
+        
+        if(!hasFeature("active_store"))
+        {
+            doStartupCallback();
+            return ;
+        }
+        
+        if(useStoresOnly.length > 0)
+        {
+            //if(useStoresOnly.length==1 && useStoresOnly[0]=="NONE") //DONT USE STORE LOOKUP
+            params.store_codes = useStoresOnly;
+        }
+        else
+        {
+            var geoloc = R8.getGeoLocation();
+            if(!geoloc)
+                return ;
+            
+            params.geo_point = {lat: geoloc.lat, lng: geoloc.lng};
+            params.geo_distance = {radius: geo_radius, units:'MI'};
+        }
+        
+        if(use_store_filters)
+        {
+            if(use_store_filters.divisions)
+            {
+                params.divisions = use_store_filters.divisions;
+            }
+            
+            if(use_store_filters.geo_point)
+            {
+                params.geo_point = use_store_filters.geo_point;
+            }
+            
+            if(use_store_filters.geo_distance)
+            {
+                params.geo_distance = use_store_filters.geo_distance;
+            }
+        }
+        
+        R8.PubSub.publish({name: "OnBeforeQueryStore", parameters: params});
+        
+        params.callback = function(response)
+        {
+
+            var store = response.store;
+            var result = {success: response.success, store: store};
+            
+            if(store_callback!="")
+            {
+                //try{ eval(store_callback+"(result)"); }catch(e){}
+                _ev({c: store_callback, a: result});
+            }
+            
+            doStartupCallback();
+            
+        };
+        
+        R8Services.changeActiveStore(params);
+    }
+    
+    
+})();

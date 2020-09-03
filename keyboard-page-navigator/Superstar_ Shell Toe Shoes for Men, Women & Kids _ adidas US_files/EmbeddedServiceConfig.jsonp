@@ -1,0 +1,1 @@
+/**/embedded_svc.liveAgentAPI.handleChatSettings({"messages":[{"type":"EmbeddedServiceError", "message":{"text":"EmbeddedService Config SCRT end point is disabled.","esTrackingId":"ba29b0cf-d637-46e7-a537-291d41909b72","shouldRetry":false,"errorCode":"ESW_CONFIG_SCRT_ENDPOINT_DISABLED"}}]});
