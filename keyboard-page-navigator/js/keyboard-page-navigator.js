@@ -2,7 +2,7 @@
  * Show focus by keyboard
  */
 
-function KeyboardFocus(config = null) {
+function KeyboardPageNavigator(config = null) {
 	var defaultConfig = {
 		tags: {
 			headers: {
@@ -221,12 +221,12 @@ function KeyboardFocus(config = null) {
 	};
 }
 
-KeyboardFocus.prototype = {
+KeyboardPageNavigator.prototype = {
 	// Public functions
 	apply: function () {
 		this._init();
 	}
 };
 
-var keyboardFocus = new KeyboardFocus();
-keyboardFocus.apply();
+var PageNavigator = new KeyboardPageNavigator();
+PageNavigator.apply();
