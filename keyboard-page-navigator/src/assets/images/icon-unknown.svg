@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" width="16" height="17">
+	<defs>
+		<image width="16" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAAAXNSR0IB2cksfwAAAVxQTFRFAAAA3uLr5Ofv5Ofu4+bu8/X41Njkz9Ti1dnl09fj0dXj1NjlzdLg09fk8fP3z9Ph2Nzn4+bt2d3n1trm4OPs0dXi0tbj8PH219vm09fkz9Ph0NXi0tfj7/H17O7z7O7z5+rw1Njk2t3o29/oztPgy9Hf2d3o0dbj5Ofv7O707O70zNHf1drl19vmzNHg3N/p6evx3+Lr3ODp5unwy9Df1dnlztLh0tbj0dXi5unw5+rw09fk297o4+bt4OTs0dXj3eDq6+zy6Ovx5+rw6u3yz9Th5Ofu5+rw5Ofvz9Xh1trmztPh0dbi0tbizNLf09fk8fL309fj7/H18/T45+rw19rm6+zz5ujw2t7o5ejv3uLq5Ofu5efv2Nvn5+nw5efu3uHq19vn5ujv5efv6Orw2dzn6uzx6Onw0tfj1drl2dzo4+Xt5ejw5ujw5ejw5ujw5+nw5ujw5ejw4uXtdfzaUAAAAHR0Uk5TADmZmVwGqv///////8Mzqv///////9VV/////9phLub3//////////fmLv/8/P/////////8///xwaTj//T08f9KVVVKqqqqqv+q/////74o3Wch///////////0+f////////////////9Y6+vjiWTX31TKfvkFAAAA60lEQVR4nGNgAAJGJhBgZmFlgAI2dg5OLm4eXj6YAL+AoJCwiKiYOFxAgkNSUlIKSYBDVFhAmkdGFsSRk5dXUFRSVlFVUxfVkNfUYhDW1tHV0zcwNDJWNDHVNeNgMLewtLK2sVWTsJO0B7I4GcyBRvE7ODo5uyiCWBABVwk3d3cPT4SAl7e6j6+5n38AWCAwiCE4hINHKjQM6AyQAHd4hECkkrliVLSQQEwsUIAjTkkiXs1cMSFaIDFJgJOBUzQ5JS5EmEsxNS09LkkxgyGCh1tYOJNdUchcWFiYwzuLITsnFwjy8gsKQXRRMQBy/Sjv1u4jegAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Screenshot_2020-08-30_12-12-44" href="#img1" x="0" y="0" />
+</svg>
